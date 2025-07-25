@@ -58,18 +58,33 @@ class Neo4jConnector:
         Connect to Neo4j database.
         
         Returns:
-            True if connection successful
+            bool: True if connection successful, False otherwise
         """
         try:
-            self.driver = GraphDatabase.driver(self.uri, auth=(self.user, self.password))
+            if self.driver:
+                self.driver.close()
+                
+            self.driver = GraphDatabase.driver(
+                self.uri,
+                auth=(self.user, self.password),
+                max_connection_lifetime=3600,
+                max_connection_pool_size=50
+            )
+            
             # Verify connection
-            self.driver.verify_connectivity()
+            with self.driver.session() as session:
+                session.run("RETURN 1")
+                
             self.connected = True
-            logger.info("Connected to Neo4j database")
+            logger.info("Successfully connected to Neo4j")
             return True
+            
         except Exception as e:
             logger.error(f"Failed to connect to Neo4j: {str(e)}")
             self.connected = False
+            if self.driver:
+                self.driver.close()
+                self.driver = None
             return False
     
     def disconnect(self) -> None:
@@ -343,4 +358,73 @@ class Neo4jConnector:
                 logger.error(f"Error setting up schema: {str(e)}")
                 success = False
         
-        return success 
+        # Populate sample data
+        if success:
+            success = self.populate_sample_data()
+            
+        return success
+        
+    def populate_sample_data(self) -> bool:
+        """
+        Populate the database with sample medical data.
+        
+        Returns:
+            True if population successful
+        """
+        if not self.connected:
+            logger.warning("Not connected to Neo4j")
+            return False
+            
+        try:
+            # Create sample diseases with symptoms
+            sample_data_query = """
+            // Create diseases
+            CREATE (d1:Disease {id: 'D1', name: 'Type 2 Diabetes', description: 'A chronic condition affecting blood sugar levels'})
+            CREATE (d2:Disease {id: 'D2', name: 'Hypertension', description: 'High blood pressure condition'})
+            CREATE (d3:Disease {id: 'D3', name: 'Asthma', description: 'Chronic respiratory condition'})
+            
+            // Create symptoms
+            CREATE (s1:Symptom {id: 'S1', name: 'Increased thirst', description: 'Feeling thirsty more often than usual'})
+            CREATE (s2:Symptom {id: 'S2', name: 'Frequent urination', description: 'Need to urinate more often'})
+            CREATE (s3:Symptom {id: 'S3', name: 'Fatigue', description: 'Feeling tired and weak'})
+            CREATE (s4:Symptom {id: 'S4', name: 'Headache', description: 'Pain in the head'})
+            CREATE (s5:Symptom {id: 'S5', name: 'Shortness of breath', description: 'Difficulty breathing'})
+            
+            // Create treatments
+            CREATE (t1:Treatment {id: 'T1', name: 'Insulin therapy', description: 'Regular insulin injections to control blood sugar'})
+            CREATE (t2:Treatment {id: 'T2', name: 'Metformin', description: 'Oral medication to lower blood sugar levels'})
+            CREATE (t3:Treatment {id: 'T3', name: 'ACE inhibitors', description: 'Medication to lower blood pressure'})
+            CREATE (t4:Treatment {id: 'T4', name: 'Beta blockers', description: 'Medication to reduce heart rate and blood pressure'})
+            CREATE (t5:Treatment {id: 'T5', name: 'Inhaled corticosteroids', description: 'Medication to reduce airway inflammation'})
+            CREATE (t6:Treatment {id: 'T6', name: 'Bronchodilators', description: 'Medication to open airways'})
+            
+            // Create relationships between diseases and symptoms
+            CREATE (d1)-[:HAS_SYMPTOM]->(s1)
+            CREATE (d1)-[:HAS_SYMPTOM]->(s2)
+            CREATE (d1)-[:HAS_SYMPTOM]->(s3)
+            CREATE (d2)-[:HAS_SYMPTOM]->(s4)
+            CREATE (d2)-[:HAS_SYMPTOM]->(s3)
+            CREATE (d3)-[:HAS_SYMPTOM]->(s5)
+            CREATE (d3)-[:HAS_SYMPTOM]->(s3)
+            
+            // Create relationships between diseases and treatments
+            CREATE (d1)-[:TREATED_WITH]->(t1)
+            CREATE (d1)-[:TREATED_WITH]->(t2)
+            CREATE (d2)-[:TREATED_WITH]->(t3)
+            CREATE (d2)-[:TREATED_WITH]->(t4)
+            CREATE (d3)-[:TREATED_WITH]->(t5)
+            CREATE (d3)-[:TREATED_WITH]->(t6)
+            """
+            
+            # First, clear existing data
+            self.execute_query("MATCH (n) DETACH DELETE n")
+            
+            # Then create new sample data
+            self.execute_query(sample_data_query)
+            
+            logger.info("Successfully populated sample medical data")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error populating sample data: {str(e)}")
+            return False 

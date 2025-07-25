@@ -114,9 +114,9 @@ def test_all_connections():
         from sentence_transformers import SentenceTransformer
         model = SentenceTransformer('all-MiniLM-L6-v2')
         query_vector = model.encode("diabetes").tolist()
-        results = qdrant.search(query_vector, top_k=1)
+        results = qdrant.search(query_vector, limit=1)
         if results:
-            print(f"  - Retrieved sample result: {results[0]['metadata']['name']}")
+            print(f"  - Retrieved sample result: {results[0]['payload']['name']}")
         qdrant.disconnect()
     else:
         print("✗ Failed to connect to Qdrant")

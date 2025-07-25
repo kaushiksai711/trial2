@@ -7,7 +7,7 @@ relevant entities, intents, and other information.
 """
 
 from typing import Dict, Any, List
-from utils.logger import setup_logger
+#from utils.logger import setup_logger
 import spacy
 
 class QueryInterpreter:

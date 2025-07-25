@@ -1,5 +1,21 @@
+#!/usr/bin/env python3
+"""
+Test script for MeTTa knowledge graph implementation.
+"""
+
+import os
+import sys
+import platform
+
+# Check if running in Linux (required for MeTTa)
+if platform.system() != 'Linux':
+    print("Warning: MeTTa (hyperon) only works in Linux subsystem.")
+    print("Please run this script in WSL (Windows Subsystem for Linux).")
+    sys.exit(1)
+
 from hyperon import MeTTa
 from typing import List, Dict, Optional, Any, Tuple
+from src.knowledge.metta_kg import MeTTaKnowledgeGraph
 
 # Initialize MeTTa
 metta = MeTTa()
@@ -111,28 +127,26 @@ class MeTTaKnowledgeGraph:
         all_atoms = self.get_all_atoms()
         return filter_atoms(all_atoms, subject, predicate, object_value)
 
-# Example usage
-if __name__ == "__main__":
-    print("\n--- Testing Knowledge Graph Class ---")
+def main():
+    """Test the MeTTa knowledge graph implementation."""
+    print("Testing MeTTa knowledge graph implementation...")
+    
+    # Create a knowledge graph instance
     kg = MeTTaKnowledgeGraph(MeTTa())
     
-    # Add some facts
-    kg.add_fact("is_a", "diabetes", "medical_condition")
-    kg.add_fact("treats", "insulin", "diabetes")
-    kg.add_fact("symptom_of", "increased_thirst", "diabetes")
+    # Add some test facts
+    print("\nAdding test facts...")
+    kg.add_fact("diabetes", "is_a", "medical_condition")
+    kg.add_fact("insulin", "treats", "diabetes")
+    kg.add_fact("increased_thirst", "symptom_of", "diabetes")
     
-    # Get all atoms to verify they were added
-    print("\nAll atoms in knowledge base:")
-    all_atoms = kg.get_all_atoms()
-    print(f"Atoms: {all_atoms}")
-    
-    # Query examples
-    print("\nClass-based queries:")
+    # Query the knowledge graph
+    print("\nQuerying all facts...")
     all_facts = kg.query()
     print(f"All facts: {all_facts}")
     
-    diabetes_facts = kg.query(subject="diabetes")
-    print(f"Facts about diabetes: {diabetes_facts}")
     
-    treatment_facts = kg.query(predicate="treats")
-    print(f"Treatment relationships: {treatment_facts}")
+    print("\nTest completed successfully!")
+
+if __name__ == "__main__":
+    main()

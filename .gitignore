@@ -54,3 +54,5 @@ venv.bak/
 # Project specific
 logs/
 .DS_Store 
+
+metta/

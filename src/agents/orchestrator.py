@@ -7,10 +7,10 @@ and renderer components.
 """
 
 from typing import Dict, Any
-from utils.logger import setup_logger
-from agents.query_interpreter import QueryInterpreter
-from agents.query_decomposer import QueryDecomposer
-from agents.retrieval_agent import RetrievalAgent
+from src.utils.logger import setup_logger
+from src.agents.query_interpreter import QueryInterpreter
+from src.agents.query_decomposer import QueryDecomposer
+from src.agents.retrieval_agent import RetrievalAgent
 
 class Orchestrator:
     """

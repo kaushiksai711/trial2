@@ -143,9 +143,13 @@ class QdrantConnector:
             
             return [
                 {
-                    "id": self.id_mapping.get(result.id, str(result.id)),  # Use mapping or fallback to string
+                    "id": self.id_mapping.get(result.id, str(result.id)),
                     "score": result.score,
-                    "payload": result.payload
+                    "payload": {
+                        "name": result.payload.get("name", "Unknown"),
+                        "description": result.payload.get("description", ""),
+                        **result.payload
+                    }
                 }
                 for result in search_results
             ]
@@ -263,6 +267,44 @@ class QdrantConnector:
         Disconnect from Qdrant. Alias for close() to maintain consistency with other connectors.
         """
         self.close()
+        
+    def upsert(self, id: str, vector: List[float], metadata: Dict[str, Any]) -> None:
+        """
+        Upsert a single point to the collection.
+        
+        Args:
+            id: The ID of the point
+            vector: The vector embedding
+            metadata: The metadata payload
+        """
+        if not self.is_connected():
+            raise ConnectionError("Not connected to Qdrant")
+        
+        try:
+            # Convert ID to integer
+            int_id = self._convert_id_to_int(id)
+            
+            # Store the mapping
+            self.id_mapping[int_id] = id
+            
+            # Create point
+            point = models.PointStruct(
+                id=int_id,
+                vector=vector,
+                payload=metadata
+            )
+            
+            # Upsert point
+            self.client.upsert(
+                collection_name=self.collection_name,
+                points=[point]
+            )
+            
+            self.logger.info(f"Upserted point with ID: {id}")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to upsert point: {str(e)}")
+            raise
 
 trial=QdrantConnector()
 trial.connect()

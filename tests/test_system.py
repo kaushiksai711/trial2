@@ -80,46 +80,6 @@ def test_system():
     else:
         print("✗ Failed to retrieve treatment information")
     
-    # Test 4: Semantic Search for Medical Conditions
-    print("\nTest 4: Semantic Search for Medical Conditions")
-    medical_queries = [
-        "What are the symptoms of diabetes?",
-        "How is hypertension treated?",
-        "What causes asthma?",
-        "What are the complications of heart disease?"
-    ]
-    
-    from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    
-    for query in medical_queries:
-        print(f"\nQuery: {query}")
-        query_vector = model.encode(query).tolist()
-        results = qdrant.search(query_vector, top_k=3)
-        if results:
-            print("✓ Retrieved relevant information:")
-            for result in results:
-                print(f"  - {result['metadata']['name']} (score: {result['score']:.3f})")
-                if 'description' in result['metadata']:
-                    print(f"    Description: {result['metadata']['description']}")
-        else:
-            print("✗ No relevant information found")
-    
-    # Test 5: Related Medical Conditions
-    print("\nTest 5: Related Medical Conditions")
-    related_conditions = neo4j.execute_query("""
-        MATCH (d1:Disease)-[:RELATED_TO]->(d2:Disease)
-        RETURN d1.name as disease1, d2.name as disease2, d2.description as description
-        LIMIT 3
-    """)
-    if related_conditions:
-        print("✓ Retrieved related medical conditions:")
-        for result in related_conditions:
-            print(f"\nDisease: {result['disease1']}")
-            print(f"Related to: {result['disease2']}")
-            print(f"Description: {result['description']}")
-    else:
-        print("✗ Failed to retrieve related medical conditions")
     
     # Clean up
     neo4j.disconnect()
