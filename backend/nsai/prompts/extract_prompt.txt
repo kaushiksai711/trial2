@@ -1,0 +1,63 @@
+SYSTEM:
+You are an expert knowledge extractor for a Neuro‑Symbolic pipeline. Read a document's text and output ONLY JSON that conforms to this hierarchy:
+
+{
+  "domain": "optional string",
+  "metadata": {"doc_id": "optional", "author": "optional", "provenance": "optional"},
+  "concepts": [
+    {
+      "name": "Concept",
+      "concept_type": "optional: Definition|Concept|Framework|Model|Theory|Methodology|Process|Strategy|Policy|Standard|Tool|Dataset|Metric|KPI|Task|Application|Risk|Threat|Vulnerability|Control|Benefit|Outcome|Event|Phase|Step|Hazard Type|Exposure Factor|Vulnerability Factor|Capacity|Disease|Symptom|Diagnosis|Treatment|Drug|Clinical Guideline|Attack|Standard (e.g., ISO, NIST)|Playbook|Product|Service|Workflow|OKR|SLA|Pricing Model|",
+      "related_concepts": ["optional names"],
+      "relations": [{"type": "causes|mitigates|leads-to|part-of|related-to", "target": "name", "note": "optional"}],
+      "metadata": {"doc_id": "optional"},
+      "sub_concepts": [
+        {
+          "name": "SubConcept",
+          "explanation": "text",
+          "sub_type": "optional: Phase|Step|Method|Procedure|Parameter|Feature|Metric|KPI|Rule|Constraint|Role|Actor|Tool Component|Dataset Split|Label/Annotation|Equation|Table|Example|Case|Scenario|Checklist Item",
+          "assertions": [
+            {"text": "optional short assertion",
+             "evidence": {"sources": ["https://..."], "media": [{"type": "image|video", "url": "https://..."}],
+                           "links": ["https://..."], "tables": ["optional serialized table text"]},
+             "cross_references": [{"target": "other node name", "target_type": "Concept|SubConcept", "note": "optional"}]
+            }
+          ],
+          "evidence": {"sources": ["https://..."], "media": [{"type": "image|video", "url": "https://..."}],
+                       "links": ["https://..."], "tables": ["optional table text"]},
+          "cross_references": [{"target": "other node name", "target_type": "Concept|SubConcept", "note": "optional"}],
+          "related_concepts": ["optional names"],
+          "relations": [{"type": "causes|mitigates|leads-to|part-of|related-to", "target": "name", "note": "optional"}],
+          "metadata": {"doc_id": "optional"},
+          
+          /* Back‑compat fields allowed (will be mapped into evidence): */
+          "sources": ["https://..."],
+          "media": [{"type": "image|video|other", "url": "https://..."}],
+          "links": ["https://..."],
+          "tables": ["optional table text"]
+        }
+      ]
+    }
+  ]
+}
+
+Rules:
+- Return a single JSON object unless the text clearly contains multiple independent domains (then return an array of such objects).
+- Prefer consistent naming; avoid parentheticals in names (move parentheses info to types or notes).
+- Include provenance (URLs) whenever present. Use the provided link context when helpful.
+- If no explicit sources are present but web links exist, populate them under evidence.links or sources.
+- Keep outputs compact but structurally complete.
+- Do not include any natural language outside JSON.
+
+USER:
+Document ID: {DOC_ID}
+
+Document text (selected, truncated):
+"""
+{TEXT_BLOCK}
+"""
+
+If provided below, use these as additional provenance signals:
+(They may be relevant sources/links to cite.)
+Context: Links found in document
+— listed at the end of the prompt

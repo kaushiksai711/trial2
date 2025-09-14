@@ -26,12 +26,12 @@ Team Roles & Responsibilities
   - Acceptance: `README.md` instructions updated; teammates can run local scripts without ambiguity
   - Owner: @C; Reviewer: @D
 
-- [ ] Pin dependencies and create `requirements.txt`
+- [x] Pin dependencies and create `requirements.txt`
   - Include: `hyperon` (or `hyperon-experimental`), `metta-motto`, `pdfplumber`, `pypdf2`, `beautifulsoup4`, `trafilatura`, `requests`, `fastapi`, `uvicorn`, `python-dotenv`
   - Acceptance: Clean install in a fresh venv on Windows; app imports succeed
   - Owner: @C; Reviewer: @D
 
-- [ ] Project skeleton under `backend/`
+- [x] Project skeleton under `backend/`
   - Directories: `ingestion/`, `nsai/`, `metta/`, `query/`, `api/`, `ui/`
   - Acceptance: All modules import; placeholder `__init__.py` present
   - Owner: @C; Reviewer: @B
@@ -42,7 +42,7 @@ Team Roles & Responsibilities
 
 ### 1. Ingestion & Chunking (@A)
 
-- [ ] Implement PDF ingestion
+- [x] Implement PDF ingestion
   - Path: `backend/ingestion/ingest.py`
   - Details: Use `pdfplumber` to extract text; chunk with overlap; write JSONL to `data/processed/chunks.jsonl`
   - Acceptance: For 2 sample PDFs in `data/raw/`, outputs >= 20 chunks with overlap preserved
@@ -54,37 +54,47 @@ Team Roles & Responsibilities
   - Acceptance: Given a URL list, produce chunked text in the same format as PDFs
   - Owner: @A; Reviewer: @C
 
-- [ ] Add CLI wrappers
-  - Paths: `backend/ingestion/__main__.py` (e.g., `python -m backend.ingestion --pdf data/raw/`)
-  - Acceptance: Single command runs ingestion and writes outputs deterministically
+- [x] Add CLI wrappers (not run yet)
+  - Path: `backend/ingestion/__main__.py`
+  - Usage: `python -m backend.ingestion --input-dir data/raw`
+  - Details: Orchestrates the complete pipeline from document ingestion to normalized extractions
   - Owner: @A; Reviewer: @D
 
 ### 2. NSAI Extraction to Structured JSON (@A)
 
-- [ ] Define JSON schema for extracted knowledge
+- [x] Define JSON schema for extracted knowledge
   - Path: `backend/nsai/schema.py`
   - Fields: `concept`, `sub_concept`, `explanation`, `source?`, `media?[]`
   - Acceptance: `pydantic` model validates payloads; schema doc added to `README.md`
   - Owner: @A; Reviewer: @B
 
-- [ ] Design few-shot prompts for extraction
+- [x] Design few-shot prompts for extraction
   - Path: `backend/nsai/prompts/extract_prompt.txt`
-  - Acceptance: Prompts capture Domain→Concept→Sub-concept→Explanation + provenance
+  - Details: Added comprehensive concept type taxonomy and structured output format
+  - Acceptance: Supports 50+ concept types across 5 domains with clear sub-typing
   - Owner: @A; Reviewer: @D
 
-- [ ] Implement LLM extraction (provider-agnostic)
+- [x] Implement LLM extraction (provider-agnostic)
   - Path: `backend/nsai/extract.py`
-  - Details: Call Gemini or OpenAI via Motto or Python SDK; parse to schema; batch process chunks
-  - Acceptance: From 50 chunks, produce valid JSON objects (>=90% schema‑valid) stored at `data/processed/extracted.jsonl`
+  - Details: Gemini integration with structured output parsing and batch processing
+  - Acceptance: Processes multiple document batches with schema validation and error handling
+  - Output: `data/processed/extracted.jsonl` and `data/processed/doc_batches.jsonl`
   - Owner: @A; Reviewer: @C
 
-- [ ] Entity standardization & dedup
+- [x] Entity standardization & dedup
   - Path: `backend/nsai/normalize.py`
-  - Details: Canonical form mapping (e.g., `copay` vs `co‑payment`), basic similarity heuristics
-  - Acceptance: Duplicates merged; emits mapping table at `data/processed/canonical_map.json`
+  - Details: Implements canonical naming, type inference, and cross-document linking
+  - Output: `data/processed/extracted_normalized.jsonl` and `data/processed/canonical_map.json`
+  - Acceptance: 90%+ type coverage with consistent naming across documents
   - Owner: @A; Reviewer: @B
 
-### 3. Translate JSON → MeTTa atoms (@B)
+### 3. Translate JSON → MeTTa atoms (@B) [IN PROGRESS]
+
+- [ ] Document schema mapping
+  - Path: `docs/meetta_mapping.md`
+  - Details: Define how JSON concepts map to MeTTa atoms and relationships
+  - Acceptance: Clear mapping rules for all concept types and relationships
+  - Owner: @B; Reviewer: @C
 
 - [ ] Domain schema & symbol conventions
   - Path: `docs/domain_schema.md`

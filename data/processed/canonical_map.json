@@ -1,0 +1,1598 @@
+{
+  "concepts": [
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Management",
+      "canonical": "Disaster Management",
+      "symbol": "Disaster-Management",
+      "type": ""
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Geological Hazards",
+      "canonical": "Geological Hazards",
+      "symbol": "Geological-Hazards",
+      "type": "Hazard Type"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Hydrological and Meteorological Hazards",
+      "canonical": "Hydrological and Meteorological Hazards",
+      "symbol": "Hydrological-and-Meteorological-Hazards",
+      "type": "Hazard Type"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Technological Hazards",
+      "canonical": "Technological Hazards",
+      "symbol": "Technological-Hazards",
+      "type": "Hazard Type"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Detection and Prevention Technologies (Cybersecurity)",
+      "canonical": "Detection and Prevention Technologies",
+      "symbol": "Detection-and-Prevention-Technologies",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Incident Response Plan",
+      "canonical": "Incident Response Plan",
+      "symbol": "Incident-Response-Plan",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual Recovery from Cyberattack or Identity Theft",
+      "canonical": "Individual Recovery From Cyberattack or Identity Theft",
+      "symbol": "Individual-Recovery-From-Cyberattack-or-Identity-Theft",
+      "type": "Procedure"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Societal Hazards",
+      "canonical": "Societal Hazards",
+      "symbol": "Societal-Hazards",
+      "type": "Definition"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual and Community Preparedness for Civil Unrest",
+      "canonical": "Individual and Community Preparedness for Civil Unrest",
+      "symbol": "Individual-and-Community-Preparedness-for-Civil-Unrest",
+      "type": "Strategy"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Safety Measures During Unrest",
+      "canonical": "Safety Measures During Unrest",
+      "symbol": "Safety-Measures-During-Unrest",
+      "type": "Procedure"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "De-escalation Techniques",
+      "canonical": "De Escalation Techniques",
+      "symbol": "De-Escalation-Techniques",
+      "type": "Strategy"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Role of Law Enforcement during Civil Unrest",
+      "canonical": "Role of law Enforcement During Civil Unrest",
+      "symbol": "Role-of-law-Enforcement-During-Civil-Unrest",
+      "type": "Role"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Recovery and Reconciliation after Civil Unrest",
+      "canonical": "Recovery and Reconciliation After Civil Unrest",
+      "symbol": "Recovery-and-Reconciliation-After-Civil-Unrest",
+      "type": "Process"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Post-Conflict Reconstruction",
+      "canonical": "Post Conflict Reconstruction",
+      "symbol": "Post-Conflict-Reconstruction",
+      "type": "Process"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Community-Led Peacebuilding",
+      "canonical": "Community led Peacebuilding",
+      "symbol": "Community-led-Peacebuilding",
+      "type": "Approach"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Reconciliation Process",
+      "canonical": "Reconciliation Process",
+      "symbol": "Reconciliation-Process",
+      "type": "Process"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Civil Unrest in India",
+      "canonical": "Civil Unrest in India",
+      "symbol": "Civil-Unrest-in-India",
+      "type": "Case Study"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparedness (General Disaster Management)",
+      "canonical": "Preparedness",
+      "symbol": "Preparedness",
+      "type": "Principle"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Management (Global Perspective)",
+      "canonical": "Disaster Management",
+      "symbol": "Disaster-Management",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Student Engagement Detection",
+      "canonical": "Student Engagement Detection",
+      "symbol": "Student-Engagement-Detection",
+      "type": "Research Problem"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Student Engagement",
+      "canonical": "Student Engagement",
+      "symbol": "Student-Engagement",
+      "type": "Concept"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Action Unit",
+      "canonical": "Facial Action Unit",
+      "symbol": "Facial-Action-Unit",
+      "type": "Feature"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "WACV Dataset",
+      "canonical": "Wacv Dataset",
+      "symbol": "Wacv-Dataset",
+      "type": "Dataset"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "DAiSEE Dataset",
+      "canonical": "Daisee Dataset",
+      "symbol": "Daisee-Dataset",
+      "type": "Dataset"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "OpenFace",
+      "canonical": "Openface",
+      "symbol": "Openface",
+      "type": "Tool"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "MediaPipe",
+      "canonical": "Mediapipe",
+      "symbol": "Mediapipe",
+      "type": "Tool"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Engagement Labels",
+      "canonical": "Engagement Labels",
+      "symbol": "Engagement-Labels",
+      "type": "Definition"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Expression",
+      "canonical": "Facial Expression",
+      "symbol": "Facial-Expression",
+      "type": "Concept"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Affective Computing",
+      "canonical": "Affective Computing",
+      "symbol": "Affective-Computing",
+      "type": "Field"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Computer Vision",
+      "canonical": "Computer Vision",
+      "symbol": "Computer-Vision",
+      "type": "Field"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Machine Learning",
+      "canonical": "Machine Learning",
+      "symbol": "Machine-Learning",
+      "type": "Field"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Deep Learning",
+      "canonical": "Deep Learning",
+      "symbol": "Deep-Learning",
+      "type": "Field"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Engagement Classification",
+      "canonical": "Engagement Classification",
+      "symbol": "Engagement-Classification",
+      "type": "Task"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Feature Extraction",
+      "canonical": "Facial Feature Extraction",
+      "symbol": "Facial-Feature-Extraction",
+      "type": "Process"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Landmarks",
+      "canonical": "Facial Landmarks",
+      "symbol": "Facial-Landmarks",
+      "type": "Feature"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Eye Gaze",
+      "canonical": "Eye Gaze",
+      "symbol": "Eye-Gaze",
+      "type": "Feature"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Head Pose Estimation",
+      "canonical": "Head Pose Estimation",
+      "symbol": "Head-Pose-Estimation",
+      "type": "Feature"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Action Coding System",
+      "canonical": "Facial Action Coding System",
+      "symbol": "Facial-Action-Coding-System",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Statistical Analysis for AU Engagement Mapping",
+      "canonical": "Statistical Analysis for au Engagement Mapping",
+      "symbol": "Statistical-Analysis-for-au-Engagement-Mapping",
+      "type": "Method"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Conditional Activation Probability",
+      "canonical": "Conditional Activation Probability",
+      "symbol": "Conditional-Activation-Probability",
+      "type": "Metric"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Relative Activation Ratio",
+      "canonical": "Relative Activation Ratio",
+      "symbol": "Relative-Activation-Ratio",
+      "type": "Metric"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Log-ratio Statistical Discriminative Coefficient",
+      "canonical": "Log Ratio Statistical Discriminative Coefficient",
+      "symbol": "Log-Ratio-Statistical-Discriminative-Coefficient",
+      "type": "Metric"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Class Imbalance",
+      "canonical": "Class Imbalance",
+      "symbol": "Class-Imbalance",
+      "type": "Issue"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Weighted Cross-Entropy Loss",
+      "canonical": "Weighted Cross Entropy Loss",
+      "symbol": "Weighted-Cross-Entropy-Loss",
+      "type": "Method"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "WeightedRandomSampler",
+      "canonical": "Weightedrandomsampler",
+      "symbol": "Weightedrandomsampler",
+      "type": "Method"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Input Concatenation",
+      "canonical": "Input Concatenation",
+      "symbol": "Input-Concatenation",
+      "type": "Deep Learning Strategy"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Dual-Path Feature Approach",
+      "canonical": "Dual Path Feature Approach",
+      "symbol": "Dual-Path-Feature-Approach",
+      "type": "Deep Learning Strategy"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Hyperparameter Optimization",
+      "canonical": "Hyperparameter Optimization",
+      "symbol": "Hyperparameter-Optimization",
+      "type": "Process"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Optuna",
+      "canonical": "Optuna",
+      "symbol": "Optuna",
+      "type": "Tool"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Grad-CAM",
+      "canonical": "Grad cam",
+      "symbol": "Grad-cam",
+      "type": "Visualization Technique"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "XGBoost",
+      "canonical": "Xgboost",
+      "symbol": "Xgboost",
+      "type": "Machine Learning Algorithm"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "EfficientNet",
+      "canonical": "Efficientnet",
+      "symbol": "Efficientnet",
+      "type": "Deep Learning Model Architecture"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "ResNet",
+      "canonical": "Resnet",
+      "symbol": "Resnet",
+      "type": "Deep Learning Model Architecture"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Support Vector Machine",
+      "canonical": "Support Vector Machine",
+      "symbol": "Support-Vector-Machine",
+      "type": "Machine Learning Algorithm"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Random Forest",
+      "canonical": "Random Forest",
+      "symbol": "Random-Forest",
+      "type": "Machine Learning Algorithm"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Decision Tree",
+      "canonical": "Decision Tree",
+      "symbol": "Decision-Tree",
+      "type": "Machine Learning Algorithm"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Gradient Boosting",
+      "canonical": "Gradient Boosting",
+      "symbol": "Gradient-Boosting",
+      "type": "Machine Learning Algorithm"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "CLNF",
+      "canonical": "Clnf",
+      "symbol": "Clnf",
+      "type": "Algorithm"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Student Participation",
+      "canonical": "Student Participation",
+      "symbol": "Student-Participation",
+      "type": "Concept"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Learning Outcomes",
+      "canonical": "Learning Outcomes",
+      "symbol": "Learning-Outcomes",
+      "type": "Concept"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Classroom Dynamics",
+      "canonical": "Classroom Dynamics",
+      "symbol": "Classroom-Dynamics",
+      "type": "Concept"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Online Learning Environments",
+      "canonical": "Online Learning Environments",
+      "symbol": "Online-Learning-Environments",
+      "type": "Context"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Hybrid Teaching Modes",
+      "canonical": "Hybrid Teaching Modes",
+      "symbol": "Hybrid-Teaching-Modes",
+      "type": "Context"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Improved Learning Outcomes",
+      "canonical": "Improved Learning Outcomes",
+      "symbol": "Improved-Learning-Outcomes",
+      "type": "Benefit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Enhanced Instructional Quality",
+      "canonical": "Enhanced Instructional Quality",
+      "symbol": "Enhanced-Instructional-Quality",
+      "type": "Benefit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Educational Stakeholders",
+      "canonical": "Educational Stakeholders",
+      "symbol": "Educational-Stakeholders",
+      "type": "Group"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Reproducible Code Repository",
+      "canonical": "Reproducible Code Repository",
+      "symbol": "Reproducible-Code-Repository",
+      "type": "Resource"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "COVID-19 Pandemic",
+      "canonical": "Covid 19 Pandemic",
+      "symbol": "Covid-19-Pandemic",
+      "type": "Event"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Challenges in Assessing Individual Student Engagement",
+      "canonical": "Challenges in Assessing Individual Student Engagement",
+      "symbol": "Challenges-in-Assessing-Individual-Student-Engagement",
+      "type": "Issue"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Engagement Analysis",
+      "canonical": "Facial Engagement Analysis",
+      "symbol": "Facial-Engagement-Analysis",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Facial Features",
+      "canonical": "Facial Features",
+      "symbol": "Facial-Features",
+      "type": "Data Type"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Tools for Facial Feature Extraction",
+      "canonical": "Tools for Facial Feature Extraction",
+      "symbol": "Tools-for-Facial-Feature-Extraction",
+      "type": "Software"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Datasets for Engagement Analysis",
+      "canonical": "Datasets for Engagement Analysis",
+      "symbol": "Datasets-for-Engagement-Analysis",
+      "type": "Dataset"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Machine Learning Models",
+      "canonical": "Machine Learning Models",
+      "symbol": "Machine-Learning-Models",
+      "type": "Model"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Deep Learning Models",
+      "canonical": "Deep Learning Models",
+      "symbol": "Deep-Learning-Models",
+      "type": "Model"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Temporal Deep Learning Techniques",
+      "canonical": "Temporal Deep Learning Techniques",
+      "symbol": "Temporal-Deep-Learning-Techniques",
+      "type": "Methodology"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Valence-Arousal Modeling",
+      "canonical": "Valence Arousal Modeling",
+      "symbol": "Valence-Arousal-Modeling",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Real-time Engagement Recognition Systems",
+      "canonical": "Real Time Engagement Recognition Systems",
+      "symbol": "Real-Time-Engagement-Recognition-Systems",
+      "type": "Application"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Online Education",
+      "canonical": "Online Education",
+      "symbol": "Online-Education",
+      "type": "Application Area"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Remote Work",
+      "canonical": "Remote Work",
+      "symbol": "Remote-Work",
+      "type": "Application Area"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Human-Computer Interaction",
+      "canonical": "Human Computer Interaction",
+      "symbol": "Human-Computer-Interaction",
+      "type": "Application Area"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Emotion Recognition for Enhanced Learning",
+      "canonical": "Emotion Recognition for Enhanced Learning",
+      "symbol": "Emotion-Recognition-for-Enhanced-Learning",
+      "type": "Overarching Theme"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Artificial Intelligence (AI)",
+      "canonical": "Artificial Intelligence",
+      "symbol": "Artificial-Intelligence",
+      "type": "Technology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Convolutional Neural Networks (CNNs)",
+      "canonical": "Convolutional Neural Networks",
+      "symbol": "Convolutional-Neural-Networks",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "FER2013 Dataset",
+      "canonical": "Fer2013 Dataset",
+      "symbol": "Fer2013-Dataset",
+      "type": "Dataset"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Emotions",
+      "canonical": "Emotions",
+      "symbol": "Emotions",
+      "type": "Abstract Concept"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Challenges in Emotion Recognition in Education",
+      "canonical": "Challenges in Emotion Recognition in Education",
+      "symbol": "Challenges-in-Emotion-Recognition-in-Education",
+      "type": "Challenge"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Methodology (Study)",
+      "canonical": "Methodology",
+      "symbol": "Methodology",
+      "type": "Methodology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Results (Study)",
+      "canonical": "Results",
+      "symbol": "Results",
+      "type": "Outcome"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Personalized Learning",
+      "canonical": "Personalized Learning",
+      "symbol": "Personalized-Learning",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Adaptive Teaching Strategies",
+      "canonical": "Adaptive Teaching Strategies",
+      "symbol": "Adaptive-Teaching-Strategies",
+      "type": "Strategy"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Facial Action Coding System (FACS)",
+      "canonical": "Facial Action Coding System",
+      "symbol": "Facial-Action-Coding-System",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Deep Learning",
+      "canonical": "Deep Learning",
+      "symbol": "Deep-Learning",
+      "type": "Technology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Recurrent Neural Networks (RNNs)",
+      "canonical": "Recurrent Neural Networks",
+      "symbol": "Recurrent-Neural-Networks",
+      "type": "Framework"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Transfer Learning",
+      "canonical": "Transfer Learning",
+      "symbol": "Transfer-Learning",
+      "type": "Methodology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Future Directions (Research)",
+      "canonical": "Future Directions",
+      "symbol": "Future-Directions",
+      "type": "Research Area"
+    }
+  ],
+  "sub_concepts": [
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster",
+      "canonical": "Disaster",
+      "symbol": "Disaster",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Management Cycle",
+      "canonical": "Disaster Management Cycle",
+      "symbol": "Disaster-Management-Cycle",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Sendai Framework for Disaster Risk Reduction 2015–2030",
+      "canonical": "Sendai Framework for Disaster Risk Reduction 20152030",
+      "symbol": "Sendai-Framework-for-Disaster-Risk-Reduction-20152030",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "All-Hazards Approach",
+      "canonical": "All Hazards Approach",
+      "symbol": "All-Hazards-Approach",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Risk Reduction (DRR) Strategies",
+      "canonical": "Disaster Risk Reduction Strategies",
+      "symbol": "Disaster-Risk-Reduction-Strategies",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Hazard",
+      "canonical": "Hazard",
+      "symbol": "Hazard",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Exposure",
+      "canonical": "Exposure",
+      "symbol": "Exposure",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Vulnerability",
+      "canonical": "Vulnerability",
+      "symbol": "Vulnerability",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Capacity",
+      "canonical": "Capacity",
+      "symbol": "Capacity",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Classification by Characteristics",
+      "canonical": "Disaster Classification by Characteristics",
+      "symbol": "Disaster-Classification-by-Characteristics",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "UNDRR-ISC Hazard Classification Framework",
+      "canonical": "Undrr isc Hazard Classification Framework",
+      "symbol": "Undrr-isc-Hazard-Classification-Framework",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Interconnectedness of Hazards",
+      "canonical": "Interconnectedness of Hazards",
+      "symbol": "Interconnectedness-of-Hazards",
+      "type": "",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Earthquake",
+      "canonical": "Earthquake",
+      "symbol": "Earthquake",
+      "type": "",
+      "parent_concept": "Geological Hazards"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Floods",
+      "canonical": "Floods",
+      "symbol": "Floods",
+      "type": "",
+      "parent_concept": "Hydrological and Meteorological Hazards"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Cyberattacks",
+      "canonical": "Cyberattacks",
+      "symbol": "Cyberattacks",
+      "type": "",
+      "parent_concept": "Technological Hazards"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Intrusion Detection Systems",
+      "canonical": "Intrusion Detection Systems",
+      "symbol": "Intrusion-Detection-Systems",
+      "type": "Technology",
+      "parent_concept": "Detection and Prevention Technologies"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Intrusion Prevention Systems",
+      "canonical": "Intrusion Prevention Systems",
+      "symbol": "Intrusion-Prevention-Systems",
+      "type": "Technology",
+      "parent_concept": "Detection and Prevention Technologies"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Security Information and Event Management systems",
+      "canonical": "Security Information and Event Management Systems",
+      "symbol": "Security-Information-and-Event-Management-Systems",
+      "type": "Technology",
+      "parent_concept": "Detection and Prevention Technologies"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Endpoint Detection and Response solutions",
+      "canonical": "Endpoint Detection and Response Solutions",
+      "symbol": "Endpoint-Detection-and-Response-Solutions",
+      "type": "Technology",
+      "parent_concept": "Detection and Prevention Technologies"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparation (IRP Phase)",
+      "canonical": "Preparation",
+      "symbol": "Preparation",
+      "type": "Phase",
+      "parent_concept": "Incident Response Plan"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Identification (IRP Phase)",
+      "canonical": "Identification",
+      "symbol": "Identification",
+      "type": "Phase",
+      "parent_concept": "Incident Response Plan"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Containment (IRP Phase)",
+      "canonical": "Containment",
+      "symbol": "Containment",
+      "type": "Phase",
+      "parent_concept": "Incident Response Plan"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Eradication (IRP Phase)",
+      "canonical": "Eradication",
+      "symbol": "Eradication",
+      "type": "Phase",
+      "parent_concept": "Incident Response Plan"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Recovery (IRP Phase)",
+      "canonical": "Recovery",
+      "symbol": "Recovery",
+      "type": "Phase",
+      "parent_concept": "Incident Response Plan"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Lessons Learned (IRP Phase)",
+      "canonical": "Lessons Learned",
+      "symbol": "Lessons-Learned",
+      "type": "Phase",
+      "parent_concept": "Incident Response Plan"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Change Passwords (Individual Recovery)",
+      "canonical": "Change Passwords",
+      "symbol": "Change-Passwords",
+      "type": "Step",
+      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Contact Financial Institutions (Individual Recovery)",
+      "canonical": "Contact Financial Institutions",
+      "symbol": "Contact-Financial-Institutions",
+      "type": "Step",
+      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Report the Incident (Individual Recovery)",
+      "canonical": "Report the Incident",
+      "symbol": "Report-the-Incident",
+      "type": "Step",
+      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Place Fraud Alerts (Individual Recovery)",
+      "canonical": "Place Fraud Alerts",
+      "symbol": "Place-Fraud-Alerts",
+      "type": "Step",
+      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Civil Unrest",
+      "canonical": "Civil Unrest",
+      "symbol": "Civil-Unrest",
+      "type": "Type of Hazard",
+      "parent_concept": "Societal Hazards"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Situational Awareness (Civil Unrest)",
+      "canonical": "Situational Awareness",
+      "symbol": "Situational-Awareness",
+      "type": "Strategy",
+      "parent_concept": "Individual and Community Preparedness for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Contingency Planning (Civil Unrest)",
+      "canonical": "Contingency Planning",
+      "symbol": "Contingency-Planning",
+      "type": "Strategy",
+      "parent_concept": "Individual and Community Preparedness for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Avoid and Evacuate (Unrest Safety)",
+      "canonical": "Avoid and Evacuate",
+      "symbol": "Avoid-and-Evacuate",
+      "type": "Step",
+      "parent_concept": "Safety Measures During Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Maintain a Low Profile (Unrest Safety)",
+      "canonical": "Maintain a low Profile",
+      "symbol": "Maintain-a-low-Profile",
+      "type": "Step",
+      "parent_concept": "Safety Measures During Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Vehicle Safety (Unrest Safety)",
+      "canonical": "Vehicle Safety",
+      "symbol": "Vehicle-Safety",
+      "type": "Step",
+      "parent_concept": "Safety Measures During Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Prepare for Crowd Control Agents (Unrest Safety)",
+      "canonical": "Prepare for Crowd Control Agents",
+      "symbol": "Prepare-for-Crowd-Control-Agents",
+      "type": "Step",
+      "parent_concept": "Safety Measures During Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Control Your Own Response (De-escalation)",
+      "canonical": "Control Your own Response",
+      "symbol": "Control-Your-own-Response",
+      "type": "Technique",
+      "parent_concept": "De Escalation Techniques"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Effective Communication (De-escalation)",
+      "canonical": "Effective Communication",
+      "symbol": "Effective-Communication",
+      "type": "Technique",
+      "parent_concept": "De Escalation Techniques"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Active Listening and Empathy (De-escalation)",
+      "canonical": "Active Listening and Empathy",
+      "symbol": "Active-Listening-and-Empathy",
+      "type": "Technique",
+      "parent_concept": "De Escalation Techniques"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Effective Management Strategies (Law Enforcement)",
+      "canonical": "Effective Management Strategies",
+      "symbol": "Effective-Management-Strategies",
+      "type": "Strategy",
+      "parent_concept": "Role of law Enforcement During Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "2020 Delhi Riots",
+      "canonical": "2020 Delhi Riots",
+      "symbol": "2020-Delhi-Riots",
+      "type": "Event",
+      "parent_concept": "Civil Unrest in India"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "1983 Nellie Massacre",
+      "canonical": "1983 Nellie Massacre",
+      "symbol": "1983-Nellie-Massacre",
+      "type": "Event",
+      "parent_concept": "Civil Unrest in India"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "2023 Manipur Ethnic Conflict",
+      "canonical": "2023 Manipur Ethnic Conflict",
+      "symbol": "2023-Manipur-Ethnic-Conflict",
+      "type": "Event",
+      "parent_concept": "Civil Unrest in India"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Targeting of Religious Sites (Civil Unrest Trigger)",
+      "canonical": "Targeting of Religious Sites",
+      "symbol": "Targeting-of-Religious-Sites",
+      "type": "Trigger",
+      "parent_concept": "Civil Unrest in India"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparedness for Individuals and Families",
+      "canonical": "Preparedness for Individuals and Families",
+      "symbol": "Preparedness-for-Individuals-and-Families",
+      "type": "Level of Preparedness",
+      "parent_concept": "Preparedness"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparedness for Communities",
+      "canonical": "Preparedness for Communities",
+      "symbol": "Preparedness-for-Communities",
+      "type": "Level of Preparedness",
+      "parent_concept": "Preparedness"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparedness for Institutions",
+      "canonical": "Preparedness for Institutions",
+      "symbol": "Preparedness-for-Institutions",
+      "type": "Level of Preparedness",
+      "parent_concept": "Preparedness"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Automatic Engagement Detection",
+      "canonical": "Automatic Engagement Detection",
+      "symbol": "Automatic-Engagement-Detection",
+      "type": "",
+      "parent_concept": "Student Engagement Detection"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Semiautomatic Engagement Detection",
+      "canonical": "Semiautomatic Engagement Detection",
+      "symbol": "Semiautomatic-Engagement-Detection",
+      "type": "",
+      "parent_concept": "Student Engagement Detection"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Manual Engagement Detection",
+      "canonical": "Manual Engagement Detection",
+      "symbol": "Manual-Engagement-Detection",
+      "type": "",
+      "parent_concept": "Student Engagement Detection"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Behavioral Engagement",
+      "canonical": "Behavioral Engagement",
+      "symbol": "Behavioral-Engagement",
+      "type": "Type of Engagement",
+      "parent_concept": "Student Engagement"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Emotional Engagement",
+      "canonical": "Emotional Engagement",
+      "symbol": "Emotional-Engagement",
+      "type": "Type of Engagement",
+      "parent_concept": "Student Engagement"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Cognitive Engagement",
+      "canonical": "Cognitive Engagement",
+      "symbol": "Cognitive-Engagement",
+      "type": "Type of Engagement",
+      "parent_concept": "Student Engagement"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU Presence",
+      "canonical": "Au Presence",
+      "symbol": "Au-Presence",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU Intensity",
+      "canonical": "Au Intensity",
+      "symbol": "Au-Intensity",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU45-blink",
+      "canonical": "Au45 Blink",
+      "symbol": "Au45-Blink",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU25-lip part",
+      "canonical": "Au25 lip Part",
+      "symbol": "Au25-lip-Part",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU20-lip stretcher",
+      "canonical": "Au20 lip Stretcher",
+      "symbol": "Au20-lip-Stretcher",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU02-outer brow raiser",
+      "canonical": "Au02 Outer Brow Raiser",
+      "symbol": "Au02-Outer-Brow-Raiser",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU15-lip corner depressor",
+      "canonical": "Au15 lip Corner Depressor",
+      "symbol": "Au15-lip-Corner-Depressor",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU14-dimpler",
+      "canonical": "Au14 Dimpler",
+      "symbol": "Au14-Dimpler",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU23-lip tightener",
+      "canonical": "Au23 lip Tightener",
+      "symbol": "Au23-lip-Tightener",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU01-inner brow raiser",
+      "canonical": "Au01 Inner Brow Raiser",
+      "symbol": "Au01-Inner-Brow-Raiser",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU04-brow lowerer",
+      "canonical": "Au04 Brow Lowerer",
+      "symbol": "Au04-Brow-Lowerer",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU05-upper lid raiser",
+      "canonical": "Au05 Upper lid Raiser",
+      "symbol": "Au05-Upper-lid-Raiser",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU06-cheek raiser",
+      "canonical": "Au06 Cheek Raiser",
+      "symbol": "Au06-Cheek-Raiser",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU07-lid tightener",
+      "canonical": "Au07 lid Tightener",
+      "symbol": "Au07-lid-Tightener",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU09-nose wrinkler",
+      "canonical": "Au09 Nose Wrinkler",
+      "symbol": "Au09-Nose-Wrinkler",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU10-upper lip raiser",
+      "canonical": "Au10 Upper lip Raiser",
+      "symbol": "Au10-Upper-lip-Raiser",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU12-lip corner puller",
+      "canonical": "Au12 lip Corner Puller",
+      "symbol": "Au12-lip-Corner-Puller",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU17-chin raiser",
+      "canonical": "Au17 Chin Raiser",
+      "symbol": "Au17-Chin-Raiser",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "AU26-jaw drop",
+      "canonical": "Au26 jaw Drop",
+      "symbol": "Au26-jaw-Drop",
+      "type": "",
+      "parent_concept": "Facial Action Unit"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Machine Learning Approach (Engagement Classification)",
+      "canonical": "Machine Learning Approach",
+      "symbol": "Machine-Learning-Approach",
+      "type": "",
+      "parent_concept": "Engagement Classification"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Deep Learning Approach (Engagement Classification)",
+      "canonical": "Deep Learning Approach",
+      "symbol": "Deep-Learning-Approach",
+      "type": "",
+      "parent_concept": "Engagement Classification"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Classical Machine Learning Models for Engagement Analysis",
+      "canonical": "Classical Machine Learning Models for Engagement Analysis",
+      "symbol": "Classical-Machine-Learning-Models-for-Engagement-Analysis",
+      "type": "Methodology",
+      "parent_concept": "Facial Engagement Analysis"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Deep Learning Models for Engagement Analysis",
+      "canonical": "Deep Learning Models for Engagement Analysis",
+      "symbol": "Deep-Learning-Models-for-Engagement-Analysis",
+      "type": "Methodology",
+      "parent_concept": "Facial Engagement Analysis"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Future Work in Engagement Recognition",
+      "canonical": "Future Work in Engagement Recognition",
+      "symbol": "Future-Work-in-Engagement-Recognition",
+      "type": "Research Direction",
+      "parent_concept": "Facial Engagement Analysis"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Action Units",
+      "canonical": "Action Units",
+      "symbol": "Action-Units",
+      "type": "Feature",
+      "parent_concept": "Facial Features"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "OpenFace",
+      "canonical": "Openface",
+      "symbol": "Openface",
+      "type": "Tool",
+      "parent_concept": "Tools for Facial Feature Extraction"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "MediaPipe",
+      "canonical": "Mediapipe",
+      "symbol": "Mediapipe",
+      "type": "Tool",
+      "parent_concept": "Tools for Facial Feature Extraction"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "WACV dataset",
+      "canonical": "Wacv Dataset",
+      "symbol": "Wacv-Dataset",
+      "type": "Dataset",
+      "parent_concept": "Datasets for Engagement Analysis"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "DAiSEE dataset",
+      "canonical": "Daisee Dataset",
+      "symbol": "Daisee-Dataset",
+      "type": "Dataset",
+      "parent_concept": "Datasets for Engagement Analysis"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "SVM",
+      "canonical": "Svm",
+      "symbol": "Svm",
+      "type": "Algorithm",
+      "parent_concept": "Machine Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Random Forest",
+      "canonical": "Random Forest",
+      "symbol": "Random-Forest",
+      "type": "Algorithm",
+      "parent_concept": "Machine Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Decision Tree",
+      "canonical": "Decision Tree",
+      "symbol": "Decision-Tree",
+      "type": "Algorithm",
+      "parent_concept": "Machine Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "Gradient Boosting",
+      "canonical": "Gradient Boosting",
+      "symbol": "Gradient-Boosting",
+      "type": "Algorithm",
+      "parent_concept": "Machine Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "XGBoost",
+      "canonical": "Xgboost",
+      "symbol": "Xgboost",
+      "type": "Algorithm",
+      "parent_concept": "Machine Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "ResNet",
+      "canonical": "Resnet",
+      "symbol": "Resnet",
+      "type": "Architecture",
+      "parent_concept": "Deep Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "EfficientNet",
+      "canonical": "Efficientnet",
+      "symbol": "Efficientnet",
+      "type": "Architecture",
+      "parent_concept": "Deep Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "LSTM networks",
+      "canonical": "Lstm Networks",
+      "symbol": "Lstm-Networks",
+      "type": "Architecture",
+      "parent_concept": "Deep Learning Models"
+    },
+    {
+      "doc_id": "s00521-025-11317-z",
+      "original": "TCNs",
+      "canonical": "Tcns",
+      "symbol": "Tcns",
+      "type": "Architecture",
+      "parent_concept": "Deep Learning Models"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Importance of Emotions in Learning",
+      "canonical": "Importance of Emotions in Learning",
+      "symbol": "Importance-of-Emotions-in-Learning",
+      "type": "",
+      "parent_concept": "Emotion Recognition for Enhanced Learning"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "AI in Educational Environments",
+      "canonical": "Ai in Educational Environments",
+      "symbol": "Ai-in-Educational-Environments",
+      "type": "",
+      "parent_concept": "Emotion Recognition for Enhanced Learning"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "CNN Model Architecture (Study Specific)",
+      "canonical": "Cnn Model Architecture",
+      "symbol": "Cnn-Model-Architecture",
+      "type": "",
+      "parent_concept": "Convolutional Neural Networks"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "CNN Effectiveness for Emotion Recognition",
+      "canonical": "Cnn Effectiveness for Emotion Recognition",
+      "symbol": "Cnn-Effectiveness-for-Emotion-Recognition",
+      "type": "",
+      "parent_concept": "Convolutional Neural Networks"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Anger",
+      "canonical": "Anger",
+      "symbol": "Anger",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Disgust",
+      "canonical": "Disgust",
+      "symbol": "Disgust",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Fear",
+      "canonical": "Fear",
+      "symbol": "Fear",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Happiness",
+      "canonical": "Happiness",
+      "symbol": "Happiness",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Sadness",
+      "canonical": "Sadness",
+      "symbol": "Sadness",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Surprise",
+      "canonical": "Surprise",
+      "symbol": "Surprise",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Neutral",
+      "canonical": "Neutral",
+      "symbol": "Neutral",
+      "type": "",
+      "parent_concept": "Emotions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Overfitting",
+      "canonical": "Overfitting",
+      "symbol": "Overfitting",
+      "type": "",
+      "parent_concept": "Challenges in Emotion Recognition in Education"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Cultural and Demographic Diversity",
+      "canonical": "Cultural and Demographic Diversity",
+      "symbol": "Cultural-and-Demographic-Diversity",
+      "type": "",
+      "parent_concept": "Challenges in Emotion Recognition in Education"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Real-time Application",
+      "canonical": "Real Time Application",
+      "symbol": "Real-Time-Application",
+      "type": "",
+      "parent_concept": "Challenges in Emotion Recognition in Education"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Ethical Considerations",
+      "canonical": "Ethical Considerations",
+      "symbol": "Ethical-Considerations",
+      "type": "",
+      "parent_concept": "Challenges in Emotion Recognition in Education"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Data Preprocessing",
+      "canonical": "Data Preprocessing",
+      "symbol": "Data-Preprocessing",
+      "type": "",
+      "parent_concept": "Methodology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Model Training and Evaluation",
+      "canonical": "Model Training and Evaluation",
+      "symbol": "Model-Training-and-Evaluation",
+      "type": "",
+      "parent_concept": "Methodology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Clustering of the Dataset",
+      "canonical": "Clustering of the Dataset",
+      "symbol": "Clustering-of-the-Dataset",
+      "type": "",
+      "parent_concept": "Methodology"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "CNN Model Performance",
+      "canonical": "Cnn Model Performance",
+      "symbol": "Cnn-Model-Performance",
+      "type": "",
+      "parent_concept": "Results"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Training and Validation Visualization",
+      "canonical": "Training and Validation Visualization",
+      "symbol": "Training-and-Validation-Visualization",
+      "type": "",
+      "parent_concept": "Results"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Clustering Results",
+      "canonical": "Clustering Results",
+      "symbol": "Clustering-Results",
+      "type": "",
+      "parent_concept": "Results"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "More Extensive and Diverse Datasets",
+      "canonical": "More Extensive and Diverse Datasets",
+      "symbol": "More-Extensive-and-Diverse-Datasets",
+      "type": "",
+      "parent_concept": "Future Directions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Integration of Multimodal Data",
+      "canonical": "Integration of Multimodal Data",
+      "symbol": "Integration-of-Multimodal-Data",
+      "type": "",
+      "parent_concept": "Future Directions"
+    },
+    {
+      "doc_id": "s40561-025-00374-5",
+      "original": "Long-term Effects Studies",
+      "canonical": "Long Term Effects Studies",
+      "symbol": "Long-Term-Effects-Studies",
+      "type": "",
+      "parent_concept": "Future Directions"
+    }
+  ]
+}
