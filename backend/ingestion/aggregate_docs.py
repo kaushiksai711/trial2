@@ -5,7 +5,7 @@ from typing import Dict, List, Any
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CHUNKS_PATH = PROJECT_ROOT / "data" / "processed" / "metta_chunks.jsonl"
 BATCHES_PATH = PROJECT_ROOT / "data" / "processed" / "doc_batches.jsonl"
-PROMPT_TEMPLATE_PATH = PROJECT_ROOT / "backend" / "nsai" / "prompts" / "extract_prompt.txt"
+PROMPT_TEMPLATE_PATH = PROJECT_ROOT / "backend" / "nsai" / "prompts" / "extract_prompt_2.txt"
 
 # Limits to keep doc-level batches within token budgets
 MAX_CHUNKS_PER_DOC = 80       # use bigger batches to reduce request count
@@ -72,7 +72,16 @@ def _collate_doc_examples(chunks: List[Dict[str, Any]]) -> Dict[str, Any]:
         "examples_text": "\n".join(examples_lines),
     }
 
-
+def get_all_links(chunks: List[Dict[str, Any]]) -> List[str]:
+    """Extract all unique links from document chunks."""
+    seen = set()
+    all_links = []
+    for chunk in chunks:
+        for link in chunk.get("metadata", {}).get("links", []) or []:
+            if link and link not in seen:
+                seen.add(link)
+                all_links.append(link)
+    return all_links
 def build_batches() -> None:
     if not CHUNKS_PATH.exists():
         raise FileNotFoundError(f"Chunks not found at {CHUNKS_PATH}. Run metta_chunker first.")
@@ -99,6 +108,7 @@ def build_batches() -> None:
             total = len(chunks)
             if total == 0:
                 continue
+            all_links = get_all_links(chunks)
 
             total_batches = (total + MAX_CHUNKS_PER_DOC - 1) // MAX_CHUNKS_PER_DOC
             for b_idx, start in enumerate(range(0, total, MAX_CHUNKS_PER_DOC), start=1):
@@ -109,28 +119,21 @@ def build_batches() -> None:
                     txt = ch.get("text", "")
                     text_block_parts.append(_truncate(txt, MAX_CHARS_PER_CHUNK))
                     included_indices.append(ch.get("metadata", {}).get("chunk_index", -1))
-                text_block = "\n\n".join(text_block_parts)
+                text_block = "\n".join(text_block_parts)
 
                 # Build examples per-batch
                 examples = _collate_doc_examples(batch)
 
                 # Collect deduped links from this batch
-                links_found_set = []
-                seen = set()
-                for ch in batch:
-                    for u in ch.get("metadata", {}).get("links", []) or []:
-                        if u not in seen:
-                            seen.add(u)
-                            links_found_set.append(u)
+                links_found_set =all_links
 
                 # Fill template and append context sections
                 prompt_text = template.replace("{DOC_ID}", doc_id).replace("{TEXT_BLOCK}", text_block)
                 prompt_text += f"\n\nBatch info: This is batch {b_idx} of {total_batches} for document {doc_id}.\n"
                 prompt_text += (
-                    "Include numeric page/chunk references only under evidence.citations. "
+                    "Include numeric page/chunk references only under evidence.citations. if needed"
                     "Evidence.sources must be valid URLs when present.\n"
                 )
-                prompt_text += f"Chunks included in this batch: {included_indices}\n"
                 if links_found_set:
                     prompt_text += "\nContext: Links found in document (use as sources/links when applicable):\n" + "\n".join(
                         f"- {u}" for u in links_found_set

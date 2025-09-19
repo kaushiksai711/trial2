@@ -1,5 +1,7 @@
 #Core Dependencies
 hyperon  # or hyperon-experimental if preferred
+metta-motto  # LLM integration for  Metta ,I have already done installing these imports
+google-adk  # Agent Development Kit for agentic orchestration this is also sInstalled
 
 # Data Processing & NLP
 numpy>=1.21.0

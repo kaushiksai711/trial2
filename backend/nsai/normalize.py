@@ -19,23 +19,55 @@ TYPE_KEYWORDS = {
 
 
 def strip_parentheticals(name: str) -> Tuple[str, List[str]]:
-    """Remove parenthetical segments, return stripped name + list of tags found."""
+    """Process parenthetical segments, return cleaned name + list of tags found."""
     tags: List[str] = []
-    def repl(m):
+    
+    def process_match(m):
         inner = m.group(1).strip()
-        if inner:
+        if not inner:
+            return ""
+            
+        # Check if this looks like an acronym (all caps or camel case with dots)
+        is_acronym = (inner.isupper() or 
+                     (len(inner) <= 5 and any(c.isupper() for c in inner)) or
+                     bool(re.match(r'^[A-Z0-9]+(?:\.[A-Z0-9]+)*$', inner)))
+        
+        if is_acronym:
+            # For acronyms, keep them in the name but clean them up
+            clean_acronym = inner.strip('.')
+            tags.append(clean_acronym)
+            return f" ({clean_acronym})"
+        else:
+            # For other content, extract as tag but keep in the name
             tags.append(inner)
-        return ""  # drop
-    stripped = re.sub(r"\s*\(([^)]+)\)", repl, name).strip()
-    return stripped, tags
+            return f" ({inner})"
+    
+    # Process all parentheticals
+    processed_name = re.sub(r"\s*\(([^)]+)\)", process_match, name).strip()
+    
+    # Clean up any extra spaces
+    processed_name = re.sub(r'\s+', ' ', processed_name).strip()
+    
+    return processed_name, tags
 
 
 def detect_type_from_tags(tags: List[str]) -> str | None:
+    """Detect concept type from tags, with special handling for acronyms."""
+    if not tags:
+        return None
+        
+    # First pass: look for explicit type indicators
     for t in tags:
         low = t.lower()
         for kw, type_name in TYPE_KEYWORDS.items():
             if kw in low:
                 return type_name
+    
+    # Second pass: check if any tag looks like a type
+    type_like = next((t for t in tags if t.lower() in [v.lower() for v in TYPE_KEYWORDS.values()]), None)
+    if type_like:
+        return type_like
+        
     return None
 
 
