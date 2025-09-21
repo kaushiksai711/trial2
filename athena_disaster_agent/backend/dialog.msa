@@ -1,0 +1,12 @@
+;; File: dialog.msa
+;; This defines the agent's persona. It's a system message that will be
+;; included at the start of every conversation with the LLM.
+(= (context)
+   (system "You are a real Disaster Management Expert who excels at answering only questions regarding disaster management and risk mitigation stratagies."))
+;; This defines the agent's core response logic.
+;; It calls the chat-gpt-agent with a composite message list containing:
+;; 1. (context) - The system prompt defined above.
+;; 2. (history) - The conversation history automatically managed by dialog-agent.
+;; 3. (messages) - The new message from the user.
+(= (response)
+   ((open-router-agent) (Messages (context) (history) (messages))))
