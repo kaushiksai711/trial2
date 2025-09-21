@@ -35,13 +35,21 @@ This document explains the current state of the QueryVerse document processing p
 
 ### 4. Normalization & Canonicalization
 **File**: `backend/nsai/normalize.py`  
-**Functions**:
-- Standardizes concept names
-- Resolves duplicates
-- Infers missing types
-- Outputs:
-  - `data/processed/extracted_normalized.jsonl`
-  - `data/processed/canonical_map.json`
+**Key Functions**:
+- `strip_parentheticals()`: Preserves important content in parentheses (acronyms, keywords) while cleaning
+- `detect_type_from_tags()`: Infers concept types from tags and parenthetical content
+- `to_canonical()`: Converts names to standardized Title Case format
+- `normalize_record()`: Main function that processes each record
+
+**Features**:
+- Preserves acronyms and important keywords in parentheses
+- Handles various formats of acronyms (uppercase, camelCase, dot-separated)
+- Maintains original context while standardizing names
+- Creates a mapping between original and canonical forms
+
+**Outputs**:
+- `data/processed/extracted_normalized.jsonl`: Normalized concepts with preserved context
+- `data/processed/canonical_map.json`: Mapping between original and canonical forms
 
 ## Key Data Structures
 

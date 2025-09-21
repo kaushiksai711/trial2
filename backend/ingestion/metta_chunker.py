@@ -146,6 +146,19 @@ class MeTTaOptimizedChunker:
 
     # ---------- Processors ----------
 
+    def _normalize_text(self, text: str) -> str:
+        """Normalize whitespace and clean up text."""
+        if not text:
+            return ""
+        # Replace all whitespace sequences with single space
+        text = re.sub(r'\s+', ' ', text)
+        # Clean up spacing around punctuation
+        text = re.sub(r'\s+([.,;:!?])', r'\1', text)  # Remove space before punctuation
+        text = re.sub(r'([(])\s+', r'\1', text)  # Remove space after opening parenthesis
+        text = re.sub(r'\s+([)])', r'\1', text)  # Remove space before closing parenthesis
+        text = re.sub(r'\s+', ' ', text)  # Final pass for any remaining multiple spaces
+        return text.strip()
+
     def _process_pdf(self, file_path: Path) -> List[Dict]:
         try:
             loader = PyPDFLoader(str(file_path))
@@ -156,7 +169,7 @@ class MeTTaOptimizedChunker:
 
         out: List[Dict] = []
         for i, page in enumerate(pages):
-            page_text = page.page_content or ""
+            page_text = self._normalize_text(page.page_content or "")
             chunks = self._split_coherent(page_text)
             for j, text in enumerate(chunks):
                 record = self._enrich_record(
@@ -173,7 +186,7 @@ class MeTTaOptimizedChunker:
     def _process_markdown(self, file_path: Path) -> List[Dict]:
         try:
             with open(file_path, "r", encoding="utf-8") as f:
-                markdown_text = f.read()
+                markdown_text = self._normalize_text(f.read())
         except Exception as e:
             print(f"[MeTTaChunker] Error reading MD {file_path.name}: {e}")
             return []
@@ -207,7 +220,7 @@ class MeTTaOptimizedChunker:
     def _process_text(self, file_path: Path) -> List[Dict]:
         try:
             with open(file_path, "r", encoding="utf-8") as f:
-                text = f.read()
+                text = self._normalize_text(f.read())
         except Exception as e:
             print(f"[MeTTaChunker] Error reading TXT {file_path.name}: {e}")
             return []

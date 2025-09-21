@@ -5,1594 +5,1909 @@
       "original": "Disaster Management",
       "canonical": "Disaster Management",
       "symbol": "Disaster-Management",
-      "type": ""
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Geological Hazards",
-      "canonical": "Geological Hazards",
-      "symbol": "Geological-Hazards",
-      "type": "Hazard Type"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Hydrological and Meteorological Hazards",
-      "canonical": "Hydrological and Meteorological Hazards",
-      "symbol": "Hydrological-and-Meteorological-Hazards",
-      "type": "Hazard Type"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Technological Hazards",
-      "canonical": "Technological Hazards",
-      "symbol": "Technological-Hazards",
-      "type": "Hazard Type"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Detection and Prevention Technologies (Cybersecurity)",
-      "canonical": "Detection and Prevention Technologies",
-      "symbol": "Detection-and-Prevention-Technologies",
       "type": "Framework"
     },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Incident Response Plan",
-      "canonical": "Incident Response Plan",
-      "symbol": "Incident-Response-Plan",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Individual Recovery from Cyberattack or Identity Theft",
-      "canonical": "Individual Recovery From Cyberattack or Identity Theft",
-      "symbol": "Individual-Recovery-From-Cyberattack-or-Identity-Theft",
-      "type": "Procedure"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Societal Hazards",
-      "canonical": "Societal Hazards",
-      "symbol": "Societal-Hazards",
-      "type": "Definition"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Individual and Community Preparedness for Civil Unrest",
-      "canonical": "Individual and Community Preparedness for Civil Unrest",
-      "symbol": "Individual-and-Community-Preparedness-for-Civil-Unrest",
-      "type": "Strategy"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Safety Measures During Unrest",
-      "canonical": "Safety Measures During Unrest",
-      "symbol": "Safety-Measures-During-Unrest",
-      "type": "Procedure"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "De-escalation Techniques",
-      "canonical": "De Escalation Techniques",
-      "symbol": "De-Escalation-Techniques",
-      "type": "Strategy"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Role of Law Enforcement during Civil Unrest",
-      "canonical": "Role of law Enforcement During Civil Unrest",
-      "symbol": "Role-of-law-Enforcement-During-Civil-Unrest",
-      "type": "Role"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Recovery and Reconciliation after Civil Unrest",
-      "canonical": "Recovery and Reconciliation After Civil Unrest",
-      "symbol": "Recovery-and-Reconciliation-After-Civil-Unrest",
-      "type": "Process"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Post-Conflict Reconstruction",
-      "canonical": "Post Conflict Reconstruction",
-      "symbol": "Post-Conflict-Reconstruction",
-      "type": "Process"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Community-Led Peacebuilding",
-      "canonical": "Community led Peacebuilding",
-      "symbol": "Community-led-Peacebuilding",
-      "type": "Approach"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Reconciliation Process",
-      "canonical": "Reconciliation Process",
-      "symbol": "Reconciliation-Process",
-      "type": "Process"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Civil Unrest in India",
-      "canonical": "Civil Unrest in India",
-      "symbol": "Civil-Unrest-in-India",
-      "type": "Case Study"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Preparedness (General Disaster Management)",
-      "canonical": "Preparedness",
-      "symbol": "Preparedness",
-      "type": "Principle"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Disaster Management (Global Perspective)",
-      "canonical": "Disaster Management",
-      "symbol": "Disaster-Management",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Student Engagement Detection",
-      "canonical": "Student Engagement Detection",
-      "symbol": "Student-Engagement-Detection",
-      "type": "Research Problem"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Student Engagement",
-      "canonical": "Student Engagement",
-      "symbol": "Student-Engagement",
-      "type": "Concept"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Action Unit",
-      "canonical": "Facial Action Unit",
-      "symbol": "Facial-Action-Unit",
-      "type": "Feature"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "WACV Dataset",
-      "canonical": "Wacv Dataset",
-      "symbol": "Wacv-Dataset",
-      "type": "Dataset"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "DAiSEE Dataset",
-      "canonical": "Daisee Dataset",
-      "symbol": "Daisee-Dataset",
-      "type": "Dataset"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "OpenFace",
-      "canonical": "Openface",
-      "symbol": "Openface",
-      "type": "Tool"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "MediaPipe",
-      "canonical": "Mediapipe",
-      "symbol": "Mediapipe",
-      "type": "Tool"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Engagement Labels",
-      "canonical": "Engagement Labels",
-      "symbol": "Engagement-Labels",
-      "type": "Definition"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Expression",
-      "canonical": "Facial Expression",
-      "symbol": "Facial-Expression",
-      "type": "Concept"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Affective Computing",
-      "canonical": "Affective Computing",
-      "symbol": "Affective-Computing",
-      "type": "Field"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Computer Vision",
-      "canonical": "Computer Vision",
-      "symbol": "Computer-Vision",
-      "type": "Field"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Machine Learning",
-      "canonical": "Machine Learning",
-      "symbol": "Machine-Learning",
-      "type": "Field"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Deep Learning",
-      "canonical": "Deep Learning",
-      "symbol": "Deep-Learning",
-      "type": "Field"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Engagement Classification",
-      "canonical": "Engagement Classification",
-      "symbol": "Engagement-Classification",
-      "type": "Task"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Feature Extraction",
-      "canonical": "Facial Feature Extraction",
-      "symbol": "Facial-Feature-Extraction",
-      "type": "Process"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Landmarks",
-      "canonical": "Facial Landmarks",
-      "symbol": "Facial-Landmarks",
-      "type": "Feature"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Eye Gaze",
-      "canonical": "Eye Gaze",
-      "symbol": "Eye-Gaze",
-      "type": "Feature"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Head Pose Estimation",
-      "canonical": "Head Pose Estimation",
-      "symbol": "Head-Pose-Estimation",
-      "type": "Feature"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Action Coding System",
-      "canonical": "Facial Action Coding System",
-      "symbol": "Facial-Action-Coding-System",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Statistical Analysis for AU Engagement Mapping",
-      "canonical": "Statistical Analysis for au Engagement Mapping",
-      "symbol": "Statistical-Analysis-for-au-Engagement-Mapping",
-      "type": "Method"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Conditional Activation Probability",
-      "canonical": "Conditional Activation Probability",
-      "symbol": "Conditional-Activation-Probability",
-      "type": "Metric"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Relative Activation Ratio",
-      "canonical": "Relative Activation Ratio",
-      "symbol": "Relative-Activation-Ratio",
-      "type": "Metric"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Log-ratio Statistical Discriminative Coefficient",
-      "canonical": "Log Ratio Statistical Discriminative Coefficient",
-      "symbol": "Log-Ratio-Statistical-Discriminative-Coefficient",
-      "type": "Metric"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Class Imbalance",
-      "canonical": "Class Imbalance",
-      "symbol": "Class-Imbalance",
-      "type": "Issue"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Weighted Cross-Entropy Loss",
-      "canonical": "Weighted Cross Entropy Loss",
-      "symbol": "Weighted-Cross-Entropy-Loss",
-      "type": "Method"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "WeightedRandomSampler",
-      "canonical": "Weightedrandomsampler",
-      "symbol": "Weightedrandomsampler",
-      "type": "Method"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Input Concatenation",
-      "canonical": "Input Concatenation",
-      "symbol": "Input-Concatenation",
-      "type": "Deep Learning Strategy"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Dual-Path Feature Approach",
-      "canonical": "Dual Path Feature Approach",
-      "symbol": "Dual-Path-Feature-Approach",
-      "type": "Deep Learning Strategy"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Hyperparameter Optimization",
-      "canonical": "Hyperparameter Optimization",
-      "symbol": "Hyperparameter-Optimization",
-      "type": "Process"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Optuna",
-      "canonical": "Optuna",
-      "symbol": "Optuna",
-      "type": "Tool"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Grad-CAM",
-      "canonical": "Grad cam",
-      "symbol": "Grad-cam",
-      "type": "Visualization Technique"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "XGBoost",
-      "canonical": "Xgboost",
-      "symbol": "Xgboost",
-      "type": "Machine Learning Algorithm"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "EfficientNet",
-      "canonical": "Efficientnet",
-      "symbol": "Efficientnet",
-      "type": "Deep Learning Model Architecture"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "ResNet",
-      "canonical": "Resnet",
-      "symbol": "Resnet",
-      "type": "Deep Learning Model Architecture"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Support Vector Machine",
-      "canonical": "Support Vector Machine",
-      "symbol": "Support-Vector-Machine",
-      "type": "Machine Learning Algorithm"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Random Forest",
-      "canonical": "Random Forest",
-      "symbol": "Random-Forest",
-      "type": "Machine Learning Algorithm"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Decision Tree",
-      "canonical": "Decision Tree",
-      "symbol": "Decision-Tree",
-      "type": "Machine Learning Algorithm"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Gradient Boosting",
-      "canonical": "Gradient Boosting",
-      "symbol": "Gradient-Boosting",
-      "type": "Machine Learning Algorithm"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "CLNF",
-      "canonical": "Clnf",
-      "symbol": "Clnf",
-      "type": "Algorithm"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Student Participation",
-      "canonical": "Student Participation",
-      "symbol": "Student-Participation",
-      "type": "Concept"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Learning Outcomes",
-      "canonical": "Learning Outcomes",
-      "symbol": "Learning-Outcomes",
-      "type": "Concept"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Classroom Dynamics",
-      "canonical": "Classroom Dynamics",
-      "symbol": "Classroom-Dynamics",
-      "type": "Concept"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Online Learning Environments",
-      "canonical": "Online Learning Environments",
-      "symbol": "Online-Learning-Environments",
-      "type": "Context"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Hybrid Teaching Modes",
-      "canonical": "Hybrid Teaching Modes",
-      "symbol": "Hybrid-Teaching-Modes",
-      "type": "Context"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Improved Learning Outcomes",
-      "canonical": "Improved Learning Outcomes",
-      "symbol": "Improved-Learning-Outcomes",
-      "type": "Benefit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Enhanced Instructional Quality",
-      "canonical": "Enhanced Instructional Quality",
-      "symbol": "Enhanced-Instructional-Quality",
-      "type": "Benefit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Educational Stakeholders",
-      "canonical": "Educational Stakeholders",
-      "symbol": "Educational-Stakeholders",
-      "type": "Group"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Reproducible Code Repository",
-      "canonical": "Reproducible Code Repository",
-      "symbol": "Reproducible-Code-Repository",
-      "type": "Resource"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "COVID-19 Pandemic",
-      "canonical": "Covid 19 Pandemic",
-      "symbol": "Covid-19-Pandemic",
-      "type": "Event"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Challenges in Assessing Individual Student Engagement",
-      "canonical": "Challenges in Assessing Individual Student Engagement",
-      "symbol": "Challenges-in-Assessing-Individual-Student-Engagement",
-      "type": "Issue"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Engagement Analysis",
-      "canonical": "Facial Engagement Analysis",
-      "symbol": "Facial-Engagement-Analysis",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Facial Features",
-      "canonical": "Facial Features",
-      "symbol": "Facial-Features",
-      "type": "Data Type"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Tools for Facial Feature Extraction",
-      "canonical": "Tools for Facial Feature Extraction",
-      "symbol": "Tools-for-Facial-Feature-Extraction",
-      "type": "Software"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Datasets for Engagement Analysis",
-      "canonical": "Datasets for Engagement Analysis",
-      "symbol": "Datasets-for-Engagement-Analysis",
-      "type": "Dataset"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Machine Learning Models",
-      "canonical": "Machine Learning Models",
-      "symbol": "Machine-Learning-Models",
-      "type": "Model"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Deep Learning Models",
-      "canonical": "Deep Learning Models",
-      "symbol": "Deep-Learning-Models",
-      "type": "Model"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Temporal Deep Learning Techniques",
-      "canonical": "Temporal Deep Learning Techniques",
-      "symbol": "Temporal-Deep-Learning-Techniques",
-      "type": "Methodology"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Valence-Arousal Modeling",
-      "canonical": "Valence Arousal Modeling",
-      "symbol": "Valence-Arousal-Modeling",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Real-time Engagement Recognition Systems",
-      "canonical": "Real Time Engagement Recognition Systems",
-      "symbol": "Real-Time-Engagement-Recognition-Systems",
-      "type": "Application"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Online Education",
-      "canonical": "Online Education",
-      "symbol": "Online-Education",
-      "type": "Application Area"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Remote Work",
-      "canonical": "Remote Work",
-      "symbol": "Remote-Work",
-      "type": "Application Area"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Human-Computer Interaction",
-      "canonical": "Human Computer Interaction",
-      "symbol": "Human-Computer-Interaction",
-      "type": "Application Area"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Emotion Recognition for Enhanced Learning",
-      "canonical": "Emotion Recognition for Enhanced Learning",
-      "symbol": "Emotion-Recognition-for-Enhanced-Learning",
-      "type": "Overarching Theme"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Artificial Intelligence (AI)",
-      "canonical": "Artificial Intelligence",
-      "symbol": "Artificial-Intelligence",
-      "type": "Technology"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Convolutional Neural Networks (CNNs)",
-      "canonical": "Convolutional Neural Networks",
-      "symbol": "Convolutional-Neural-Networks",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "FER2013 Dataset",
-      "canonical": "Fer2013 Dataset",
-      "symbol": "Fer2013-Dataset",
-      "type": "Dataset"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Emotions",
-      "canonical": "Emotions",
-      "symbol": "Emotions",
-      "type": "Abstract Concept"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Challenges in Emotion Recognition in Education",
-      "canonical": "Challenges in Emotion Recognition in Education",
-      "symbol": "Challenges-in-Emotion-Recognition-in-Education",
-      "type": "Challenge"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Methodology (Study)",
-      "canonical": "Methodology",
-      "symbol": "Methodology",
-      "type": "Methodology"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Results (Study)",
-      "canonical": "Results",
-      "symbol": "Results",
-      "type": "Outcome"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Personalized Learning",
-      "canonical": "Personalized Learning",
-      "symbol": "Personalized-Learning",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Adaptive Teaching Strategies",
-      "canonical": "Adaptive Teaching Strategies",
-      "symbol": "Adaptive-Teaching-Strategies",
-      "type": "Strategy"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Facial Action Coding System (FACS)",
-      "canonical": "Facial Action Coding System",
-      "symbol": "Facial-Action-Coding-System",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Deep Learning",
-      "canonical": "Deep Learning",
-      "symbol": "Deep-Learning",
-      "type": "Technology"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Recurrent Neural Networks (RNNs)",
-      "canonical": "Recurrent Neural Networks",
-      "symbol": "Recurrent-Neural-Networks",
-      "type": "Framework"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Transfer Learning",
-      "canonical": "Transfer Learning",
-      "symbol": "Transfer-Learning",
-      "type": "Methodology"
-    },
-    {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Future Directions (Research)",
-      "canonical": "Future Directions",
-      "symbol": "Future-Directions",
-      "type": "Research Area"
-    }
-  ],
-  "sub_concepts": [
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Disaster",
       "canonical": "Disaster",
       "symbol": "Disaster",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Definition"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Disaster Management Cycle",
       "canonical": "Disaster Management Cycle",
       "symbol": "Disaster-Management-Cycle",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Model"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Sendai Framework for Disaster Risk Reduction 2015–2030",
       "canonical": "Sendai Framework for Disaster Risk Reduction 20152030",
       "symbol": "Sendai-Framework-for-Disaster-Risk-Reduction-20152030",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Framework"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "All-Hazards Approach",
       "canonical": "All Hazards Approach",
       "symbol": "All-Hazards-Approach",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Strategy"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Disaster Risk Reduction (DRR) Strategies",
-      "canonical": "Disaster Risk Reduction Strategies",
-      "symbol": "Disaster-Risk-Reduction-Strategies",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "original": "Understanding Disaster Risk",
+      "canonical": "Understanding Disaster Risk",
+      "symbol": "Understanding-Disaster-Risk",
+      "type": "Priority"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Risk Reduction",
+      "canonical": "Disaster Risk Reduction",
+      "symbol": "Disaster-Risk-Reduction",
+      "type": "Strategy"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Hazard",
       "canonical": "Hazard",
       "symbol": "Hazard",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Definition"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Exposure",
       "canonical": "Exposure",
       "symbol": "Exposure",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Definition"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Vulnerability",
       "canonical": "Vulnerability",
       "symbol": "Vulnerability",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Definition"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Capacity",
       "canonical": "Capacity",
       "symbol": "Capacity",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Definition"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Disaster Classification by Characteristics",
-      "canonical": "Disaster Classification by Characteristics",
-      "symbol": "Disaster-Classification-by-Characteristics",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "original": "Disaster Categorization",
+      "canonical": "Disaster Categorization",
+      "symbol": "Disaster-Categorization",
+      "type": "Methodology"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "UNDRR-ISC Hazard Classification Framework",
       "canonical": "Undrr isc Hazard Classification Framework",
       "symbol": "Undrr-isc-Hazard-Classification-Framework",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Framework"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Hazard Information Profiles (HIPs)",
+      "canonical": "Hazard Information Profiles Hips",
+      "symbol": "Hazard-Information-Profiles-Hips",
+      "type": "Standard"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Eight Primary Hazard Types",
+      "canonical": "Eight Primary Hazard Types",
+      "symbol": "Eight-Primary-Hazard-Types",
+      "type": "Classification"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Interconnectedness of Hazards",
       "canonical": "Interconnectedness of Hazards",
       "symbol": "Interconnectedness-of-Hazards",
-      "type": "",
-      "parent_concept": "Disaster Management"
+      "type": "Concept"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Earthquake",
-      "canonical": "Earthquake",
-      "symbol": "Earthquake",
-      "type": "",
-      "parent_concept": "Geological Hazards"
+      "original": "Systemic Risk",
+      "canonical": "Systemic Risk",
+      "symbol": "Systemic-Risk",
+      "type": "Concept"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Complex Humanitarian Emergency",
+      "canonical": "Complex Humanitarian Emergency",
+      "symbol": "Complex-Humanitarian-Emergency",
+      "type": "Event"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Earthquakes",
+      "canonical": "Earthquakes",
+      "symbol": "Earthquakes",
+      "type": "Hazard Type"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Floods",
       "canonical": "Floods",
       "symbol": "Floods",
-      "type": "",
-      "parent_concept": "Hydrological and Meteorological Hazards"
+      "type": "Hazard Type"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Cyberattacks",
       "canonical": "Cyberattacks",
       "symbol": "Cyberattacks",
-      "type": "",
-      "parent_concept": "Technological Hazards"
+      "type": "Hazard Type"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Intrusion Detection Systems",
-      "canonical": "Intrusion Detection Systems",
-      "symbol": "Intrusion-Detection-Systems",
-      "type": "Technology",
-      "parent_concept": "Detection and Prevention Technologies"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Intrusion Prevention Systems",
-      "canonical": "Intrusion Prevention Systems",
-      "symbol": "Intrusion-Prevention-Systems",
-      "type": "Technology",
-      "parent_concept": "Detection and Prevention Technologies"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Security Information and Event Management systems",
-      "canonical": "Security Information and Event Management Systems",
-      "symbol": "Security-Information-and-Event-Management-Systems",
-      "type": "Technology",
-      "parent_concept": "Detection and Prevention Technologies"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Endpoint Detection and Response solutions",
-      "canonical": "Endpoint Detection and Response Solutions",
-      "symbol": "Endpoint-Detection-and-Response-Solutions",
-      "type": "Technology",
-      "parent_concept": "Detection and Prevention Technologies"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Preparation (IRP Phase)",
-      "canonical": "Preparation",
-      "symbol": "Preparation",
-      "type": "Phase",
-      "parent_concept": "Incident Response Plan"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Identification (IRP Phase)",
-      "canonical": "Identification",
-      "symbol": "Identification",
-      "type": "Phase",
-      "parent_concept": "Incident Response Plan"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Containment (IRP Phase)",
-      "canonical": "Containment",
-      "symbol": "Containment",
-      "type": "Phase",
-      "parent_concept": "Incident Response Plan"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Eradication (IRP Phase)",
-      "canonical": "Eradication",
-      "symbol": "Eradication",
-      "type": "Phase",
-      "parent_concept": "Incident Response Plan"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Recovery (IRP Phase)",
-      "canonical": "Recovery",
-      "symbol": "Recovery",
-      "type": "Phase",
-      "parent_concept": "Incident Response Plan"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Lessons Learned (IRP Phase)",
-      "canonical": "Lessons Learned",
-      "symbol": "Lessons-Learned",
-      "type": "Phase",
-      "parent_concept": "Incident Response Plan"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Change Passwords (Individual Recovery)",
-      "canonical": "Change Passwords",
-      "symbol": "Change-Passwords",
-      "type": "Step",
-      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Contact Financial Institutions (Individual Recovery)",
-      "canonical": "Contact Financial Institutions",
-      "symbol": "Contact-Financial-Institutions",
-      "type": "Step",
-      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Report the Incident (Individual Recovery)",
-      "canonical": "Report the Incident",
-      "symbol": "Report-the-Incident",
-      "type": "Step",
-      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
-    },
-    {
-      "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Place Fraud Alerts (Individual Recovery)",
-      "canonical": "Place Fraud Alerts",
-      "symbol": "Place-Fraud-Alerts",
-      "type": "Step",
-      "parent_concept": "Individual Recovery From Cyberattack or Identity Theft"
+      "original": "Civil Unrest (Protests, Riots, Civil Disorder)",
+      "canonical": "Civil Unrest Protests Riots Civil Disorder",
+      "symbol": "Civil-Unrest-Protests-Riots-Civil-Disorder",
+      "type": "Hazard Type"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
       "original": "Civil Unrest",
       "canonical": "Civil Unrest",
       "symbol": "Civil-Unrest",
-      "type": "Type of Hazard",
-      "parent_concept": "Societal Hazards"
+      "type": "Hazard Type"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Situational Awareness (Civil Unrest)",
-      "canonical": "Situational Awareness",
-      "symbol": "Situational-Awareness",
-      "type": "Strategy",
-      "parent_concept": "Individual and Community Preparedness for Civil Unrest"
+      "original": "Causes of Civil Unrest",
+      "canonical": "Causes of Civil Unrest",
+      "symbol": "Causes-of-Civil-Unrest",
+      "type": "Hazard Type"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Contingency Planning (Civil Unrest)",
-      "canonical": "Contingency Planning",
-      "symbol": "Contingency-Planning",
-      "type": "Strategy",
-      "parent_concept": "Individual and Community Preparedness for Civil Unrest"
+      "original": "Impacts of Civil Unrest",
+      "canonical": "Impacts of Civil Unrest",
+      "symbol": "Impacts-of-Civil-Unrest",
+      "type": "Outcome"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Avoid and Evacuate (Unrest Safety)",
-      "canonical": "Avoid and Evacuate",
-      "symbol": "Avoid-and-Evacuate",
-      "type": "Step",
-      "parent_concept": "Safety Measures During Unrest"
+      "original": "Social Media Role in Civil Unrest",
+      "canonical": "Social Media Role in Civil Unrest",
+      "symbol": "Social-Media-Role-in-Civil-Unrest",
+      "type": "Tool"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Maintain a Low Profile (Unrest Safety)",
-      "canonical": "Maintain a low Profile",
-      "symbol": "Maintain-a-low-Profile",
-      "type": "Step",
-      "parent_concept": "Safety Measures During Unrest"
+      "original": "User Preparedness and Response for Civil Unrest",
+      "canonical": "User Preparedness and Response for Civil Unrest",
+      "symbol": "User-Preparedness-and-Response-for-Civil-Unrest",
+      "type": "Strategy"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Vehicle Safety (Unrest Safety)",
-      "canonical": "Vehicle Safety",
-      "symbol": "Vehicle-Safety",
-      "type": "Step",
-      "parent_concept": "Safety Measures During Unrest"
+      "original": "Recovery and Reconciliation",
+      "canonical": "Recovery and Reconciliation",
+      "symbol": "Recovery-and-Reconciliation",
+      "type": "Process"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Prepare for Crowd Control Agents (Unrest Safety)",
-      "canonical": "Prepare for Crowd Control Agents",
-      "symbol": "Prepare-for-Crowd-Control-Agents",
-      "type": "Step",
-      "parent_concept": "Safety Measures During Unrest"
+      "original": "Disaster Management",
+      "canonical": "Disaster Management",
+      "symbol": "Disaster-Management",
+      "type": "Framework"
+    }
+  ],
+  "sub_concepts": [
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "UNDRR Definition of Disaster",
+      "canonical": "Undrr Definition of Disaster",
+      "symbol": "Undrr-Definition-of-Disaster",
+      "type": "Definition",
+      "parent_concept": "Disaster"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Control Your Own Response (De-escalation)",
-      "canonical": "Control Your own Response",
-      "symbol": "Control-Your-own-Response",
-      "type": "Technique",
-      "parent_concept": "De Escalation Techniques"
+      "original": "Losses and Impacts",
+      "canonical": "Losses and Impacts",
+      "symbol": "Losses-and-Impacts",
+      "type": "Outcome",
+      "parent_concept": "Disaster"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Effective Communication (De-escalation)",
-      "canonical": "Effective Communication",
-      "symbol": "Effective-Communication",
-      "type": "Technique",
-      "parent_concept": "De Escalation Techniques"
+      "original": "Preparedness",
+      "canonical": "Preparedness",
+      "symbol": "Preparedness",
+      "type": "Phase",
+      "parent_concept": "Disaster Management Cycle"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Active Listening and Empathy (De-escalation)",
-      "canonical": "Active Listening and Empathy",
-      "symbol": "Active-Listening-and-Empathy",
-      "type": "Technique",
-      "parent_concept": "De Escalation Techniques"
+      "original": "Response",
+      "canonical": "Response",
+      "symbol": "Response",
+      "type": "Phase",
+      "parent_concept": "Disaster Management Cycle"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Effective Management Strategies (Law Enforcement)",
-      "canonical": "Effective Management Strategies",
-      "symbol": "Effective-Management-Strategies",
-      "type": "Strategy",
-      "parent_concept": "Role of law Enforcement During Civil Unrest"
+      "original": "Recovery",
+      "canonical": "Recovery",
+      "symbol": "Recovery",
+      "type": "Phase",
+      "parent_concept": "Disaster Management Cycle"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "2020 Delhi Riots",
-      "canonical": "2020 Delhi Riots",
-      "symbol": "2020-Delhi-Riots",
-      "type": "Event",
-      "parent_concept": "Civil Unrest in India"
+      "original": "Scale (Disaster)",
+      "canonical": "Scale Disaster",
+      "symbol": "Scale-Disaster",
+      "type": "Parameter",
+      "parent_concept": "Disaster Categorization"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "1983 Nellie Massacre",
-      "canonical": "1983 Nellie Massacre",
-      "symbol": "1983-Nellie-Massacre",
-      "type": "Event",
-      "parent_concept": "Civil Unrest in India"
+      "original": "Small-scale disaster",
+      "canonical": "Small Scale Disaster",
+      "symbol": "Small-Scale-Disaster",
+      "type": "Type",
+      "parent_concept": "Disaster Categorization"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "2023 Manipur Ethnic Conflict",
-      "canonical": "2023 Manipur Ethnic Conflict",
-      "symbol": "2023-Manipur-Ethnic-Conflict",
-      "type": "Event",
-      "parent_concept": "Civil Unrest in India"
+      "original": "Large-scale disaster",
+      "canonical": "Large Scale Disaster",
+      "symbol": "Large-Scale-Disaster",
+      "type": "Type",
+      "parent_concept": "Disaster Categorization"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Targeting of Religious Sites (Civil Unrest Trigger)",
-      "canonical": "Targeting of Religious Sites",
-      "symbol": "Targeting-of-Religious-Sites",
-      "type": "Trigger",
-      "parent_concept": "Civil Unrest in India"
+      "original": "Onset (Disaster)",
+      "canonical": "Onset Disaster",
+      "symbol": "Onset-Disaster",
+      "type": "Parameter",
+      "parent_concept": "Disaster Categorization"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Preparedness for Individuals and Families",
-      "canonical": "Preparedness for Individuals and Families",
-      "symbol": "Preparedness-for-Individuals-and-Families",
-      "type": "Level of Preparedness",
-      "parent_concept": "Preparedness"
+      "original": "Sudden-onset disaster",
+      "canonical": "Sudden Onset Disaster",
+      "symbol": "Sudden-Onset-Disaster",
+      "type": "Type",
+      "parent_concept": "Disaster Categorization"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Preparedness for Communities",
-      "canonical": "Preparedness for Communities",
-      "symbol": "Preparedness-for-Communities",
-      "type": "Level of Preparedness",
-      "parent_concept": "Preparedness"
+      "original": "Slow-onset disaster",
+      "canonical": "Slow Onset Disaster",
+      "symbol": "Slow-Onset-Disaster",
+      "type": "Type",
+      "parent_concept": "Disaster Categorization"
     },
     {
       "doc_id": "Disaster Preparedness, Response, and Recovery",
-      "original": "Preparedness for Institutions",
-      "canonical": "Preparedness for Institutions",
-      "symbol": "Preparedness-for-Institutions",
-      "type": "Level of Preparedness",
-      "parent_concept": "Preparedness"
+      "original": "Frequency (Disaster)",
+      "canonical": "Frequency Disaster",
+      "symbol": "Frequency-Disaster",
+      "type": "Parameter",
+      "parent_concept": "Disaster Categorization"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Automatic Engagement Detection",
-      "canonical": "Automatic Engagement Detection",
-      "symbol": "Automatic-Engagement-Detection",
-      "type": "",
-      "parent_concept": "Student Engagement Detection"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Geological Hazards",
+      "canonical": "Geological Hazards",
+      "symbol": "Geological-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Semiautomatic Engagement Detection",
-      "canonical": "Semiautomatic Engagement Detection",
-      "symbol": "Semiautomatic-Engagement-Detection",
-      "type": "",
-      "parent_concept": "Student Engagement Detection"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Hydrological & Meteorological Hazards",
+      "canonical": "Hydrological Meteorological Hazards",
+      "symbol": "Hydrological-Meteorological-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Manual Engagement Detection",
-      "canonical": "Manual Engagement Detection",
-      "symbol": "Manual-Engagement-Detection",
-      "type": "",
-      "parent_concept": "Student Engagement Detection"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Environmental Hazards",
+      "canonical": "Environmental Hazards",
+      "symbol": "Environmental-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Behavioral Engagement",
-      "canonical": "Behavioral Engagement",
-      "symbol": "Behavioral-Engagement",
-      "type": "Type of Engagement",
-      "parent_concept": "Student Engagement"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Biological Hazards",
+      "canonical": "Biological Hazards",
+      "symbol": "Biological-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Emotional Engagement",
-      "canonical": "Emotional Engagement",
-      "symbol": "Emotional-Engagement",
-      "type": "Type of Engagement",
-      "parent_concept": "Student Engagement"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Chemical Hazards",
+      "canonical": "Chemical Hazards",
+      "symbol": "Chemical-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Cognitive Engagement",
-      "canonical": "Cognitive Engagement",
-      "symbol": "Cognitive-Engagement",
-      "type": "Type of Engagement",
-      "parent_concept": "Student Engagement"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Technological Hazards",
+      "canonical": "Technological Hazards",
+      "symbol": "Technological-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU Presence",
-      "canonical": "Au Presence",
-      "symbol": "Au-Presence",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Societal Hazards",
+      "canonical": "Societal Hazards",
+      "symbol": "Societal-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU Intensity",
-      "canonical": "Au Intensity",
-      "symbol": "Au-Intensity",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Extraterrestrial Hazards",
+      "canonical": "Extraterrestrial Hazards",
+      "symbol": "Extraterrestrial-Hazards",
+      "type": "Hazard Type",
+      "parent_concept": "Eight Primary Hazard Types"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU45-blink",
-      "canonical": "Au45 Blink",
-      "symbol": "Au45-Blink",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Definition and Causes (Earthquake)",
+      "canonical": "Definition and Causes Earthquake",
+      "symbol": "Definition-and-Causes-Earthquake",
+      "type": "Definition",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU25-lip part",
-      "canonical": "Au25 lip Part",
-      "symbol": "Au25-lip-Part",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Fault",
+      "canonical": "Fault",
+      "symbol": "Fault",
+      "type": "Concept",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU20-lip stretcher",
-      "canonical": "Au20 lip Stretcher",
-      "symbol": "Au20-lip-Stretcher",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Tectonic Plates",
+      "canonical": "Tectonic Plates",
+      "symbol": "Tectonic-Plates",
+      "type": "Concept",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU02-outer brow raiser",
-      "canonical": "Au02 Outer Brow Raiser",
-      "symbol": "Au02-Outer-Brow-Raiser",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Seismic Waves",
+      "canonical": "Seismic Waves",
+      "symbol": "Seismic-Waves",
+      "type": "Phenomenon",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU15-lip corner depressor",
-      "canonical": "Au15 lip Corner Depressor",
-      "symbol": "Au15-lip-Corner-Depressor",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Hypocenter",
+      "canonical": "Hypocenter",
+      "symbol": "Hypocenter",
+      "type": "Location",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU14-dimpler",
-      "canonical": "Au14 Dimpler",
-      "symbol": "Au14-Dimpler",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Epicenter",
+      "canonical": "Epicenter",
+      "symbol": "Epicenter",
+      "type": "Location",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU23-lip tightener",
-      "canonical": "Au23 lip Tightener",
-      "symbol": "Au23-lip-Tightener",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Impacts and Effects (Earthquake)",
+      "canonical": "Impacts and Effects Earthquake",
+      "symbol": "Impacts-and-Effects-Earthquake",
+      "type": "Outcome",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU01-inner brow raiser",
-      "canonical": "Au01 Inner Brow Raiser",
-      "symbol": "Au01-Inner-Brow-Raiser",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Ground Shaking",
+      "canonical": "Ground Shaking",
+      "symbol": "Ground-Shaking",
+      "type": "Effect",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU04-brow lowerer",
-      "canonical": "Au04 Brow Lowerer",
-      "symbol": "Au04-Brow-Lowerer",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Surface Faulting",
+      "canonical": "Surface Faulting",
+      "symbol": "Surface-Faulting",
+      "type": "Effect",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU05-upper lid raiser",
-      "canonical": "Au05 Upper lid Raiser",
-      "symbol": "Au05-Upper-lid-Raiser",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Liquefaction",
+      "canonical": "Liquefaction",
+      "symbol": "Liquefaction",
+      "type": "Effect",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU06-cheek raiser",
-      "canonical": "Au06 Cheek Raiser",
-      "symbol": "Au06-Cheek-Raiser",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Health Consequences (Earthquake)",
+      "canonical": "Health Consequences Earthquake",
+      "symbol": "Health-Consequences-Earthquake",
+      "type": "Outcome",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU07-lid tightener",
-      "canonical": "Au07 lid Tightener",
-      "symbol": "Au07-lid-Tightener",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU09-nose wrinkler",
-      "canonical": "Au09 Nose Wrinkler",
-      "symbol": "Au09-Nose-Wrinkler",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU10-upper lip raiser",
-      "canonical": "Au10 Upper lip Raiser",
-      "symbol": "Au10-Upper-lip-Raiser",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU12-lip corner puller",
-      "canonical": "Au12 lip Corner Puller",
-      "symbol": "Au12-lip-Corner-Puller",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU17-chin raiser",
-      "canonical": "Au17 Chin Raiser",
-      "symbol": "Au17-Chin-Raiser",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "AU26-jaw drop",
-      "canonical": "Au26 jaw Drop",
-      "symbol": "Au26-jaw-Drop",
-      "type": "",
-      "parent_concept": "Facial Action Unit"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Machine Learning Approach (Engagement Classification)",
-      "canonical": "Machine Learning Approach",
-      "symbol": "Machine-Learning-Approach",
-      "type": "",
-      "parent_concept": "Engagement Classification"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Deep Learning Approach (Engagement Classification)",
-      "canonical": "Deep Learning Approach",
-      "symbol": "Deep-Learning-Approach",
-      "type": "",
-      "parent_concept": "Engagement Classification"
-    },
-    {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Classical Machine Learning Models for Engagement Analysis",
-      "canonical": "Classical Machine Learning Models for Engagement Analysis",
-      "symbol": "Classical-Machine-Learning-Models-for-Engagement-Analysis",
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Monitoring and Detection (Earthquake)",
+      "canonical": "Monitoring and Detection Earthquake",
+      "symbol": "Monitoring-and-Detection-Earthquake",
       "type": "Methodology",
-      "parent_concept": "Facial Engagement Analysis"
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Deep Learning Models for Engagement Analysis",
-      "canonical": "Deep Learning Models for Engagement Analysis",
-      "symbol": "Deep-Learning-Models-for-Engagement-Analysis",
-      "type": "Methodology",
-      "parent_concept": "Facial Engagement Analysis"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Seismometers",
+      "canonical": "Seismometers",
+      "symbol": "Seismometers",
+      "type": "Tool",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Future Work in Engagement Recognition",
-      "canonical": "Future Work in Engagement Recognition",
-      "symbol": "Future-Work-in-Engagement-Recognition",
-      "type": "Research Direction",
-      "parent_concept": "Facial Engagement Analysis"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "P-waves",
+      "canonical": "P Waves",
+      "symbol": "P-Waves",
+      "type": "Phenomenon",
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Action Units",
-      "canonical": "Action Units",
-      "symbol": "Action-Units",
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "S-waves",
+      "canonical": "S Waves",
+      "symbol": "S-Waves",
+      "type": "Phenomenon",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Richter Scale",
+      "canonical": "Richter Scale",
+      "symbol": "Richter-Scale",
+      "type": "Metric",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Moment Magnitude Scale",
+      "canonical": "Moment Magnitude Scale",
+      "symbol": "Moment-Magnitude-Scale",
+      "type": "Metric",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual and Family Preparedness (Earthquake)",
+      "canonical": "Individual and Family Preparedness Earthquake",
+      "symbol": "Individual-and-Family-Preparedness-Earthquake",
+      "type": "Process",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Secure Your Space",
+      "canonical": "Secure Your Space",
+      "symbol": "Secure-Your-Space",
+      "type": "Step",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Plan to Be Safe (Earthquake)",
+      "canonical": "Plan to be Safe Earthquake",
+      "symbol": "Plan-to-be-Safe-Earthquake",
+      "type": "Step",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Family Emergency Plan",
+      "canonical": "Family Emergency Plan",
+      "symbol": "Family-Emergency-Plan",
+      "type": "Plan",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Organize Disaster Supplies (Earthquake)",
+      "canonical": "Organize Disaster Supplies Earthquake",
+      "symbol": "Organize-Disaster-Supplies-Earthquake",
+      "type": "Step",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Emergency Kit",
+      "canonical": "Emergency kit",
+      "symbol": "Emergency-kit",
+      "type": "Resource",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Minimize Financial Hardship (Earthquake)",
+      "canonical": "Minimize Financial Hardship Earthquake",
+      "symbol": "Minimize-Financial-Hardship-Earthquake",
+      "type": "Step",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Earthquake Insurance",
+      "canonical": "Earthquake Insurance",
+      "symbol": "Earthquake-Insurance",
+      "type": "Policy",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Community and Structural Preparedness (Earthquake)",
+      "canonical": "Community and Structural Preparedness Earthquake",
+      "symbol": "Community-and-Structural-Preparedness-Earthquake",
+      "type": "Strategy",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Seismic Building Codes",
+      "canonical": "Seismic Building Codes",
+      "symbol": "Seismic-Building-Codes",
+      "type": "Standard",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Ductility",
+      "canonical": "Ductility",
+      "symbol": "Ductility",
       "type": "Feature",
-      "parent_concept": "Facial Features"
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "OpenFace",
-      "canonical": "Openface",
-      "symbol": "Openface",
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Public Education Campaigns",
+      "canonical": "Public Education Campaigns",
+      "symbol": "Public-Education-Campaigns",
+      "type": "Activity",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Great ShakeOut",
+      "canonical": "Great Shakeout",
+      "symbol": "Great-Shakeout",
+      "type": "Drill",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Drop, Cover, and Hold On",
+      "canonical": "Drop Cover and Hold on",
+      "symbol": "Drop-Cover-and-Hold-on",
+      "type": "Procedure",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Search and Rescue (SAR) Operations",
+      "canonical": "Search and Rescue sar Operations",
+      "symbol": "Search-and-Rescue-sar-Operations",
+      "type": "Activity",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Urban Search and Rescue (USAR) teams",
+      "canonical": "Urban Search and Rescue Usar Teams",
+      "symbol": "Urban-Search-and-Rescue-Usar-Teams",
+      "type": "Organization",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Canine Search Teams",
+      "canonical": "Canine Search Teams",
+      "symbol": "Canine-Search-Teams",
+      "type": "Resource",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Electronic Search Equipment",
+      "canonical": "Electronic Search Equipment",
+      "symbol": "Electronic-Search-Equipment",
       "type": "Tool",
-      "parent_concept": "Tools for Facial Feature Extraction"
+      "parent_concept": "Earthquakes"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "MediaPipe",
-      "canonical": "Mediapipe",
-      "symbol": "Mediapipe",
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Seismic/Acoustic Sensors",
+      "canonical": "Seismic Acoustic Sensors",
+      "symbol": "Seismic-Acoustic-Sensors",
+      "type": "Tool Component",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Search Cameras",
+      "canonical": "Search Cameras",
+      "symbol": "Search-Cameras",
+      "type": "Tool Component",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "UWB Rescue Radar",
+      "canonical": "Uwb Rescue Radar",
+      "symbol": "Uwb-Rescue-Radar",
+      "type": "Tool Component",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Thermal Imaging Cameras",
+      "canonical": "Thermal Imaging Cameras",
+      "symbol": "Thermal-Imaging-Cameras",
+      "type": "Tool Component",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Response (Earthquake)",
+      "canonical": "National Response Earthquake",
+      "symbol": "National-Response-Earthquake",
+      "type": "Mechanism",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Disaster Response Force (NDRF)",
+      "canonical": "National Disaster Response Force Ndrf",
+      "symbol": "National-Disaster-Response-Force-Ndrf",
+      "type": "Organization",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "International Response (Earthquake)",
+      "canonical": "International Response Earthquake",
+      "symbol": "International-Response-Earthquake",
+      "type": "Mechanism",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "United Nations Children's Fund (UNICEF)",
+      "canonical": "United Nations Childrens Fund Unicef",
+      "symbol": "United-Nations-Childrens-Fund-Unicef",
+      "type": "Organization",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "The International Red Cross and Red Crescent Movement",
+      "canonical": "The International red Cross and red Crescent Movement",
+      "symbol": "The-International-red-Cross-and-red-Crescent-Movement",
+      "type": "Organization",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Restoring Family Links program",
+      "canonical": "Restoring Family Links Program",
+      "symbol": "Restoring-Family-Links-Program",
+      "type": "Service",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Post-Quake Safety Assessment",
+      "canonical": "Post Quake Safety Assessment",
+      "symbol": "Post-Quake-Safety-Assessment",
+      "type": "Procedure",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Aftershocks",
+      "canonical": "Aftershocks",
+      "symbol": "Aftershocks",
+      "type": "Event",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Gas Leaks",
+      "canonical": "Gas Leaks",
+      "symbol": "Gas-Leaks",
+      "type": "Hazard Type",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Downed Power Lines",
+      "canonical": "Downed Power Lines",
+      "symbol": "Downed-Power-Lines",
+      "type": "Hazard Type",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Structural Damage",
+      "canonical": "Structural Damage",
+      "symbol": "Structural-Damage",
+      "type": "Hazard Type",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Health and Sanitation (Earthquake Recovery)",
+      "canonical": "Health and Sanitation Earthquake Recovery",
+      "symbol": "Health-and-Sanitation-Earthquake-Recovery",
+      "type": "Activity",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Long-term Recovery (Earthquake)",
+      "canonical": "Long Term Recovery Earthquake",
+      "symbol": "Long-Term-Recovery-Earthquake",
+      "type": "Process",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Disaster Recovery Framework (NDRF)",
+      "canonical": "National Disaster Recovery Framework Ndrf",
+      "symbol": "National-Disaster-Recovery-Framework-Ndrf",
+      "type": "Framework",
+      "parent_concept": "Earthquakes"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Definition and Types (Flood)",
+      "canonical": "Definition and Types Flood",
+      "symbol": "Definition-and-Types-Flood",
+      "type": "Definition",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Fluvial Floods",
+      "canonical": "Fluvial Floods",
+      "symbol": "Fluvial-Floods",
+      "type": "Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Pluvial Floods",
+      "canonical": "Pluvial Floods",
+      "symbol": "Pluvial-Floods",
+      "type": "Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Flash Floods",
+      "canonical": "Flash Floods",
+      "symbol": "Flash-Floods",
+      "type": "Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Coastal Floods",
+      "canonical": "Coastal Floods",
+      "symbol": "Coastal-Floods",
+      "type": "Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Storm Surge",
+      "canonical": "Storm Surge",
+      "symbol": "Storm-Surge",
+      "type": "Phenomenon",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Groundwater Floods",
+      "canonical": "Groundwater Floods",
+      "symbol": "Groundwater-Floods",
+      "type": "Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Impacts and Effects (Flood)",
+      "canonical": "Impacts and Effects Flood",
+      "symbol": "Impacts-and-Effects-Flood",
+      "type": "Outcome",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Loss of Human Life",
+      "canonical": "Loss of Human Life",
+      "symbol": "Loss-of-Human-Life",
+      "type": "Outcome",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Property Damage",
+      "canonical": "Property Damage",
+      "symbol": "Property-Damage",
+      "type": "Outcome",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Agricultural Loss",
+      "canonical": "Agricultural Loss",
+      "symbol": "Agricultural-Loss",
+      "type": "Outcome",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disruption to Networks",
+      "canonical": "Disruption to Networks",
+      "symbol": "Disruption-to-Networks",
+      "type": "Outcome",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Health Consequences (Flood)",
+      "canonical": "Health Consequences Flood",
+      "symbol": "Health-Consequences-Flood",
+      "type": "Outcome",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Toxic Floodwater",
+      "canonical": "Toxic Floodwater",
+      "symbol": "Toxic-Floodwater",
+      "type": "Hazard Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Contaminated Drinking Water",
+      "canonical": "Contaminated Drinking Water",
+      "symbol": "Contaminated-Drinking-Water",
+      "type": "Hazard Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Vector-borne Diseases",
+      "canonical": "Vector Borne Diseases",
+      "symbol": "Vector-Borne-Diseases",
+      "type": "Disease",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Mold",
+      "canonical": "Mold",
+      "symbol": "Mold",
+      "type": "Hazard Type",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Mental Health Issues",
+      "canonical": "Mental Health Issues",
+      "symbol": "Mental-Health-Issues",
+      "type": "Symptom",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Monitoring and Forecasting (Flood)",
+      "canonical": "Monitoring and Forecasting Flood",
+      "symbol": "Monitoring-and-Forecasting-Flood",
+      "type": "Methodology",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Hydrological Models",
+      "canonical": "Hydrological Models",
+      "symbol": "Hydrological-Models",
+      "type": "Model",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Inundation Models",
+      "canonical": "Inundation Models",
+      "symbol": "Inundation-Models",
+      "type": "Model",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual Preparedness (Flood)",
+      "canonical": "Individual Preparedness Flood",
+      "symbol": "Individual-Preparedness-Flood",
+      "type": "Strategy",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Know Your Risk (Flood)",
+      "canonical": "Know Your Risk Flood",
+      "symbol": "Know-Your-Risk-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Make a Plan (Flood)",
+      "canonical": "Make a Plan Flood",
+      "symbol": "Make-a-Plan-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Plan",
+      "canonical": "Disaster Plan",
+      "symbol": "Disaster-Plan",
+      "type": "Plan",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Build an Emergency Kit (Flood)",
+      "canonical": "Build an Emergency kit Flood",
+      "symbol": "Build-an-Emergency-kit-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Protect Your Home (Flood)",
+      "canonical": "Protect Your Home Flood",
+      "symbol": "Protect-Your-Home-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Community Preparedness (Flood)",
+      "canonical": "Community Preparedness Flood",
+      "symbol": "Community-Preparedness-Flood",
+      "type": "Strategy",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Flood Insurance Program's (NFIP) Community Rating System (CRS)",
+      "canonical": "National Flood Insurance Programs Nfip Community Rating System crs",
+      "symbol": "National-Flood-Insurance-Programs-Nfip-Community-Rating-System-crs",
+      "type": "Program",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Turn Around, Don't Drown!",
+      "canonical": "Turn Around Dont Drown",
+      "symbol": "Turn-Around-Dont-Drown",
+      "type": "Procedure",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Evacuation (Flood)",
+      "canonical": "Evacuation Flood",
+      "symbol": "Evacuation-Flood",
+      "type": "Procedure",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Rescue Operations and Equipment (Flood)",
+      "canonical": "Rescue Operations and Equipment Flood",
+      "symbol": "Rescue-Operations-and-Equipment-Flood",
+      "type": "Activity",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Inflatable Rescue Boats (IRBs)",
+      "canonical": "Inflatable Rescue Boats Irbs",
+      "symbol": "Inflatable-Rescue-Boats-Irbs",
+      "type": "Equipment",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Fiberglass Reinforced Plastic (FRP) boats",
+      "canonical": "Fiberglass Reinforced Plastic frp Boats",
+      "symbol": "Fiberglass-Reinforced-Plastic-frp-Boats",
+      "type": "Equipment",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Personal Protective Equipment (PPE) (Flood Rescue)",
+      "canonical": "Personal Protective Equipment ppe Flood Rescue",
+      "symbol": "Personal-Protective-Equipment-ppe-Flood-Rescue",
+      "type": "Equipment",
+      "parent_concept": "Floods"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Drones (Flood Rescue)",
+      "canonical": "Drones Flood Rescue",
+      "symbol": "Drones-Flood-Rescue",
       "type": "Tool",
-      "parent_concept": "Tools for Facial Feature Extraction"
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "WACV dataset",
-      "canonical": "Wacv Dataset",
-      "symbol": "Wacv-Dataset",
-      "type": "Dataset",
-      "parent_concept": "Datasets for Engagement Analysis"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Diving and Underwater Gear",
+      "canonical": "Diving and Underwater Gear",
+      "symbol": "Diving-and-Underwater-Gear",
+      "type": "Equipment",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "DAiSEE dataset",
-      "canonical": "Daisee Dataset",
-      "symbol": "Daisee-Dataset",
-      "type": "Dataset",
-      "parent_concept": "Datasets for Engagement Analysis"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Response (Flood)",
+      "canonical": "National Response Flood",
+      "symbol": "National-Response-Flood",
+      "type": "Mechanism",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "SVM",
-      "canonical": "Svm",
-      "symbol": "Svm",
-      "type": "Algorithm",
-      "parent_concept": "Machine Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Disaster Management Authority (NDMA)",
+      "canonical": "National Disaster Management Authority Ndma",
+      "symbol": "National-Disaster-Management-Authority-Ndma",
+      "type": "Organization",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Random Forest",
-      "canonical": "Random Forest",
-      "symbol": "Random-Forest",
-      "type": "Algorithm",
-      "parent_concept": "Machine Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Flood Hazard Atlases",
+      "canonical": "Flood Hazard Atlases",
+      "symbol": "Flood-Hazard-Atlases",
+      "type": "Resource",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Decision Tree",
-      "canonical": "Decision Tree",
-      "symbol": "Decision-Tree",
-      "type": "Algorithm",
-      "parent_concept": "Machine Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Urban Flooding Strategies",
+      "canonical": "Urban Flooding Strategies",
+      "symbol": "Urban-Flooding-Strategies",
+      "type": "Strategy",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "Gradient Boosting",
-      "canonical": "Gradient Boosting",
-      "symbol": "Gradient-Boosting",
-      "type": "Algorithm",
-      "parent_concept": "Machine Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "International Response (Flood)",
+      "canonical": "International Response Flood",
+      "symbol": "International-Response-Flood",
+      "type": "Mechanism",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "XGBoost",
-      "canonical": "Xgboost",
-      "symbol": "Xgboost",
-      "type": "Algorithm",
-      "parent_concept": "Machine Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "American Red Cross",
+      "canonical": "American red Cross",
+      "symbol": "American-red-Cross",
+      "type": "Organization",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "ResNet",
-      "canonical": "Resnet",
-      "symbol": "Resnet",
-      "type": "Architecture",
-      "parent_concept": "Deep Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Returning Home Safely (Flood)",
+      "canonical": "Returning Home Safely Flood",
+      "symbol": "Returning-Home-Safely-Flood",
+      "type": "Procedure",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "EfficientNet",
-      "canonical": "Efficientnet",
-      "symbol": "Efficientnet",
-      "type": "Architecture",
-      "parent_concept": "Deep Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Health and Sanitation (Flood Recovery)",
+      "canonical": "Health and Sanitation Flood Recovery",
+      "symbol": "Health-and-Sanitation-Flood-Recovery",
+      "type": "Activity",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "LSTM networks",
-      "canonical": "Lstm Networks",
-      "symbol": "Lstm-Networks",
-      "type": "Architecture",
-      "parent_concept": "Deep Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Personal Protective Equipment (PPE) (Flood Cleanup)",
+      "canonical": "Personal Protective Equipment ppe Flood Cleanup",
+      "symbol": "Personal-Protective-Equipment-ppe-Flood-Cleanup",
+      "type": "Equipment",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s00521-025-11317-z",
-      "original": "TCNs",
-      "canonical": "Tcns",
-      "symbol": "Tcns",
-      "type": "Architecture",
-      "parent_concept": "Deep Learning Models"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Mold Spores",
+      "canonical": "Mold Spores",
+      "symbol": "Mold-Spores",
+      "type": "Hazard Type",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Importance of Emotions in Learning",
-      "canonical": "Importance of Emotions in Learning",
-      "symbol": "Importance-of-Emotions-in-Learning",
-      "type": "",
-      "parent_concept": "Emotion Recognition for Enhanced Learning"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Cleaning and Repairing a Flooded Home",
+      "canonical": "Cleaning and Repairing a Flooded Home",
+      "symbol": "Cleaning-and-Repairing-a-Flooded-Home",
+      "type": "Process",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "AI in Educational Environments",
-      "canonical": "Ai in Educational Environments",
-      "symbol": "Ai-in-Educational-Environments",
-      "type": "",
-      "parent_concept": "Emotion Recognition for Enhanced Learning"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Document Damage (Flood)",
+      "canonical": "Document Damage Flood",
+      "symbol": "Document-Damage-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "CNN Model Architecture (Study Specific)",
-      "canonical": "Cnn Model Architecture",
-      "symbol": "Cnn-Model-Architecture",
-      "type": "",
-      "parent_concept": "Convolutional Neural Networks"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Dry Out the Home (Flood)",
+      "canonical": "Dry out the Home Flood",
+      "symbol": "Dry-out-the-Home-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "CNN Effectiveness for Emotion Recognition",
-      "canonical": "Cnn Effectiveness for Emotion Recognition",
-      "symbol": "Cnn-Effectiveness-for-Emotion-Recognition",
-      "type": "",
-      "parent_concept": "Convolutional Neural Networks"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Clean and Disinfect (Flood)",
+      "canonical": "Clean and Disinfect Flood",
+      "symbol": "Clean-and-Disinfect-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Anger",
-      "canonical": "Anger",
-      "symbol": "Anger",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Address Mold Growth (Flood)",
+      "canonical": "Address Mold Growth Flood",
+      "symbol": "Address-Mold-Growth-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Disgust",
-      "canonical": "Disgust",
-      "symbol": "Disgust",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Discard Porous Materials (Flood)",
+      "canonical": "Discard Porous Materials Flood",
+      "symbol": "Discard-Porous-Materials-Flood",
+      "type": "Step",
+      "parent_concept": "Floods"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Fear",
-      "canonical": "Fear",
-      "symbol": "Fear",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Definition and Types (Cyberattack)",
+      "canonical": "Definition and Types Cyberattack",
+      "symbol": "Definition-and-Types-Cyberattack",
+      "type": "Definition",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Happiness",
-      "canonical": "Happiness",
-      "symbol": "Happiness",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Malware",
+      "canonical": "Malware",
+      "symbol": "Malware",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Sadness",
-      "canonical": "Sadness",
-      "symbol": "Sadness",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Viruses",
+      "canonical": "Viruses",
+      "symbol": "Viruses",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Surprise",
-      "canonical": "Surprise",
-      "symbol": "Surprise",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Worms",
+      "canonical": "Worms",
+      "symbol": "Worms",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Neutral",
-      "canonical": "Neutral",
-      "symbol": "Neutral",
-      "type": "",
-      "parent_concept": "Emotions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Trojans",
+      "canonical": "Trojans",
+      "symbol": "Trojans",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Overfitting",
-      "canonical": "Overfitting",
-      "symbol": "Overfitting",
-      "type": "",
-      "parent_concept": "Challenges in Emotion Recognition in Education"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Spyware",
+      "canonical": "Spyware",
+      "symbol": "Spyware",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Cultural and Demographic Diversity",
-      "canonical": "Cultural and Demographic Diversity",
-      "symbol": "Cultural-and-Demographic-Diversity",
-      "type": "",
-      "parent_concept": "Challenges in Emotion Recognition in Education"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Ransomware",
+      "canonical": "Ransomware",
+      "symbol": "Ransomware",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Real-time Application",
-      "canonical": "Real Time Application",
-      "symbol": "Real-Time-Application",
-      "type": "",
-      "parent_concept": "Challenges in Emotion Recognition in Education"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Phishing",
+      "canonical": "Phishing",
+      "symbol": "Phishing",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Ethical Considerations",
-      "canonical": "Ethical Considerations",
-      "symbol": "Ethical-Considerations",
-      "type": "",
-      "parent_concept": "Challenges in Emotion Recognition in Education"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Denial-of-Service (DoS) Attacks",
+      "canonical": "Denial of Service dos Attacks",
+      "symbol": "Denial-of-Service-dos-Attacks",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Data Preprocessing",
-      "canonical": "Data Preprocessing",
-      "symbol": "Data-Preprocessing",
-      "type": "",
-      "parent_concept": "Methodology"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Distributed Denial-of-Service (DDoS) Attacks",
+      "canonical": "Distributed Denial of Service Ddos Attacks",
+      "symbol": "Distributed-Denial-of-Service-Ddos-Attacks",
+      "type": "Type",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Model Training and Evaluation",
-      "canonical": "Model Training and Evaluation",
-      "symbol": "Model-Training-and-Evaluation",
-      "type": "",
-      "parent_concept": "Methodology"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Botnet",
+      "canonical": "Botnet",
+      "symbol": "Botnet",
+      "type": "Tool Component",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Clustering of the Dataset",
-      "canonical": "Clustering of the Dataset",
-      "symbol": "Clustering-of-the-Dataset",
-      "type": "",
-      "parent_concept": "Methodology"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Impacts and Effects (Cyberattack)",
+      "canonical": "Impacts and Effects Cyberattack",
+      "symbol": "Impacts-and-Effects-Cyberattack",
+      "type": "Outcome",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "CNN Model Performance",
-      "canonical": "Cnn Model Performance",
-      "symbol": "Cnn-Model-Performance",
-      "type": "",
-      "parent_concept": "Results"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Identity Theft",
+      "canonical": "Identity Theft",
+      "symbol": "Identity-Theft",
+      "type": "Outcome",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Training and Validation Visualization",
-      "canonical": "Training and Validation Visualization",
-      "symbol": "Training-and-Validation-Visualization",
-      "type": "",
-      "parent_concept": "Results"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Financial Loss",
+      "canonical": "Financial Loss",
+      "symbol": "Financial-Loss",
+      "type": "Outcome",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Clustering Results",
-      "canonical": "Clustering Results",
-      "symbol": "Clustering-Results",
-      "type": "",
-      "parent_concept": "Results"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Extortion",
+      "canonical": "Extortion",
+      "symbol": "Extortion",
+      "type": "Outcome",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "More Extensive and Diverse Datasets",
-      "canonical": "More Extensive and Diverse Datasets",
-      "symbol": "More-Extensive-and-Diverse-Datasets",
-      "type": "",
-      "parent_concept": "Future Directions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Business Disruption",
+      "canonical": "Business Disruption",
+      "symbol": "Business-Disruption",
+      "type": "Outcome",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Integration of Multimodal Data",
-      "canonical": "Integration of Multimodal Data",
-      "symbol": "Integration-of-Multimodal-Data",
-      "type": "",
-      "parent_concept": "Future Directions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Reputational Damage",
+      "canonical": "Reputational Damage",
+      "symbol": "Reputational-Damage",
+      "type": "Outcome",
+      "parent_concept": "Cyberattacks"
     },
     {
-      "doc_id": "s40561-025-00374-5",
-      "original": "Long-term Effects Studies",
-      "canonical": "Long Term Effects Studies",
-      "symbol": "Long-Term-Effects-Studies",
-      "type": "",
-      "parent_concept": "Future Directions"
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Critical Infrastructure",
+      "canonical": "Critical Infrastructure",
+      "symbol": "Critical-Infrastructure",
+      "type": "Infrastructure",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Industrial Control Systems (ICS)",
+      "canonical": "Industrial Control Systems ics",
+      "symbol": "Industrial-Control-Systems-ics",
+      "type": "System",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "SCADA Systems",
+      "canonical": "Scada Systems",
+      "symbol": "Scada-Systems",
+      "type": "System",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual Cybersecurity Hygiene",
+      "canonical": "Individual Cybersecurity Hygiene",
+      "symbol": "Individual-Cybersecurity-Hygiene",
+      "type": "Procedure",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Strong Password Practices",
+      "canonical": "Strong Password Practices",
+      "symbol": "Strong-Password-Practices",
+      "type": "Practice",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Password Manager",
+      "canonical": "Password Manager",
+      "symbol": "Password-Manager",
+      "type": "Tool",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Multi-Factor Authentication (MFA)",
+      "canonical": "Multi Factor Authentication mfa",
+      "symbol": "Multi-Factor-Authentication-mfa",
+      "type": "Method",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Software Updates",
+      "canonical": "Software Updates",
+      "symbol": "Software-Updates",
+      "type": "Practice",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Phishing Awareness",
+      "canonical": "Phishing Awareness",
+      "symbol": "Phishing-Awareness",
+      "type": "Practice",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Regular Backups",
+      "canonical": "Regular Backups",
+      "symbol": "Regular-Backups",
+      "type": "Practice",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Organizational Preparedness (Cybersecurity)",
+      "canonical": "Organizational Preparedness Cybersecurity",
+      "symbol": "Organizational-Preparedness-Cybersecurity",
+      "type": "Strategy",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Technical Controls (Cybersecurity)",
+      "canonical": "Technical Controls Cybersecurity",
+      "symbol": "Technical-Controls-Cybersecurity",
+      "type": "Control",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Access Control (Cybersecurity)",
+      "canonical": "Access Control Cybersecurity",
+      "symbol": "Access-Control-Cybersecurity",
+      "type": "Control",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Least Privilege",
+      "canonical": "Least Privilege",
+      "symbol": "Least-Privilege",
+      "type": "Principle",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Vulnerability Management (Cybersecurity)",
+      "canonical": "Vulnerability Management Cybersecurity",
+      "symbol": "Vulnerability-Management-Cybersecurity",
+      "type": "Process",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Employee Training (Cybersecurity)",
+      "canonical": "Employee Training Cybersecurity",
+      "symbol": "Employee-Training-Cybersecurity",
+      "type": "Training",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National and International Cybersecurity Agencies",
+      "canonical": "National and International Cybersecurity Agencies",
+      "symbol": "National-and-International-Cybersecurity-Agencies",
+      "type": "Organization",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "canonical": "Cybersecurity and Infrastructure Security Agency Cisa",
+      "symbol": "Cybersecurity-and-Infrastructure-Security-Agency-Cisa",
+      "type": "Agency",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Security Agency (NSA)",
+      "canonical": "National Security Agency nsa",
+      "symbol": "National-Security-Agency-nsa",
+      "type": "Agency",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Indian Computer Emergency Response Team (CERT-In)",
+      "canonical": "Indian Computer Emergency Response Team Cert in",
+      "symbol": "Indian-Computer-Emergency-Response-Team-Cert-in",
+      "type": "Agency",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+      "canonical": "National Critical Information Infrastructure Protection Centre Nciipc",
+      "symbol": "National-Critical-Information-Infrastructure-Protection-Centre-Nciipc",
+      "type": "Agency",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "European Union Agency for Cybersecurity (ENISA)",
+      "canonical": "European Union Agency for Cybersecurity Enisa",
+      "symbol": "European-Union-Agency-for-Cybersecurity-Enisa",
+      "type": "Agency",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Detection and Prevention Technologies (Cybersecurity)",
+      "canonical": "Detection and Prevention Technologies Cybersecurity",
+      "symbol": "Detection-and-Prevention-Technologies-Cybersecurity",
+      "type": "Tool",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Intrusion Detection Systems (IDS)",
+      "canonical": "Intrusion Detection Systems ids",
+      "symbol": "Intrusion-Detection-Systems-ids",
+      "type": "Tool Component",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Intrusion Prevention Systems (IPS)",
+      "canonical": "Intrusion Prevention Systems ips",
+      "symbol": "Intrusion-Prevention-Systems-ips",
+      "type": "Tool Component",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Security Information and Event Management (SIEM)",
+      "canonical": "Security Information and Event Management Siem",
+      "symbol": "Security-Information-and-Event-Management-Siem",
+      "type": "Tool Component",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Endpoint Detection and Response (EDR)",
+      "canonical": "Endpoint Detection and Response edr",
+      "symbol": "Endpoint-Detection-and-Response-edr",
+      "type": "Tool Component",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Incident Response Plan (IRP)",
+      "canonical": "Incident Response Plan irp",
+      "symbol": "Incident-Response-Plan-irp",
+      "type": "Plan",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "National Institute of Standards and Technology (NIST) Framework",
+      "canonical": "National Institute of Standards and Technology Nist Framework",
+      "symbol": "National-Institute-of-Standards-and-Technology-Nist-Framework",
+      "type": "Framework",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Computer Security Incident Response Team (CSIRT)",
+      "canonical": "Computer Security Incident Response Team Csirt",
+      "symbol": "Computer-Security-Incident-Response-Team-Csirt",
+      "type": "Team",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparation (IRP)",
+      "canonical": "Preparation irp",
+      "symbol": "Preparation-irp",
+      "type": "Phase",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Identification (IRP)",
+      "canonical": "Identification irp",
+      "symbol": "Identification-irp",
+      "type": "Phase",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Containment (IRP)",
+      "canonical": "Containment irp",
+      "symbol": "Containment-irp",
+      "type": "Phase",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Eradication (IRP)",
+      "canonical": "Eradication irp",
+      "symbol": "Eradication-irp",
+      "type": "Phase",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Recovery (IRP)",
+      "canonical": "Recovery irp",
+      "symbol": "Recovery-irp",
+      "type": "Phase",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Lessons Learned (IRP)",
+      "canonical": "Lessons Learned irp",
+      "symbol": "Lessons-Learned-irp",
+      "type": "Phase",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual Recovery (Cyberattack)",
+      "canonical": "Individual Recovery Cyberattack",
+      "symbol": "Individual-Recovery-Cyberattack",
+      "type": "Procedure",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Change Passwords (Cyberattack)",
+      "canonical": "Change Passwords Cyberattack",
+      "symbol": "Change-Passwords-Cyberattack",
+      "type": "Instruction",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Contact Financial Institutions (Cyberattack)",
+      "canonical": "Contact Financial Institutions Cyberattack",
+      "symbol": "Contact-Financial-Institutions-Cyberattack",
+      "type": "Instruction",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Report the Incident (Cyberattack)",
+      "canonical": "Report the Incident Cyberattack",
+      "symbol": "Report-the-Incident-Cyberattack",
+      "type": "Instruction",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "FBI's Internet Crime Complaint Center (IC3)",
+      "canonical": "Fbis Internet Crime Complaint Center ic3",
+      "symbol": "Fbis-Internet-Crime-Complaint-Center-ic3",
+      "type": "Agency",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Place Fraud Alerts (Cyberattack)",
+      "canonical": "Place Fraud Alerts Cyberattack",
+      "symbol": "Place-Fraud-Alerts-Cyberattack",
+      "type": "Instruction",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Credit Bureaus",
+      "canonical": "Credit Bureaus",
+      "symbol": "Credit-Bureaus",
+      "type": "Organization",
+      "parent_concept": "Cyberattacks"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Definition and Types (Civil Unrest)",
+      "canonical": "Definition and Types Civil Unrest",
+      "symbol": "Definition-and-Types-Civil-Unrest",
+      "type": "Definition",
+      "parent_concept": "Civil Unrest Protests Riots Civil Disorder"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Non-Violent Forms of Civil Unrest",
+      "canonical": "Non Violent Forms of Civil Unrest",
+      "symbol": "Non-Violent-Forms-of-Civil-Unrest",
+      "type": "Type",
+      "parent_concept": "Civil Unrest Protests Riots Civil Disorder"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disruptive Forms of Civil Unrest",
+      "canonical": "Disruptive Forms of Civil Unrest",
+      "symbol": "Disruptive-Forms-of-Civil-Unrest",
+      "type": "Hazard Type",
+      "parent_concept": "Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Violent Forms of Civil Unrest",
+      "canonical": "Violent Forms of Civil Unrest",
+      "symbol": "Violent-Forms-of-Civil-Unrest",
+      "type": "Hazard Type",
+      "parent_concept": "Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Economic Inequality",
+      "canonical": "Economic Inequality",
+      "symbol": "Economic-Inequality",
+      "type": "Exposure Factor",
+      "parent_concept": "Causes of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Political Oppression and Corruption",
+      "canonical": "Political Oppression and Corruption",
+      "symbol": "Political-Oppression-and-Corruption",
+      "type": "Exposure Factor",
+      "parent_concept": "Causes of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Social Injustice and Identity Politics",
+      "canonical": "Social Injustice and Identity Politics",
+      "symbol": "Social-Injustice-and-Identity-Politics",
+      "type": "Exposure Factor",
+      "parent_concept": "Causes of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Environmental Factors",
+      "canonical": "Environmental Factors",
+      "symbol": "Environmental-Factors",
+      "type": "Exposure Factor",
+      "parent_concept": "Causes of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Direct Violence Outcomes",
+      "canonical": "Direct Violence Outcomes",
+      "symbol": "Direct-Violence-Outcomes",
+      "type": "Outcome",
+      "parent_concept": "Impacts of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Economic Impacts of Civil Unrest",
+      "canonical": "Economic Impacts of Civil Unrest",
+      "symbol": "Economic-Impacts-of-Civil-Unrest",
+      "type": "Outcome",
+      "parent_concept": "Impacts of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Social Impacts of Civil Unrest",
+      "canonical": "Social Impacts of Civil Unrest",
+      "symbol": "Social-Impacts-of-Civil-Unrest",
+      "type": "Outcome",
+      "parent_concept": "Impacts of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual Psychological Trauma",
+      "canonical": "Individual Psychological Trauma",
+      "symbol": "Individual-Psychological-Trauma",
+      "type": "Outcome",
+      "parent_concept": "Impacts of Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Mobilization and Information Dissemination",
+      "canonical": "Mobilization and Information Dissemination",
+      "symbol": "Mobilization-and-Information-Dissemination",
+      "type": "Benefit",
+      "parent_concept": "Social Media Role in Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disinformation and Incitement",
+      "canonical": "Disinformation and Incitement",
+      "symbol": "Disinformation-and-Incitement",
+      "type": "Risk",
+      "parent_concept": "Social Media Role in Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Surveillance and Intelligence Gathering",
+      "canonical": "Surveillance and Intelligence Gathering",
+      "symbol": "Surveillance-and-Intelligence-Gathering",
+      "type": "Tool",
+      "parent_concept": "Social Media Role in Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Individual and Community Preparedness",
+      "canonical": "Individual and Community Preparedness",
+      "symbol": "Individual-and-Community-Preparedness",
+      "type": "Strategy",
+      "parent_concept": "User Preparedness and Response for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Business Continuity of Operations Plans",
+      "canonical": "Business Continuity of Operations Plans",
+      "symbol": "Business-Continuity-of-Operations-Plans",
+      "type": "Strategy",
+      "parent_concept": "User Preparedness and Response for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Safety Measures During Unrest",
+      "canonical": "Safety Measures During Unrest",
+      "symbol": "Safety-Measures-During-Unrest",
+      "type": "Procedure",
+      "parent_concept": "User Preparedness and Response for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "De-escalation Techniques",
+      "canonical": "De Escalation Techniques",
+      "symbol": "De-Escalation-Techniques",
+      "type": "Methodology",
+      "parent_concept": "User Preparedness and Response for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Law Enforcement Role in Civil Unrest",
+      "canonical": "Law Enforcement Role in Civil Unrest",
+      "symbol": "Law-Enforcement-Role-in-Civil-Unrest",
+      "type": "Role",
+      "parent_concept": "User Preparedness and Response for Civil Unrest"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Post-Conflict Reconstruction",
+      "canonical": "Post Conflict Reconstruction",
+      "symbol": "Post-Conflict-Reconstruction",
+      "type": "Process",
+      "parent_concept": "Recovery and Reconciliation"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Community-Led Peacebuilding",
+      "canonical": "Community led Peacebuilding",
+      "symbol": "Community-led-Peacebuilding",
+      "type": "Methodology",
+      "parent_concept": "Recovery and Reconciliation"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Reconciliation Process",
+      "canonical": "Reconciliation Process",
+      "symbol": "Reconciliation-Process",
+      "type": "Process",
+      "parent_concept": "Recovery and Reconciliation"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Disaster Risk Reduction",
+      "canonical": "Disaster Risk Reduction",
+      "symbol": "Disaster-Risk-Reduction",
+      "type": "Strategy",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "UNDRR-ISC Hazard Information Profiles",
+      "canonical": "Undrr isc Hazard Information Profiles",
+      "symbol": "Undrr-isc-Hazard-Information-Profiles",
+      "type": "Standard",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Systemic Risk",
+      "canonical": "Systemic Risk",
+      "symbol": "Systemic-Risk",
+      "type": "Risk",
+      "parent_concept": "Disaster Management"
+    },
+    {
+      "doc_id": "Disaster Preparedness, Response, and Recovery",
+      "original": "Preparedness",
+      "canonical": "Preparedness",
+      "symbol": "Preparedness",
+      "type": "Strategy",
+      "parent_concept": "Disaster Management"
     }
   ]
 }
