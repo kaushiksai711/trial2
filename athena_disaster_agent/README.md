@@ -8,8 +8,8 @@
 
 ### Three Specialized AI Experts
 - **🚨 Athena** - Disaster Response Specialist (earthquakes, fires, floods, hurricanes)
-- **🩺 Dr. Alex Rivera** - Medical Advisor (health conditions, symptoms, wellness)
-- **⚖️ Attorney Sam Chen** - Legal Consultant (contracts, family law, employment law)
+- **🩺 Dr. Athena** - Medical Advisor (health conditions, symptoms, wellness)
+- **⚖️ Attorney Athena** - Legal Consultant (contracts, family law, employment law)
 
 ### Complete Working Features
 - ✅ **Multi-domain chat interface** with domain switching
@@ -92,8 +92,8 @@ Click tabs to switch between domains:
 Each domain has its own expert with strict boundaries:
 
 **Disaster queries** → Athena responds  
-**Medical queries** → Dr. Rivera responds  
-**Legal queries** → Attorney Chen responds  
+**Medical queries** → Dr. Athena responds  
+**Legal queries** → Attorney Athena responds  
 
 **Cross-domain queries** get smart redirects.
 
@@ -114,8 +114,8 @@ athena_disaster_agent/
 ├── backend/
 │   ├── domains/
 │   │   ├── disaster.msa     # Athena's expertise
-│   │   ├── healthcare.msa   # Dr. Rivera's expertise
-│   │   └── legal.msa        # Attorney Chen's expertise
+│   │   ├── healthcare.msa   # Dr. Athena's expertise
+│   │   └── legal.msa        # Attorney Athena's expertise
 │   ├── app.py              # FastAPI server
 │   └── requirements.txt    # Dependencies
 └── frontend/
@@ -181,10 +181,10 @@ Response: {"response": "expert answer", "expert_name": "🚨 Athena", "success":
 ## ⚠️ Important Notes
 
 ### Medical Disclaimer
-Dr. Rivera provides **health information only** - not medical diagnosis. For emergencies, call 911.
+Dr. Athena provides **health information only** - not medical diagnosis. For emergencies, call 911.
 
 ### Legal Disclaimer  
-Attorney Chen provides **legal information only** - not legal advice. Consult licensed attorneys for specific cases.
+Attorney Athena provides **legal information only** - not legal advice. Consult licensed attorneys for specific cases.
 
 ### Emergency Disclaimer
 **For life-threatening emergencies, call 911 immediately** before using any AI system.
