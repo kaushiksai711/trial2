@@ -84,10 +84,10 @@ def initialize_domain_agents():
             agent = MeTTa()
             
             # Import motto
-            agent.run("!(import! &self motto)")
+            agent.run("!(import! &self motto)") #Importing motto
             
             # Load domain-specific agent
-            bind_command = f'!(bind! &chat (dialog-agent "{config["file"]}"))'
+            bind_command = f'!(bind! &chat (dialog-agent "{config["file"]}"))' #binding command
             result = agent.run(bind_command)
             
             # Store agent
@@ -169,7 +169,7 @@ async def chat_endpoint(domain: str, message: ChatMessage):
         domain_config = DOMAINS[domain]
         
         # Prepare MeTTa query
-        query_script = f'!(&chat (user "{message.message}"))'
+        query_script = f'!(&chat (user "{message.message}"))' #User query
         
         logger.info(f"🔍 [{domain.upper()}] Executing: {query_script}")
         
