@@ -1,0 +1,2862 @@
+{
+    "domain": "AI for Engagement Recognition",
+    "metadata": {
+        "doc_id": "s00521-025-11317-z",
+        "author": "Riju Das, Soumyabrata Dev",
+        "provenance": "Neural Computing and Applications (2025) 37:19063–19085",
+        "extraction_focus": "mixed",
+        "completeness_score": 8
+    },
+    "concepts": [
+        {
+            "name": "Deep Learning Models",
+            "concept_type": "Model",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [
+                    "trained on a combination of image data and OpenFace features"
+                ],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [
+                    "superior performance in predicting engagement labels",
+                    "enhanced ability to capture intricate facial details and variations",
+                    "more accurate classification of engagement levels"
+                ],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "ResNet",
+                "EfficientNet",
+                "Engagement Labels",
+                "OpenFace Features",
+                "Image Data",
+                "Video Data",
+                "Temporal Deep Learning Techniques",
+                "Machine Learning Models"
+            ],
+            "relations": [
+                {
+                    "type": "trained-on",
+                    "target": "Image Data",
+                    "note": "for engagement prediction",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "trained-on",
+                    "target": "OpenFace Features",
+                    "note": "for engagement prediction",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "predicts",
+                    "target": "Engagement Labels",
+                    "note": "with superior performance",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "processes",
+                    "target": "Video Data",
+                    "note": "for engagement recognition",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "enhanced-by",
+                    "target": "Action Units (AUs)",
+                    "note": "mappings were utilized to enhance performance",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "includes",
+                    "target": "ResNet",
+                    "note": "specific model type",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "includes",
+                    "target": "EfficientNet",
+                    "note": "specific model type",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "extended-by",
+                    "target": "Temporal Deep Learning Techniques",
+                    "note": "planned integration for dynamic engagement capture",
+                    "strength": "moderate",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "part-of",
+                    "target": "Machine Learning Models",
+                    "note": "broader category",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "ResNet",
+                    "explanation": "A specific deep learning architecture introduced into the framework, trained on image data and OpenFace features, for predicting engagement labels.",
+                    "sub_type": "Model",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "ResNet... were introduced into the framework.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Further extending the analysis, deep learning models-speciﬁcally ResNet and EfﬁcientNet-were introduced into the framework."
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Deep Learning Models"
+                    ],
+                    "relations": [
+                        {
+                            "type": "type-of",
+                            "target": "Deep Learning Models",
+                            "note": "specific model used",
+                            "context": "in the described framework"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "moderate"
+                    }
+                },
+                {
+                    "name": "EfficientNet",
+                    "explanation": "A specific deep learning architecture introduced into the framework, trained on image data and OpenFace features, for predicting engagement labels.",
+                    "sub_type": "Model",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "EfficientNet... were introduced into the framework.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Further extending the analysis, deep learning models-speciﬁcally ResNet and EfﬁcientNet-were introduced into the framework."
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Deep Learning Models"
+                    ],
+                    "relations": [
+                        {
+                            "type": "type-of",
+                            "target": "Deep Learning Models",
+                            "note": "specific model used",
+                            "context": "in the described framework"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "moderate"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Engagement Labels",
+            "concept_type": "Label",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": [
+                    "high engagement",
+                    "partial engagement",
+                    "disengagement"
+                ]
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Deep Learning Models",
+                "Action Units (AUs)",
+                "WACV Dataset",
+                "Engagement Levels",
+                "Machine Learning Models"
+            ],
+            "relations": [
+                {
+                    "type": "predicted-by",
+                    "target": "Deep Learning Models",
+                    "note": "output of prediction",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "mapped-to",
+                    "target": "Action Units (AUs)",
+                    "note": "within the WACV dataset",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "part-of",
+                    "target": "Engagement Levels",
+                    "note": "categories of engagement",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "predicted-by",
+                    "target": "Machine Learning Models",
+                    "note": "output of prediction",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "OpenFace Features",
+            "concept_type": "Feature",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Deep Learning Models",
+                "Image Data",
+                "OpenFace"
+            ],
+            "relations": [
+                {
+                    "type": "used-as-input-for",
+                    "target": "Deep Learning Models",
+                    "note": "combined with image data",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "extracted-from",
+                    "target": "Image Data",
+                    "note": "source of features",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "generated-by",
+                    "target": "OpenFace",
+                    "note": "toolkit for extraction",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Action Units (AUs)",
+            "concept_type": "Metric",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [
+                    "AU14, AU23, and AU20 were found to be indicative of high engagement",
+                    "AU05, AU15, and AU20 for partial engagement",
+                    "AU05, AU45, and AU20 for disengagement"
+                ],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [
+                    "AU05 (0.60) activation rate in DAiSEE dataset",
+                    "AU20 (0.64) activation rate in DAiSEE dataset",
+                    "AU14 (0.54) activation rate in DAiSEE dataset"
+                ],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Labels",
+                "WACV Dataset",
+                "Statistical Discriminant Coefficients (SDC)",
+                "DAiSEE Dataset",
+                "Facial Action Coding System (FACS)",
+                "AU Activation Rates",
+                "Deep Learning Models",
+                "Machine Learning Models",
+                "Facial Expressions"
+            ],
+            "relations": [
+                {
+                    "type": "mapped-to",
+                    "target": "Engagement Labels",
+                    "note": "within the WACV dataset",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "identified-using",
+                    "target": "Statistical Discriminant Coefficients (SDC)",
+                    "note": "for predictive combinations",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "measured-in",
+                    "target": "DAiSEE Dataset",
+                    "note": "activation rates",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "part-of",
+                    "target": "Facial Action Coding System (FACS)",
+                    "note": "component of the system",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "contributes-to",
+                    "target": "Facial Expressions",
+                    "note": "form facial expressions",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "enhances",
+                    "target": "Deep Learning Models",
+                    "note": "mappings enhance performance",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "enhances",
+                    "target": "Machine Learning Models",
+                    "note": "mappings enhance performance",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "AU14",
+                    "explanation": "An Action Unit found to be indicative of high engagement and exhibiting a notable activation rate in the DAiSEE dataset.",
+                    "sub_type": "Parameter",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "AU14, AU23, and AU20 were found to be indicative of high engagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "For example, AU14, AU23, and AU20 were found to be indicative of high engagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "High Engagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "AU14 (0.54) exhibit the highest overall activation rates",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Notably, AUs such as AU05 (0.60), AU20 (0.64), and AU14 (0.54) exhibit the highest overall activation rates"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "DAiSEE Dataset",
+                                    "target_type": "Concept",
+                                    "note": "measured in",
+                                    "relationship_strength": "strong"
+                                },
+                                {
+                                    "target": "AU Activation Rates",
+                                    "target_type": "Concept",
+                                    "note": "contributes to",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Action Units (AUs)",
+                        "High Engagement",
+                        "DAiSEE Dataset"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Action Units (AUs)",
+                            "note": "specific AU",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "easy"
+                    }
+                },
+                {
+                    "name": "AU23",
+                    "explanation": "An Action Unit found to be indicative of high engagement.",
+                    "sub_type": "Parameter",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "AU14, AU23, and AU20 were found to be indicative of high engagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "For example, AU14, AU23, and AU20 were found to be indicative of high engagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "High Engagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Action Units (AUs)",
+                        "High Engagement"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Action Units (AUs)",
+                            "note": "specific AU",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "medium",
+                        "implementation_difficulty": "easy"
+                    }
+                },
+                {
+                    "name": "AU20",
+                    "explanation": "An Action Unit indicative of high, partial, and disengagement, and exhibiting a high activation rate in the DAiSEE dataset.",
+                    "sub_type": "Parameter",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "AU14, AU23, and AU20 were found to be indicative of high engagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "For example, AU14, AU23, and AU20 were found to be indicative of high engagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "High Engagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "AU05, AU15, and AU20 for partial engagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "AU05, AU15, and AU20 for partial engagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "Partial Engagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "AU05, AU45, and AU20 for disengagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "AU05, AU45, and AU20 for disengagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "Disengagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "AU20 (0.64) exhibit the highest overall activation rates",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Notably, AUs such as AU05 (0.60), AU20 (0.64), and AU14 (0.54) exhibit the highest overall activation rates"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "DAiSEE Dataset",
+                                    "target_type": "Concept",
+                                    "note": "measured in",
+                                    "relationship_strength": "strong"
+                                },
+                                {
+                                    "target": "AU Activation Rates",
+                                    "target_type": "Concept",
+                                    "note": "contributes to",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Action Units (AUs)",
+                        "High Engagement",
+                        "Partial Engagement",
+                        "Disengagement",
+                        "DAiSEE Dataset"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Action Units (AUs)",
+                            "note": "specific AU",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "easy"
+                    }
+                },
+                {
+                    "name": "AU05",
+                    "explanation": "An Action Unit indicative of partial and disengagement, and exhibiting a high activation rate in the DAiSEE dataset.",
+                    "sub_type": "Parameter",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "AU05, AU15, and AU20 for partial engagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "AU05, AU15, and AU20 for partial engagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "Partial Engagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "AU05, AU45, and AU20 for disengagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "AU05, AU45, and AU20 for disengagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "Disengagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "AU05 (0.60) exhibit the highest overall activation rates",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Notably, AUs such as AU05 (0.60), AU20 (0.64), and AU14 (0.54) exhibit the highest overall activation rates"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "DAiSEE Dataset",
+                                    "target_type": "Concept",
+                                    "note": "measured in",
+                                    "relationship_strength": "strong"
+                                },
+                                {
+                                    "target": "AU Activation Rates",
+                                    "target_type": "Concept",
+                                    "note": "contributes to",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Action Units (AUs)",
+                        "Partial Engagement",
+                        "Disengagement",
+                        "DAiSEE Dataset"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Action Units (AUs)",
+                            "note": "specific AU",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "easy"
+                    }
+                },
+                {
+                    "name": "AU15",
+                    "explanation": "An Action Unit found to be indicative of partial engagement.",
+                    "sub_type": "Parameter",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "AU05, AU15, and AU20 for partial engagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "AU05, AU15, and AU20 for partial engagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "Partial Engagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Action Units (AUs)",
+                        "Partial Engagement"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Action Units (AUs)",
+                            "note": "specific AU",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "medium",
+                        "implementation_difficulty": "easy"
+                    }
+                },
+                {
+                    "name": "AU45",
+                    "explanation": "An Action Unit found to be indicative of disengagement.",
+                    "sub_type": "Parameter",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "AU05, AU45, and AU20 for disengagement",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "AU05, AU45, and AU20 for disengagement"
+                            },
+                            "cross_references": [
+                                {
+                                    "target": "Disengagement",
+                                    "target_type": "Concept",
+                                    "note": "indicative of",
+                                    "relationship_strength": "strong"
+                                }
+                            ]
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Action Units (AUs)",
+                        "Disengagement"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Action Units (AUs)",
+                            "note": "specific AU",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "medium",
+                        "implementation_difficulty": "easy"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "WACV Dataset",
+            "concept_type": "Dataset",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)",
+                "Engagement Labels"
+            ],
+            "relations": [
+                {
+                    "type": "contains-mappings-of",
+                    "target": "Action Units (AUs)",
+                    "note": "AUs mapped to engagement labels",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "contains-mappings-of",
+                    "target": "Engagement Labels",
+                    "note": "engagement labels mapped to AUs",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Statistical Discriminant Coefficients (SDC)",
+            "concept_type": "Metric",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [
+                    "top three statistical discriminant coefficients (SDC) values"
+                ],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)"
+            ],
+            "relations": [
+                {
+                    "type": "used-to-identify",
+                    "target": "Action Units (AUs)",
+                    "note": "predictive combinations of AUs",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Real-time Video Data",
+            "concept_type": "Dataset",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [
+                    "applying these findings to real-time video data"
+                ],
+                "resources_required": [],
+                "timeline_indicators": [
+                    "Looking ahead, this work aims to be extended..."
+                ],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Recognition Processes",
+                "Temporal Deep Learning Techniques",
+                "Valence-Arousal Modeling",
+                "Video Data"
+            ],
+            "relations": [
+                {
+                    "type": "target-for-application",
+                    "target": "Engagement Recognition Processes",
+                    "note": "future application domain",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "processed-by",
+                    "target": "Temporal Deep Learning Techniques",
+                    "note": "planned processing method",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "processed-by",
+                    "target": "Valence-Arousal Modeling",
+                    "note": "planned processing method",
+                    "strength": "moderate",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "type-of",
+                    "target": "Video Data",
+                    "note": "specific type of video data",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Temporal Deep Learning Techniques",
+            "concept_type": "Methodology",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [
+                    "planned to be integrated to better capture the dynamic nature of engagement as it evolves over time."
+                ],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Real-time Video Data",
+                "Engagement Recognition Processes",
+                "LSTM Networks",
+                "TCNs",
+                "Deep Learning Models"
+            ],
+            "relations": [
+                {
+                    "type": "integrated-for",
+                    "target": "Real-time Video Data",
+                    "note": "to capture dynamic engagement",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "enhances",
+                    "target": "Engagement Recognition Processes",
+                    "note": "by capturing dynamic nature",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "includes",
+                    "target": "LSTM Networks",
+                    "note": "specific technique",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "includes",
+                    "target": "TCNs",
+                    "note": "specific technique",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "extends",
+                    "target": "Deep Learning Models",
+                    "note": "further development",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "LSTM Networks",
+                    "explanation": "A specific type of recurrent neural network, a temporal deep learning technique, planned for integration to better capture the dynamic nature of engagement over time.",
+                    "sub_type": "Model",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "temporal deep learning techniques, such as LSTM networks... are planned to be integrated",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Speciﬁcally, temporal deep learning techniques, such as LSTM networks and TCNs, are planned to be integrated"
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Temporal Deep Learning Techniques"
+                    ],
+                    "relations": [
+                        {
+                            "type": "type-of",
+                            "target": "Temporal Deep Learning Techniques",
+                            "note": "specific technique",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "moderate"
+                    }
+                },
+                {
+                    "name": "TCNs",
+                    "explanation": "Temporal Convolutional Networks, a specific type of temporal deep learning technique, planned for integration to better capture the dynamic nature of engagement over time.",
+                    "sub_type": "Model",
+                    "execution_details": {
+                        "how_to_perform": null,
+                        "who_performs": null,
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "temporal deep learning techniques... and TCNs, are planned to be integrated",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [],
+                                "media": [],
+                                "links": [],
+                                "tables": [],
+                                "citations": "Speciﬁcally, temporal deep learning techniques, such as LSTM networks and TCNs, are planned to be integrated"
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {
+                        "sources": [],
+                        "media": [],
+                        "links": [],
+                        "tables": [],
+                        "document_sections": []
+                    },
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Temporal Deep Learning Techniques"
+                    ],
+                    "relations": [
+                        {
+                            "type": "type-of",
+                            "target": "Temporal Deep Learning Techniques",
+                            "note": "specific technique",
+                            "context": ""
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high",
+                        "implementation_difficulty": "moderate"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Valence-Arousal Modeling",
+            "concept_type": "Model",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [
+                    "intended to be included to enhance the detection of facial emotions"
+                ],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [
+                    "providing a more nuanced understanding of emotional states that contribute to engagement levels."
+                ],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Facial Emotions",
+                "Emotional States",
+                "Engagement Levels",
+                "Real-time Video Data"
+            ],
+            "relations": [
+                {
+                    "type": "enhances",
+                    "target": "Facial Emotions",
+                    "note": "enhances detection",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "provides-understanding-of",
+                    "target": "Emotional States",
+                    "note": "more nuanced understanding",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "contributes-to",
+                    "target": "Engagement Levels",
+                    "note": "by understanding emotional states",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "processes",
+                    "target": "Real-time Video Data",
+                    "note": "part of real-time system",
+                    "strength": "moderate",
+                    "conditions": "future work"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "[33]"
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Facial Emotions",
+            "concept_type": "Concept",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Valence-Arousal Modeling",
+                "Engagement Levels",
+                "Facial Expressions",
+                "Emotional States"
+            ],
+            "relations": [
+                {
+                    "type": "detection-enhanced-by",
+                    "target": "Valence-Arousal Modeling",
+                    "note": "improved detection",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "contributes-to",
+                    "target": "Engagement Levels",
+                    "note": "emotional states contribute to engagement",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "expressed-via",
+                    "target": "Facial Expressions",
+                    "note": "how emotions are shown",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "part-of",
+                    "target": "Emotional States",
+                    "note": "visible manifestation",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Engagement Recognition Processes",
+            "concept_type": "Process",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [
+                    "advancing toward the automation of engagement recognition processes."
+                ],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [
+                    "development of real-time systems capable of detecting and interpreting engagement levels in continuous video streams"
+                ],
+                "common_challenges": [],
+                "best_practices": [
+                    "potential applications in online education, remote work, and human–computer interaction"
+                ]
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Real-time Video Data",
+                "Temporal Deep Learning Techniques",
+                "Valence-Arousal Modeling",
+                "Online Education",
+                "Remote Work",
+                "Human-Computer Interaction",
+                "Engagement Levels"
+            ],
+            "relations": [
+                {
+                    "type": "aims-for-automation",
+                    "target": "Engagement Recognition Processes",
+                    "note": "goal of the work",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "applied-to",
+                    "target": "Real-time Video Data",
+                    "note": "application domain",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "enhanced-by",
+                    "target": "Temporal Deep Learning Techniques",
+                    "note": "for dynamic capture",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "enhanced-by",
+                    "target": "Valence-Arousal Modeling",
+                    "note": "for nuanced emotional understanding",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "enables",
+                    "target": "Online Education",
+                    "note": "potential application",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "enables",
+                    "target": "Remote Work",
+                    "note": "potential application",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "enables",
+                    "target": "Human-Computer Interaction",
+                    "note": "potential application",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "detects",
+                    "target": "Engagement Levels",
+                    "note": "primary function",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Online Education",
+            "concept_type": "Application",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Recognition Processes"
+            ],
+            "relations": [
+                {
+                    "type": "potential-application-of",
+                    "target": "Engagement Recognition Processes",
+                    "note": "area of use",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "[34]"
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Remote Work",
+            "concept_type": "Application",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Recognition Processes"
+            ],
+            "relations": [
+                {
+                    "type": "potential-application-of",
+                    "target": "Engagement Recognition Processes",
+                    "note": "area of use",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "[34]"
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Human-Computer Interaction",
+            "concept_type": "Application",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Recognition Processes"
+            ],
+            "relations": [
+                {
+                    "type": "potential-application-of",
+                    "target": "Engagement Recognition Processes",
+                    "note": "area of use",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "[34]"
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "DAiSEE Dataset",
+            "concept_type": "Dataset",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [
+                    "AU05 (0.60) activation rate",
+                    "AU20 (0.64) activation rate",
+                    "AU14 (0.54) activation rate"
+                ],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)",
+                "AU Activation Rates",
+                "Video Data"
+            ],
+            "relations": [
+                {
+                    "type": "illustrates",
+                    "target": "AU Activation Rates",
+                    "note": "heatmap illustrates",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "contains-data-on",
+                    "target": "Action Units (AUs)",
+                    "note": "AU activation rates",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "type-of",
+                    "target": "Video Data",
+                    "note": "video dataset",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "Fig. 13 Overall AU activation rates in DAiSEE dataset."
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "AU Activation Rates",
+            "concept_type": "Metric",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": [
+                    "A higher value indicates that the corresponding AU is active more frequently."
+                ]
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)",
+                "DAiSEE Dataset"
+            ],
+            "relations": [
+                {
+                    "type": "measured-for",
+                    "target": "Action Units (AUs)",
+                    "note": "proportion of frames active",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "illustrated-in",
+                    "target": "DAiSEE Dataset",
+                    "note": "heatmap illustration",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "ADAPT SFI Research Centre",
+            "concept_type": "Organization",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Riju Das",
+                    "Soumyabrata Dev"
+                ],
+                "supporting_actors": [
+                    "Science Foundation Ireland"
+                ],
+                "coordination_mechanisms": [
+                    "funded by Science Foundation Ireland through the SFI Research Centres Programme."
+                ],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Science Foundation Ireland",
+                "Riju Das",
+                "Soumyabrata Dev"
+            ],
+            "relations": [
+                {
+                    "type": "funded-by",
+                    "target": "Science Foundation Ireland",
+                    "note": "financial support",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "hosts",
+                    "target": "Riju Das",
+                    "note": "affiliated researcher",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "hosts",
+                    "target": "Soumyabrata Dev",
+                    "note": "affiliated researcher",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Science Foundation Ireland",
+            "concept_type": "Organization",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Science Foundation Ireland"
+                ],
+                "supporting_actors": [
+                    "ADAPT SFI Research Centre"
+                ],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "ADAPT SFI Research Centre"
+            ],
+            "relations": [
+                {
+                    "type": "provides-funding-to",
+                    "target": "ADAPT SFI Research Centre",
+                    "note": "under Grant Agreement No. 13/RC/2106_P2",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "IReL Consortium",
+            "concept_type": "Organization",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "IReL Consortium"
+                ],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Open Access"
+            ],
+            "relations": [
+                {
+                    "type": "provides-funding-for",
+                    "target": "Open Access",
+                    "note": "publication funding",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Open Access",
+            "concept_type": "Policy",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Creative Commons Attribution 4.0 International License",
+                "IReL Consortium"
+            ],
+            "relations": [
+                {
+                    "type": "funded-by",
+                    "target": "IReL Consortium",
+                    "note": "funding source",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "governed-by",
+                    "target": "Creative Commons Attribution 4.0 International License",
+                    "note": "licensing terms",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Creative Commons Attribution 4.0 International License",
+            "concept_type": "Standard",
+            "operational_details": {
+                "practical_measures": [
+                    "give appropriate credit to the original author(s) and the source",
+                    "provide a link to the Creative Commons licence",
+                    "indicate if changes were made"
+                ],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [
+                    "If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder."
+                ],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [
+                    "Copyright Holder"
+                ],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Open Access",
+                "Copyright Holder"
+            ],
+            "relations": [
+                {
+                    "type": "governs",
+                    "target": "Open Access",
+                    "note": "licensing terms",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "requires-permission-from",
+                    "target": "Copyright Holder",
+                    "note": "for uses exceeding permitted scope",
+                    "strength": "strong",
+                    "conditions": "if use is not permitted by statutory regulation or exceeds permitted use"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [
+                    "http://creativecommons.org/licenses/by/4.0/"
+                ],
+                "tables": [],
+                "document_sections": []
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Image Data",
+            "concept_type": "Dataset",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Deep Learning Models",
+                "OpenFace Features"
+            ],
+            "relations": [
+                {
+                    "type": "used-to-train",
+                    "target": "Deep Learning Models",
+                    "note": "in combination with OpenFace features",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "source-for",
+                    "target": "OpenFace Features",
+                    "note": "features extracted from",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Video Data",
+            "concept_type": "Dataset",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Labels",
+                "Machine Learning Models",
+                "Deep Learning Models",
+                "Real-time Video Data",
+                "DAiSEE Dataset"
+            ],
+            "relations": [
+                {
+                    "type": "source-for",
+                    "target": "Engagement Labels",
+                    "note": "labels predicted from",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "processed-by",
+                    "target": "Machine Learning Models",
+                    "note": "for engagement recognition",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "processed-by",
+                    "target": "Deep Learning Models",
+                    "note": "for engagement recognition",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "includes",
+                    "target": "Real-time Video Data",
+                    "note": "specific type of video data",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "includes",
+                    "target": "DAiSEE Dataset",
+                    "note": "example video dataset",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Machine Learning Models",
+            "concept_type": "Model",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)",
+                "Engagement Labels",
+                "Video Data",
+                "Deep Learning Models"
+            ],
+            "relations": [
+                {
+                    "type": "performance-enhanced-by",
+                    "target": "Action Units (AUs)",
+                    "note": "AU mappings utilized to enhance performance",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "predicts",
+                    "target": "Engagement Labels",
+                    "note": "from image and video data",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "processes",
+                    "target": "Video Data",
+                    "note": "for engagement recognition",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "includes",
+                    "target": "Deep Learning Models",
+                    "note": "as a sub-category",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "OpenFace",
+            "concept_type": "Tool",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "OpenFace Features",
+                "Facial Expressions"
+            ],
+            "relations": [
+                {
+                    "type": "generates",
+                    "target": "OpenFace Features",
+                    "note": "extracts features",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "analyzes",
+                    "target": "Facial Expressions",
+                    "note": "for behavioral analysis",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "Baltrusˇaitis T, Robinson P, Morency L-P (2016) Openface: an open source facial behavior analysis toolkit."
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Facial Action Coding System (FACS)",
+            "concept_type": "Framework",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)",
+                "Facial Expressions"
+            ],
+            "relations": [
+                {
+                    "type": "defines",
+                    "target": "Action Units (AUs)",
+                    "note": "classifies facial movements",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "analyzes",
+                    "target": "Facial Expressions",
+                    "note": "for objective classification",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "evidence": {
+                "sources": [],
+                "media": [],
+                "links": [],
+                "tables": [],
+                "document_sections": [],
+                "citations": [
+                    "Ekman P, Friesen WV (1978) Facial action coding system."
+                ]
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Engagement Levels",
+            "concept_type": "Concept",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Engagement Labels",
+                "Facial Emotions",
+                "Valence-Arousal Modeling",
+                "Engagement Recognition Processes",
+                "Emotional States"
+            ],
+            "relations": [
+                {
+                    "type": "categorized-by",
+                    "target": "Engagement Labels",
+                    "note": "discrete categories",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "influenced-by",
+                    "target": "Facial Emotions",
+                    "note": "contributing factor",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "influenced-by",
+                    "target": "Emotional States",
+                    "note": "contributing factor",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "understood-via",
+                    "target": "Valence-Arousal Modeling",
+                    "note": "for nuanced understanding",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "detected-by",
+                    "target": "Engagement Recognition Processes",
+                    "note": "primary output of system",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Emotional States",
+            "concept_type": "Concept",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Valence-Arousal Modeling",
+                "Engagement Levels",
+                "Facial Emotions"
+            ],
+            "relations": [
+                {
+                    "type": "understood-via",
+                    "target": "Valence-Arousal Modeling",
+                    "note": "for nuanced understanding",
+                    "strength": "strong",
+                    "conditions": "future work"
+                },
+                {
+                    "type": "contributes-to",
+                    "target": "Engagement Levels",
+                    "note": "influences engagement",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "expressed-as",
+                    "target": "Facial Emotions",
+                    "note": "visible manifestation",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Facial Expressions",
+            "concept_type": "Concept",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Action Units (AUs)",
+                "OpenFace",
+                "Facial Action Coding System (FACS)",
+                "Facial Emotions"
+            ],
+            "relations": [
+                {
+                    "type": "composed-of",
+                    "target": "Action Units (AUs)",
+                    "note": "facial muscle movements",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "analyzed-by",
+                    "target": "OpenFace",
+                    "note": "toolkit for analysis",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "classified-by",
+                    "target": "Facial Action Coding System (FACS)",
+                    "note": "framework for classification",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "conveys",
+                    "target": "Facial Emotions",
+                    "note": "expresses emotions",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Copyright Holder",
+            "concept_type": "Role",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Copyright Holder"
+                ],
+                "supporting_actors": [],
+                "coordination_mechanisms": [],
+                "communication_flows": [],
+                "decision_authorities": [
+                    "Copyright Holder"
+                ]
+            },
+            "related_concepts": [
+                "Creative Commons Attribution 4.0 International License"
+            ],
+            "relations": [
+                {
+                    "type": "grants-permission",
+                    "target": "Creative Commons Attribution 4.0 International License",
+                    "note": "for uses outside license scope",
+                    "strength": "strong",
+                    "conditions": "if use exceeds permitted scope"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Riju Das",
+            "concept_type": "Role",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Riju Das"
+                ],
+                "supporting_actors": [],
+                "coordination_mechanisms": [
+                    "collaborated with Soumyabrata Dev on manuscript writing and supervision"
+                ],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "ADAPT SFI Research Centre",
+                "Soumyabrata Dev"
+            ],
+            "relations": [
+                {
+                    "type": "affiliated-with",
+                    "target": "ADAPT SFI Research Centre",
+                    "note": "researcher at",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "collaborates-with",
+                    "target": "Soumyabrata Dev",
+                    "note": "co-author and supervisor",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        },
+        {
+            "name": "Soumyabrata Dev",
+            "concept_type": "Role",
+            "operational_details": {
+                "practical_measures": [],
+                "implementation_steps": [],
+                "resources_required": [],
+                "timeline_indicators": [],
+                "success_criteria": [],
+                "common_challenges": [],
+                "best_practices": []
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Soumyabrata Dev"
+                ],
+                "supporting_actors": [],
+                "coordination_mechanisms": [
+                    "collaborated with Riju Das on manuscript writing and experiments"
+                ],
+                "communication_flows": [],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "ADAPT SFI Research Centre",
+                "Riju Das"
+            ],
+            "relations": [
+                {
+                    "type": "affiliated-with",
+                    "target": "ADAPT SFI Research Centre",
+                    "note": "researcher at",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "collaborates-with",
+                    "target": "Riju Das",
+                    "note": "co-author and experiment conductor",
+                    "strength": "strong",
+                    "conditions": ""
+                },
+                {
+                    "type": "supervises",
+                    "target": "Riju Das",
+                    "note": "provided supervision",
+                    "strength": "strong",
+                    "conditions": ""
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": []
+        }
+    ],
+    "domain_specific_patterns": {
+        "workflows": [
+            "Engagement Recognition Pipeline: Image Data + OpenFace Features -> Deep Learning Models (ResNet, EfficientNet) -> Predict Engagement Labels.",
+            "Enhancement Workflow: Action Units (from WACV Dataset) + Statistical Discriminant Coefficients (SDC) -> Mapped to Engagement Labels -> Enhance Machine Learning Models/Deep Learning Models.",
+            "Future Real-time Engagement Recognition Workflow: Real-time Video Data -> Temporal Deep Learning Techniques (LSTM Networks, TCNs) + Valence-Arousal Modeling -> Detect/Interpret Engagement Levels -> Applications (Online Education, Remote Work, Human-Computer Interaction)."
+        ],
+        "decision_trees": [],
+        "escalation_paths": [],
+        "feedback_loops": [],
+        "integration_points": [
+            "Integration of Temporal Deep Learning Techniques and Valence-Arousal Modeling into the existing framework for real-time video data processing."
+        ]
+    },
+    "extraction_completeness": {
+        "theoretical_coverage": "90%",
+        "operational_coverage": "70%",
+        "example_coverage": "80%",
+        "stakeholder_coverage": "100%",
+        "missing_elements": [
+            "Detailed technical specifications for model training (e.g., hyperparameters, specific training datasets beyond WACV/DAiSEE for initial training)",
+            "Detailed architectural diagrams for the integrated system",
+            "Specific challenges encountered during implementation beyond general 'capturing intricate details'",
+            "More explicit definitions for 'High Engagement', 'Partial Engagement', 'Disengagement' beyond AU combinations"
+        ]
+    }
+}

@@ -9,6 +9,7 @@ import ThemeToggle from './components/ThemeToggle';
 import SoundEffects from './components/SoundEffects';
 import { apiService } from './services/api';
 import './App.css';
+import KnowledgeGraph from './components/KnowledgeGraph';
 
 function App() {
   // Domain and conversation state
@@ -215,20 +216,15 @@ function App() {
             }}
             style={{ fontSize: '1.1rem', padding: '0.75rem 2rem' }}
           >
-            {emergencyHeader.buttonText}
+            View Knowledge Graph
           </button>
+          <ThemeToggle />
         </div>
-        
-        {/* Backend Status Indicator */}
-        <StatusIndicator status={backendStatus} />
-
-        {/* Domain Selection Tabs */}
         <DomainTabs 
           selectedDomain={selectedDomain}
           onDomainChange={handleDomainChange}
         />
 
-        {/* Main Chat Interface */}
         <div className="chat-container">
           {/* Domain-Specific Chat Header */}
           <div className={`chat-header domain-${selectedDomain}`}>

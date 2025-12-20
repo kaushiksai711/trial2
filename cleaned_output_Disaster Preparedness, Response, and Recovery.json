@@ -1,0 +1,3562 @@
+{
+    "domain": "Civil Unrest Management",
+    "metadata": {
+        "doc_id": "Disaster Preparedness, Response, and Recovery",
+        "author": "Not specified",
+        "provenance": "Selected, truncated document text with cited works",
+        "extraction_focus": "mixed",
+        "completeness_score": "7"
+    },
+    "concepts": [
+        {
+            "name": "Civil Unrest",
+            "concept_type": "Concept",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "Disruptive Forms",
+                "Violent Forms",
+                "Causes of Civil Unrest",
+                "Impacts of Civil Unrest",
+                "Social Media's Role in Civil Unrest",
+                "Preparedness for Civil Unrest",
+                "Safety Measures During Unrest",
+                "De-escalation Techniques",
+                "Law Enforcement Role in Civil Unrest",
+                "Recovery and Reconciliation"
+            ],
+            "relations": [],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Disruptive Forms",
+                    "explanation": "Actions that directly interfere with public order, such as blocking roadways or buildings, without necessarily being violent.",
+                    "sub_type": "Concept",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Disruptive Forms (Civil Disorder): This involves actions that, while not necessarily violent, directly interfere with public order, such as blocking roadways or buildings.",
+                            "assertion_type": "definition",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.undrr.org/understanding-disaster-risk/terminology/hips/so0103",
+                                    "https://www.essexsheriff.com/wp-content/uploads/2019/12/Draft-Section-4.3.11-Civil-Disorder.pdf"
+                                ],
+                                "citations": [
+                                    "101"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Civil Unrest",
+                        "Civil Disorder"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Civil Unrest",
+                            "note": "a category of civil unrest",
+                            "context": "general"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "medium"
+                    }
+                },
+                {
+                    "name": "Violent Forms",
+                    "explanation": "A riot is a violent public disturbance where a crowd becomes a mob, engaging in destructive and harmful acts such as vandalism, arson, looting, and assault on individuals, including law enforcement.",
+                    "sub_type": "Concept",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Violent Forms (Riots): A riot is a violent public disturbance where a crowd becomes a mob, engaging in destructive and harmful acts such as vandalism, arson, looting, and assault on individuals, including law enforcement.",
+                            "assertion_type": "definition",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://flshmp-floridadisaster.hub.arcgis.com/pages/civil-disturbance"
+                                ],
+                                "citations": [
+                                    "102"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Civil Unrest",
+                        "Riot"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Civil Unrest",
+                            "note": "a category of civil unrest",
+                            "context": "general"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    },
+                    "sub_concepts": [
+                        {
+                            "name": "Communal Riots",
+                            "explanation": "Riots primarily motivated by tensions between ethnic or religious groups.",
+                            "sub_type": "Type",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "Riots can be further categorized based on their primary motivation, such as communal (between ethnic or religious groups).",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "102"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Violent Forms"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Violent Forms",
+                                    "note": "a type of riot",
+                                    "context": "motivation-based categorization"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Protest Riots",
+                            "explanation": "Riots that emerge from protests.",
+                            "sub_type": "Type",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "Riots can be further categorized based on their primary motivation, such as protest.",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "102"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Violent Forms"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Violent Forms",
+                                    "note": "a type of riot",
+                                    "context": "motivation-based categorization"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Commodity Riots",
+                            "explanation": "Riots motivated by issues related to commodities, such as food shortages.",
+                            "sub_type": "Type",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "Riots can be further categorized based on their primary motivation, such as commodity (e.g., food riots).",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "102"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Violent Forms"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Violent Forms",
+                                    "note": "a type of riot",
+                                    "context": "motivation-based categorization"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Celebration Riots",
+                            "explanation": "Riots that occur after celebratory events, such as sports events.",
+                            "sub_type": "Type",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "Riots can be further categorized based on their primary motivation, such as celebration riots (e.g., after a sports event).",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "102"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Violent Forms"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Violent Forms",
+                                    "note": "a type of riot",
+                                    "context": "motivation-based categorization"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Causes of Civil Unrest",
+            "concept_type": "Concept",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "Civil Unrest"
+            ],
+            "relations": [
+                {
+                    "type": "causes",
+                    "target": "Civil Unrest",
+                    "note": "complex interplay of grievances and triggers",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Economic Inequality",
+                    "explanation": "Significant gaps between the rich and poor, high unemployment, inflation, and economic hardship serve as powerful motivators for unrest.",
+                    "sub_type": "Factor",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Economic Inequality: Significant gaps between the rich and poor, high unemployment, inflation, and economic hardship are powerful motivators for unrest.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://bylinetimes.com/2024/08/29/six-factors-driving-civil-unrest/"
+                                ],
+                                "citations": [
+                                    "103"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Causes of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Causes of Civil Unrest",
+                            "note": "a primary driver",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Political Oppression and Corruption",
+                    "explanation": "A lack of political rights, perceived fraudulent elections, government corruption, and repressive state actions erode public trust and can lead to mass protests demanding accountability and reform.",
+                    "sub_type": "Factor",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Political Oppression and Corruption: A lack of political rights, perceived fraudulent elections, government corruption, and repressive state actions erode public trust and can lead to mass protests demanding accountability and reform.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://bylinetimes.com/2024/08/29/six-factors-driving-civil-unrest/"
+                                ],
+                                "citations": [
+                                    "103"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Causes of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Causes of Civil Unrest",
+                            "note": "a primary driver",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Social Injustice and Identity Politics",
+                    "explanation": "Grievances related to systemic discrimination based on race, ethnicity, religion, or other identity markers are a frequent cause. Tensions can be deliberately fueled by political actors who use scapegoating and misinformation to mobilize support.",
+                    "sub_type": "Factor",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Social Injustice and Identity Politics: Grievances related to systemic discrimination based on race, ethnicity, religion, or other identity markers are a frequent cause.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://bylinetimes.com/2024/08/29/six-factors-driving-civil-unrest/"
+                                ],
+                                "citations": [
+                                    "103"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "Tensions can be deliberately fueled by political actors who use scapegoating and misinformation to mobilize support.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://bylinetimes.com/2024/08/29/six-factors-driving-civil-unrest/"
+                                ],
+                                "citations": [
+                                    "103"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Causes of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Causes of Civil Unrest",
+                            "note": "a primary driver",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Environmental Factors",
+                    "explanation": "Climate change is an emerging and accelerating driver of unrest. Resource scarcity (e.g., water or food shortages), displacement due to extreme weather events, and dissatisfaction with government environmental policies can all trigger or exacerbate conflict.",
+                    "sub_type": "Factor",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Environmental Factors: Climate change is an emerging and accelerating driver of unrest.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://bylinetimes.com/2024/08/29/six-factors-driving-civil-unrest/"
+                                ],
+                                "citations": [
+                                    "103"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "Resource scarcity (e.g., water or food shortages), displacement due to extreme weather events, and dissatisfaction with government environmental policies can all trigger or exacerbate conflict.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://bylinetimes.com/2024/08/29/six-factors-driving-civil-unrest/"
+                                ],
+                                "citations": [
+                                    "103"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Causes of Civil Unrest",
+                        "Climate Change"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Causes of Civil Unrest",
+                            "note": "an emerging and accelerating driver",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Impacts of Civil Unrest",
+            "concept_type": "Outcome",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "Civil Unrest"
+            ],
+            "relations": [
+                {
+                    "type": "leads-to",
+                    "target": "Deaths and Injuries",
+                    "note": "direct result of violent events",
+                    "strength": "strong"
+                },
+                {
+                    "type": "leads-to",
+                    "target": "Property Destruction",
+                    "note": "direct result of violent events",
+                    "strength": "strong"
+                },
+                {
+                    "type": "leads-to",
+                    "target": "Economic Impacts",
+                    "note": "profound consequences",
+                    "strength": "strong"
+                },
+                {
+                    "type": "leads-to",
+                    "target": "Social Impacts",
+                    "note": "equally damaging consequences",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Deaths and Injuries",
+                    "explanation": "Violent events during civil unrest directly result in fatalities and physical harm to individuals.",
+                    "sub_type": "Outcome",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Violent events directly result in deaths, injuries, and widespread destruction of public and private property.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.undrr.org/understanding-disaster-risk/terminology/hips/so0103"
+                                ],
+                                "citations": [
+                                    "100"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Impacts of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Impacts of Civil Unrest",
+                            "note": "a direct consequence",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "critical"
+                    }
+                },
+                {
+                    "name": "Property Destruction",
+                    "explanation": "Widespread destruction of public and private property is a direct consequence of violent civil unrest.",
+                    "sub_type": "Outcome",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Violent events directly result in deaths, injuries, and widespread destruction of public and private property.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.undrr.org/understanding-disaster-risk/terminology/hips/so0103"
+                                ],
+                                "citations": [
+                                    "100"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Impacts of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Impacts of Civil Unrest",
+                            "note": "a direct consequence",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Economic Impacts",
+                    "explanation": "The economic consequences of civil unrest are profound, affecting businesses, infrastructure, and overall economic stability.",
+                    "sub_type": "Outcome",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "The economic impacts are profound, including business interruption from closures and supply chain disruptions, damage to infrastructure, capital flight as investors lose confidence, and a long-term decline in GDP.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://digitalcommons.spu.edu/cgi/viewcontent.cgi?article=1243&context=honorsprojects"
+                                ],
+                                "citations": [
+                                    "108"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Impacts of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Impacts of Civil Unrest",
+                            "note": "a category of consequences",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    },
+                    "sub_concepts": [
+                        {
+                            "name": "Business Interruption",
+                            "explanation": "Closures of businesses due to civil unrest.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "business interruption from closures",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Economic Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Economic Impacts",
+                                    "note": "a specific economic impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Supply Chain Disruptions",
+                            "explanation": "Disruptions to the flow of goods and services caused by civil unrest.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "supply chain disruptions",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Economic Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Economic Impacts",
+                                    "note": "a specific economic impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Damage to Infrastructure",
+                            "explanation": "Physical harm to public and private infrastructure during civil unrest.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "damage to infrastructure",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Economic Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Economic Impacts",
+                                    "note": "a specific economic impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Capital Flight",
+                            "explanation": "Investors losing confidence and withdrawing capital due to civil unrest.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "capital flight as investors lose confidence",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Economic Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Economic Impacts",
+                                    "note": "a specific economic impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Decline in GDP",
+                            "explanation": "A long-term reduction in Gross Domestic Product as a result of civil unrest.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "a long-term decline in GDP",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Economic Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Economic Impacts",
+                                    "note": "a specific economic impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Social Impacts",
+                    "explanation": "The social consequences of civil unrest are damaging, affecting community cohesion, essential services, and individual well-being.",
+                    "sub_type": "Outcome",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "The social impacts are equally damaging. Unrest erodes social cohesion and trust between different community groups and between the public and authorities. It can disrupt essential services like education and healthcare. For individuals directly affected, the experience can lead to lasting psychological trauma, including anxiety and PTSD. In the long term, sustained unrest can lead to a 'brain drain' as skilled individuals and families flee to safer, more stable environments, further hindering a community's recovery.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://digitalcommons.spu.edu/cgi/viewcontent.cgi?article=1243&context=honorsprojects"
+                                ],
+                                "citations": [
+                                    "108"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Impacts of Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Impacts of Civil Unrest",
+                            "note": "a category of consequences",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    },
+                    "sub_concepts": [
+                        {
+                            "name": "Erosion of Social Cohesion and Trust",
+                            "explanation": "Civil unrest damages the bonds and trust within and between community groups, and between the public and authorities.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "Unrest erodes social cohesion and trust between different community groups and between the public and authorities.",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Social Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Social Impacts",
+                                    "note": "a specific social impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Disruption of Essential Services",
+                            "explanation": "Civil unrest can interrupt vital services such as education and healthcare.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "It can disrupt essential services like education and healthcare.",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Social Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Social Impacts",
+                                    "note": "a specific social impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        },
+                        {
+                            "name": "Psychological Trauma",
+                            "explanation": "Individuals directly affected by civil unrest can experience lasting psychological trauma, including anxiety and PTSD.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "For individuals directly affected, the experience can lead to lasting psychological trauma, including anxiety and PTSD.",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Social Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Social Impacts",
+                                    "note": "a specific social impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        },
+                        {
+                            "name": "Brain Drain",
+                            "explanation": "Sustained civil unrest can lead to skilled individuals and families fleeing to safer, more stable environments, hindering community recovery.",
+                            "sub_type": "Outcome",
+                            "execution_details": {},
+                            "performance_indicators": {},
+                            "assertions": [
+                                {
+                                    "text": "In the long term, sustained unrest can lead to a 'brain drain' as skilled individuals and families flee to safer, more stable environments, further hindering a community's recovery.",
+                                    "assertion_type": "fact",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "108"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Social Impacts"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Social Impacts",
+                                    "note": "a specific long-term social impact",
+                                    "strength": "strong"
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "medium"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Social Media's Role in Civil Unrest",
+            "concept_type": "Concept",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "Civil Unrest"
+            ],
+            "relations": [
+                {
+                    "type": "related-to",
+                    "target": "Civil Unrest",
+                    "note": "plays a powerful and dual-edged role",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Mobilization Tool",
+                    "explanation": "Social media platforms are invaluable tools for activists and protesters to organize, mobilize participants, and rapidly disseminate information and videos, often bypassing state-controlled media.",
+                    "sub_type": "Benefit",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "For activists and protesters, they are invaluable tools for organizing, mobilizing participants, and rapidly disseminating information and videos, often bypassing state-controlled media.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://ijoc.org/index.php/ijoc/article/viewFile/7767/2313"
+                                ],
+                                "citations": [
+                                    "111"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Social Media's Role in Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Social Media's Role in Civil Unrest",
+                            "note": "a positive use case",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Disinformation and Incitement Tool",
+                    "explanation": "Social media platforms are exploited to spread disinformation, hate speech, and propaganda that can inflame tensions and incite violence.",
+                    "sub_type": "Risk",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "However, these same platforms are also exploited to spread disinformation, hate speech, and propaganda that can inflame tensions and incite violence.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7343248/"
+                                ],
+                                "citations": [
+                                    "114"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Social Media's Role in Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Social Media's Role in Civil Unrest",
+                            "note": "a negative use case",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Surveillance Tool",
+                    "explanation": "Governments and law enforcement agencies increasingly use social media as a surveillance tool to monitor activists and gather intelligence, raising significant privacy and human rights concerns.",
+                    "sub_type": "Tool",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "Furthermore, governments and law enforcement agencies increasingly use social media as a surveillance tool to monitor activists and gather intelligence, raising significant privacy and human rights concerns.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.sipri.org/commentary/topical-backgrounder/2021/social-media-tool-peace-or-conflict"
+                                ],
+                                "citations": [
+                                    "112"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Social Media's Role in Civil Unrest",
+                        "Law Enforcement Role in Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Social Media's Role in Civil Unrest",
+                            "note": "a use case with ethical implications",
+                            "strength": "strong"
+                        },
+                        {
+                            "type": "enables",
+                            "target": "Law Enforcement Role in Civil Unrest",
+                            "note": "enables monitoring and intelligence gathering",
+                            "strength": "moderate"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Preparedness for Civil Unrest",
+            "concept_type": "Strategy",
+            "operational_details": {
+                "practical_measures": [
+                    "staying informed about local political and social tensions",
+                    "monitoring trusted media sources for information about planned demonstrations",
+                    "avoiding areas where unrest is occurring or likely to occur",
+                    "developing contingency plans for transportation, communication, and essential supplies",
+                    "businesses developing continuity of operations plans to protect employees and assets"
+                ],
+                "implementation_steps": [
+                    "Individuals: Stay informed, monitor media, avoid risky areas, create contingency plans.",
+                    "Businesses: Develop continuity of operations plans."
+                ],
+                "resources_required": [
+                    "trusted media sources",
+                    "communication tools",
+                    "essential supplies"
+                ],
+                "timeline_indicators": [
+                    "ongoing monitoring",
+                    "pre-event planning"
+                ],
+                "success_criteria": [
+                    "reduced individual risk",
+                    "business continuity maintained"
+                ],
+                "common_challenges": [
+                    "unpredictability of unrest",
+                    "information overload/misinformation"
+                ],
+                "best_practices": [
+                    "situational awareness",
+                    "proactive planning"
+                ]
+            },
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Individuals",
+                    "Communities",
+                    "Businesses"
+                ],
+                "supporting_actors": [
+                    "Media (trusted sources)"
+                ],
+                "coordination_mechanisms": [
+                    "community information sharing"
+                ],
+                "communication_flows": [
+                    "monitoring media",
+                    "internal business communication for continuity plans"
+                ],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Civil Unrest",
+                "Situational Awareness",
+                "Contingency Plans",
+                "Continuity of Operations Plans"
+            ],
+            "relations": [
+                {
+                    "type": "mitigates",
+                    "target": "Impacts of Civil Unrest",
+                    "note": "reduces negative consequences",
+                    "strength": "strong"
+                },
+                {
+                    "type": "requires",
+                    "target": "Situational Awareness",
+                    "note": "primary strategy",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Situational Awareness",
+                    "explanation": "The primary preparedness strategy for individuals and communities, involving staying informed about local political and social tensions, monitoring trusted media sources for information about planned demonstrations, and avoiding areas where unrest is occurring or likely to occur.",
+                    "sub_type": "Strategy",
+                    "execution_details": {
+                        "how_to_perform": "Stay informed about local political and social tensions; monitor trusted media sources for information about planned demonstrations; avoid areas where unrest is occurring or likely to occur.",
+                        "who_performs": "Individuals, Communities",
+                        "when_performed": "Continuously, especially during periods of tension",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Access to trusted media sources",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "timely avoidance of dangerous areas",
+                            "informed decision-making"
+                        ],
+                        "warning_signs": [
+                            "lack of information",
+                            "entering unsafe areas"
+                        ],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "The primary preparedness strategy for individuals and communities is situational awareness.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "This involves staying informed about local political and social tensions, monitoring trusted media sources for information about planned demonstrations, and avoiding areas where unrest is occurring or likely to occur.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Preparedness for Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Preparedness for Civil Unrest",
+                            "note": "primary strategy",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "critical"
+                    }
+                },
+                {
+                    "name": "Contingency Plans",
+                    "explanation": "Plans for individuals to manage transportation, communication, and essential supplies in case civil unrest disrupts normal services.",
+                    "sub_type": "Plan",
+                    "execution_details": {
+                        "how_to_perform": "Develop plans for transportation, communication, and essential supplies.",
+                        "who_performs": "Individuals",
+                        "when_performed": "Before unrest occurs",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": "Written or mental plans for emergencies"
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "ability to move safely",
+                            "maintain communication",
+                            "access essential supplies"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Individuals should have contingency plans for transportation, communication, and essential supplies in case unrest disrupts normal services.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.undrr.org/understanding-disaster-risk/terminology/hips/so0103"
+                                ],
+                                "citations": [
+                                    "100"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Preparedness for Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Preparedness for Civil Unrest",
+                            "note": "a key component of individual preparedness",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Continuity of Operations Plans (Businesses)",
+                    "explanation": "Plans developed by businesses in vulnerable areas to protect employees and assets during civil unrest.",
+                    "sub_type": "Plan",
+                    "execution_details": {
+                        "how_to_perform": "Develop plans to protect employees and assets.",
+                        "who_performs": "Businesses",
+                        "when_performed": "Before unrest occurs, especially in vulnerable areas",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": "Formal business continuity plans"
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "employee safety",
+                            "asset protection",
+                            "minimal business interruption"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Businesses in vulnerable areas should develop continuity of operations plans to protect employees and assets.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.undrr.org/understanding-disaster-risk/terminology/hips/so0103"
+                                ],
+                                "citations": [
+                                    "100"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Preparedness for Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Preparedness for Civil Unrest",
+                            "note": "a key component of business preparedness",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Safety Measures During Unrest",
+            "concept_type": "Procedure",
+            "operational_details": {
+                "practical_measures": [
+                    "leaving the area immediately",
+                    "moving calmly to the edge of the crowd",
+                    "looking for an escape route (side street, alley, safe building)",
+                    "avoiding running",
+                    "avoiding confrontation or engagement with protesters or law enforcement",
+                    "not wearing clothing or symbols associated with any particular group",
+                    "turning vehicle away from the area if driving",
+                    "parking, locking vehicle, and leaving on foot if surrounded",
+                    "not attempting to drive through a crowd",
+                    "not wearing contact lenses to protests (due to crowd control agents)",
+                    "moving upwind and away from the source of gas if exposed to chemical agents"
+                ],
+                "implementation_steps": [
+                    "1. Assess immediate surroundings.",
+                    "2. If caught, prioritize leaving the area calmly.",
+                    "3. Maintain a neutral stance and appearance.",
+                    "4. If in a vehicle, prioritize safety over movement through crowds.",
+                    "5. Be aware of and react appropriately to crowd control agents."
+                ],
+                "resources_required": [
+                    "awareness of surroundings",
+                    "calm demeanor"
+                ],
+                "timeline_indicators": [],
+                "success_criteria": [
+                    "personal safety maintained",
+                    "avoidance of injury/arrest"
+                ],
+                "common_challenges": [
+                    "panic",
+                    "being trapped",
+                    "unpredictable crowd behavior",
+                    "law enforcement actions"
+                ],
+                "best_practices": []
+            },
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Individuals"
+                ],
+                "supporting_actors": [
+                    "Law Enforcement (as a factor to be aware of)"
+                ],
+                "coordination_mechanisms": [],
+                "communication_flows": [
+                    "internal self-talk for calm"
+                ],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Civil Unrest",
+                "Personal Safety"
+            ],
+            "relations": [
+                {
+                    "type": "mitigates",
+                    "target": "Deaths and Injuries",
+                    "note": "reduces risk of harm",
+                    "strength": "strong"
+                },
+                {
+                    "type": "mitigates",
+                    "target": "Property Destruction",
+                    "note": "reduces risk of personal property damage (vehicle)",
+                    "strength": "weak"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Avoid and Evacuate",
+                    "explanation": "The best course of action if unexpectedly caught in or near a protest or riot is to leave the area immediately, moving calmly to the edge of the crowd and looking for an escape route.",
+                    "sub_type": "Procedure",
+                    "execution_details": {
+                        "how_to_perform": "Leave the area immediately. Move calmly to the edge of the crowd, looking for an escape route like a side street, alley, or safe building. Do not run.",
+                        "who_performs": "Individuals",
+                        "when_performed": "If unexpectedly caught in or near unrest",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Situational awareness",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "successful exit from dangerous area"
+                        ],
+                        "warning_signs": [
+                            "panic, running, getting deeper into crowd"
+                        ],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Key safety measures include 116: ● Avoid and Evacuate: The best course of action is to leave the area immediately. Move calmly to the edge of the crowd, looking for an escape route like a side street, alley, or safe building. Do not run, as this can draw unwanted attention.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Safety Measures During Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Safety Measures During Unrest",
+                            "note": "a key safety measure",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "critical"
+                    }
+                },
+                {
+                    "name": "Maintain a Low Profile",
+                    "explanation": "Avoid confrontation or engagement with protesters or law enforcement and do not wear clothing or symbols associated with any particular group.",
+                    "sub_type": "Procedure",
+                    "execution_details": {
+                        "how_to_perform": "Avoid confrontation or engagement with protesters or law enforcement. Do not wear clothing or symbols associated with any particular group.",
+                        "who_performs": "Individuals",
+                        "when_performed": "During unrest",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Awareness of group affiliations",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "avoidance of unwanted attention",
+                            "non-involvement in conflict"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "● Maintain a Low Profile: Avoid confrontation or engagement with protesters or law enforcement. Do not wear clothing or symbols associated with any particular group.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Safety Measures During Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Safety Measures During Unrest",
+                            "note": "a key safety measure",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Vehicle Safety",
+                    "explanation": "If driving, turn away from the area of unrest. If the vehicle is surrounded and cannot move, it may be safer to park, lock the vehicle, and leave on foot to seek shelter, rather than attempting to drive through a crowd.",
+                    "sub_type": "Procedure",
+                    "execution_details": {
+                        "how_to_perform": "If driving, turn away from the area. If the vehicle is surrounded and cannot move, park, lock the vehicle, and leave on foot to seek shelter. Do not attempt to drive through a crowd.",
+                        "who_performs": "Individuals (drivers)",
+                        "when_performed": "If driving near or in unrest",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "vehicle and personal safety maintained"
+                        ],
+                        "warning_signs": [
+                            "attempting to drive through crowds",
+                            "remaining in a surrounded vehicle"
+                        ],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "● Vehicle Safety: If driving, turn away from the area. If the vehicle is surrounded and cannot move, it may be safer to park, lock the vehicle, and leave on foot to seek shelter. Do not attempt to drive through a crowd.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Safety Measures During Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Safety Measures During Unrest",
+                            "note": "a key safety measure",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Prepare for Crowd Control Agents",
+                    "explanation": "Be aware that law enforcement may use tear gas or other chemical agents. It is advisable not to wear contact lenses to protests. If exposed, move upwind and away from the source of the gas.",
+                    "sub_type": "Procedure",
+                    "execution_details": {
+                        "how_to_perform": "Do not wear contact lenses to protests. If exposed to tear gas, move upwind and away from the source of the gas.",
+                        "who_performs": "Individuals",
+                        "when_performed": "Before and during unrest where agents might be used",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Awareness of potential use of chemical agents",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "minimizing exposure to chemical agents",
+                            "reducing harm from agents"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "● Prepare for Crowd Control Agents: Be aware that law enforcement may use tear gas or other chemical agents.",
+                            "assertion_type": "warning",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "It is advisable not to wear contact lenses to protests.",
+                            "assertion_type": "recommendation",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "If exposed, move upwind and away from the source of the gas.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.ems.gov/assets/Guidance_Resources_Civil_Unrest.pdf"
+                                ],
+                                "citations": [
+                                    "116"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Safety Measures During Unrest",
+                        "Crowd Control Agents"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Safety Measures During Unrest",
+                            "note": "a key safety measure",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "De-escalation Techniques",
+            "concept_type": "Methodology",
+            "operational_details": {
+                "practical_measures": [
+                    "remaining calm and composed",
+                    "using controlled breathing to manage stress",
+                    "maintaining neutral, non-threatening body language (e.g., open hands, relaxed posture)",
+                    "speaking in a calm, soft, and even tone",
+                    "using simple, clear, and non-provocative language",
+                    "giving agitated person space to speak",
+                    "acknowledging and validating feelings without judgment (e.g., 'I hear your frustration', 'I can see why you are upset')"
+                ],
+                "implementation_steps": [
+                    "1. Self-regulate: Control personal emotional response.",
+                    "2. Communicate effectively: Use calm, clear, non-provocative language.",
+                    "3. Listen actively: Provide space, acknowledge and validate feelings."
+                ],
+                "resources_required": [
+                    "self-control",
+                    "communication skills",
+                    "empathy"
+                ],
+                "timeline_indicators": [],
+                "success_criteria": [
+                    "reduced emotional intensity",
+                    "prevention of violence"
+                ],
+                "common_challenges": [
+                    "personal stress/fear",
+                    "agitated person's unresponsiveness",
+                    "misinterpretation"
+                ],
+                "best_practices": [
+                    "training and practice",
+                    "empathetic approach"
+                ]
+            },
+            "contextual_examples": {
+                "real_world_cases": [],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": [
+                    "'I hear your frustration'",
+                    "'I can see why you are upset'"
+                ]
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Law Enforcement",
+                    "Community Leaders",
+                    "Individuals"
+                ],
+                "supporting_actors": [],
+                "coordination_mechanisms": [
+                    "training programs"
+                ],
+                "communication_flows": [
+                    "verbal and non-verbal communication"
+                ],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Conflict Resolution",
+                "Violence Prevention"
+            ],
+            "relations": [
+                {
+                    "type": "prevents",
+                    "target": "Violent Forms",
+                    "note": "prevents tense situations from turning violent",
+                    "strength": "strong"
+                },
+                {
+                    "type": "supports",
+                    "target": "Law Enforcement Role in Civil Unrest",
+                    "note": "a vital skill for law enforcement",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Control Your Own Response",
+                    "explanation": "Remaining calm and composed, using controlled breathing to manage stress, and maintaining neutral, non-threatening body language (e.g., open hands, relaxed posture) are core strategies.",
+                    "sub_type": "Strategy",
+                    "execution_details": {
+                        "how_to_perform": "Remain calm and composed. Use controlled breathing to manage your own stress. Maintain neutral, non-threatening body language (e.g., open hands, relaxed posture).",
+                        "who_performs": "Individuals, Law Enforcement, Community Leaders",
+                        "when_performed": "During tense situations",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "personal calm maintained",
+                            "non-escalatory body language"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Core strategies include 121: ● Control Your Own Response: Remain calm and composed. Use controlled breathing to manage your own stress. Maintain neutral, non-threatening body language (e.g., open hands, relaxed posture).",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://content.govdelivery.com/accounts/MNADMIN/bulletins/3d754b0"
+                                ],
+                                "citations": [
+                                    "121"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "De-escalation Techniques"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "De-escalation Techniques",
+                            "note": "a core strategy",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Effective Communication",
+                    "explanation": "Speaking in a calm, soft, and even tone, and using simple, clear, and non-provocative language are crucial for de-escalation.",
+                    "sub_type": "Strategy",
+                    "execution_details": {
+                        "how_to_perform": "Speak in a calm, soft, and even tone. Use simple, clear, and non-provocative language.",
+                        "who_performs": "Individuals, Law Enforcement, Community Leaders",
+                        "when_performed": "During tense situations",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "clear message delivery",
+                            "reduced verbal aggression"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "● Effective Communication: Speak in a calm, soft, and even tone. Use simple, clear, and non-provocative language.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://content.govdelivery.com/accounts/MNADMIN/bulletins/3d754b0"
+                                ],
+                                "citations": [
+                                    "121"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "De-escalation Techniques"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "De-escalation Techniques",
+                            "note": "a core strategy",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Active Listening and Empathy",
+                    "explanation": "Giving the agitated person space to speak, acknowledging and validating their feelings without judgment, using phrases like, 'I hear your frustration,' or 'I can see why you are upset,' demonstrates listening and helps lower defenses.",
+                    "sub_type": "Strategy",
+                    "execution_details": {
+                        "how_to_perform": "Give the agitated person space to speak. Acknowledge and validate their feelings without judgment, using phrases like, 'I hear your frustration,' or 'I can see why you are upset.'",
+                        "who_performs": "Individuals, Law Enforcement, Community Leaders",
+                        "when_performed": "During tense situations",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "agitated person feels heard",
+                            "defenses lowered"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "● Active Listening and Empathy: Give the agitated person space to speak. Acknowledge and validate their feelings without judgment, using phrases like, 'I hear your frustration,' or 'I can see why you are upset.' This demonstrates that you are listening and can help lower their defenses.",
+                            "assertion_type": "instruction",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://content.govdelivery.com/accounts/MNADMIN/bulletins/3d754b0"
+                                ],
+                                "citations": [
+                                    "121"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "De-escalation Techniques"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "De-escalation Techniques",
+                            "note": "a core strategy",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Law Enforcement Role in Civil Unrest",
+            "concept_type": "Role",
+            "operational_details": {
+                "practical_measures": [
+                    "robust pre-event planning",
+                    "clear communication protocols",
+                    "strong inter-agency coordination",
+                    "unified command structure implementation",
+                    "plans to protect critical infrastructure",
+                    "plans to manage mass arrests",
+                    "engagement with the media",
+                    "joint training exercises among local, state, and federal agencies"
+                ],
+                "implementation_steps": [
+                    "1. Conduct pre-event planning.",
+                    "2. Establish clear communication protocols.",
+                    "3. Ensure inter-agency coordination, possibly via unified command.",
+                    "4. Develop and implement plans for critical infrastructure protection, mass arrests, and media engagement.",
+                    "5. Participate in joint training exercises."
+                ],
+                "resources_required": [
+                    "personnel",
+                    "equipment",
+                    "training",
+                    "communication systems",
+                    "inter-agency agreements"
+                ],
+                "timeline_indicators": [
+                    "pre-event",
+                    "during event",
+                    "post-event (training)"
+                ],
+                "success_criteria": [
+                    "public order maintained",
+                    "safety ensured",
+                    "constitutional rights upheld",
+                    "effective coordination"
+                ],
+                "common_challenges": [
+                    "balancing order with rights",
+                    "rapid escalation",
+                    "misinformation",
+                    "lack of coordination"
+                ],
+                "best_practices": [
+                    "unified command",
+                    "joint training",
+                    "proactive planning"
+                ]
+            },
+            "contextual_examples": {
+                "real_world_cases": [
+                    "January 6, 2021, attack on the U.S. Capitol (led to increased emphasis on joint training)"
+                ],
+                "hypothetical_scenarios": [],
+                "quantitative_data": [],
+                "qualitative_indicators": []
+            },
+            "stakeholder_ecosystem": {
+                "primary_actors": [
+                    "Law Enforcement Agencies (local, state, federal)"
+                ],
+                "supporting_actors": [
+                    "Media",
+                    "Community Leaders"
+                ],
+                "coordination_mechanisms": [
+                    "unified command structure",
+                    "inter-agency coordination",
+                    "joint training exercises"
+                ],
+                "communication_flows": [
+                    "clear communication protocols",
+                    "media engagement"
+                ],
+                "decision_authorities": []
+            },
+            "related_concepts": [
+                "Civil Unrest",
+                "Public Order",
+                "Peaceful Assembly",
+                "Critical Infrastructure Protection",
+                "Mass Arrests",
+                "Inter-agency Coordination",
+                "Unified Command Structure",
+                "Joint Training Exercises"
+            ],
+            "relations": [
+                {
+                    "type": "supports",
+                    "target": "Public Order",
+                    "note": "maintains public order",
+                    "strength": "strong"
+                },
+                {
+                    "type": "ensures",
+                    "target": "Safety",
+                    "note": "ensures public safety",
+                    "strength": "strong"
+                },
+                {
+                    "type": "upholds",
+                    "target": "Constitutional Right to Peaceful Assembly",
+                    "note": "upholds constitutional rights",
+                    "strength": "strong"
+                },
+                {
+                    "type": "requires",
+                    "target": "Pre-event Planning",
+                    "note": "requires robust planning",
+                    "strength": "strong"
+                },
+                {
+                    "type": "requires",
+                    "target": "Inter-agency Coordination",
+                    "note": "requires strong coordination",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Pre-event Planning",
+                    "explanation": "Robust planning conducted by law enforcement before civil unrest events to prepare for maintaining public order and safety.",
+                    "sub_type": "Activity",
+                    "execution_details": {
+                        "how_to_perform": "Develop strategies and protocols for managing civil unrest.",
+                        "who_performs": "Law Enforcement Agencies",
+                        "when_performed": "Before anticipated or potential unrest events",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Intelligence gathering, risk assessment",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "readiness for various scenarios",
+                            "effective resource allocation"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Effective management involves robust pre-event planning, clear communication protocols, and strong inter-agency coordination, often through a unified command structure.",
+                            "assertion_type": "requirement",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.nolo.com/legal-encyclopedia/policing-and-civil-unrest.html"
+                                ],
+                                "citations": [
+                                    "124"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Law Enforcement Role in Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Law Enforcement Role in Civil Unrest",
+                            "note": "a critical component of effective management",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Inter-agency Coordination",
+                    "explanation": "Strong coordination among different law enforcement agencies (local, state, federal) and other relevant bodies, often through a unified command structure, to manage civil unrest.",
+                    "sub_type": "Coordination Mechanism",
+                    "execution_details": {
+                        "how_to_perform": "Establish clear communication protocols and a unified command structure to ensure different agencies work together effectively.",
+                        "who_performs": "Law Enforcement Agencies (local, state, federal)",
+                        "when_performed": "Before and during civil unrest",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Agreements, shared protocols, training",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "seamless operations",
+                            "avoidance of conflicting actions",
+                            "efficient resource sharing"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Effective management involves robust pre-event planning, clear communication protocols, and strong inter-agency coordination, often through a unified command structure.",
+                            "assertion_type": "requirement",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.nolo.com/legal-encyclopedia/policing-and-civil-unrest.html"
+                                ],
+                                "citations": [
+                                    "124"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Law Enforcement Role in Civil Unrest",
+                        "Unified Command Structure"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Law Enforcement Role in Civil Unrest",
+                            "note": "a critical component of effective management",
+                            "context": null
+                        },
+                        {
+                            "type": "enables",
+                            "target": "Unified Command Structure",
+                            "note": "often achieved through",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Joint Training Exercises",
+                    "explanation": "Training exercises conducted jointly among local, state, and federal agencies to improve coordination and response capabilities for future civil unrest events.",
+                    "sub_type": "Training",
+                    "execution_details": {
+                        "how_to_perform": "Participate in and organize exercises simulating civil unrest scenarios.",
+                        "who_performs": "Local, State, and Federal Law Enforcement Agencies",
+                        "when_performed": "Ongoing, especially after major events",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Commitment from agencies, resources for training",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "improved coordination",
+                            "enhanced response capabilities"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [
+                            "realistic scenarios",
+                            "post-exercise debriefing"
+                        ],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "In the wake of major events like the January 6, 2021, attack on the U.S. Capitol, there has been a significant increase in emphasis on joint training exercises among local, state, and federal agencies to improve coordination and response capabilities for future events.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://apnews.com/article/capitol-police-jan-6-secret-service-riot-washington-ef20e1075fd210e697aa0a15f0fd57aa"
+                                ],
+                                "citations": [
+                                    "126"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Law Enforcement Role in Civil Unrest"
+                    ],
+                    "relations": [
+                        {
+                            "type": "supports",
+                            "target": "Law Enforcement Role in Civil Unrest",
+                            "note": "improves coordination and response",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Recovery and Reconciliation",
+            "concept_type": "Process",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "Civil Unrest",
+                "Post-Conflict Reconstruction",
+                "Community-Led Peacebuilding",
+                "Reconciliation Process"
+            ],
+            "relations": [
+                {
+                    "type": "part-of",
+                    "target": "Disaster Management",
+                    "note": "a phase of disaster management",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "Post-Conflict Reconstruction",
+                    "explanation": "A multidimensional process aimed at rebuilding a society's physical, social, economic, and political infrastructure after civil unrest. It involves restoring security, re-establishing essential services, revitalizing the economy, and addressing deep-seated grievances.",
+                    "sub_type": "Process",
+                    "execution_details": {
+                        "how_to_perform": "Restore security, re-establish essential services, revitalize the economy, address deep-seated grievances.",
+                        "who_performs": "Society (various actors)",
+                        "when_performed": "Aftermath of significant civil unrest",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "restored security",
+                            "functioning essential services",
+                            "economic revitalization",
+                            "grievances addressed"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Post-Conflict Reconstruction Recovery is a multidimensional process aimed at rebuilding a society's physical, social, economic, and political infrastructure.",
+                            "assertion_type": "definition",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://pesd.princeton.edu/node/586"
+                                ],
+                                "citations": [
+                                    "128"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "It involves restoring security, re-establishing essential services, revitalizing the economy, and addressing the deep-seated grievances that led to the conflict in the first place.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://pesd.princeton.edu/node/586"
+                                ],
+                                "citations": [
+                                    "128"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Recovery and Reconciliation"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Recovery and Reconciliation",
+                            "note": "a component of recovery",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Community-Led Peacebuilding",
+                    "explanation": "Approaches that empower local organizations, civil society groups (CSOs), and community leaders to take ownership of the peacebuilding process. These grassroots initiatives understand local conflict dynamics and design culturally appropriate solutions, focusing on facilitating dialogue, mediating disputes, and rebuilding trust and social relationships.",
+                    "sub_type": "Methodology",
+                    "execution_details": {
+                        "how_to_perform": "Empower local organizations, CSOs, and community leaders. Facilitate dialogue, mediate disputes, rebuild trust and social relationships.",
+                        "who_performs": "Local organizations, Civil Society Groups (CSOs), Community Leaders",
+                        "when_performed": "During recovery and reconciliation",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Local ownership, understanding of local conflict dynamics",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "sustainable peace",
+                            "effective dispute resolution",
+                            "restored social relationships"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [
+                            "grassroots initiatives",
+                            "culturally appropriate solutions"
+                        ],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "Community-Led Peacebuilding Evidence suggests that the most sustainable peace is built from the ground up.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://unitar.org/community-led-approach-foundation-peacebuilding"
+                                ],
+                                "citations": [
+                                    "130"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "Community-based approaches empower local organizations, civil society groups (CSOs), and community leaders to take ownership of the peacebuilding process.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://unitar.org/community-led-approach-foundation-peacebuilding"
+                                ],
+                                "citations": [
+                                    "130"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "These grassroots initiatives are better positioned to understand local conflict dynamics and design culturally appropriate solutions.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://unitar.org/community-led-approach-foundation-peacebuilding"
+                                ],
+                                "citations": [
+                                    "130"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "They focus on facilitating dialogue, mediating disputes, and rebuilding trust and social relationships within and between communities.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://unitar.org/community-led-approach-foundation-peacebuilding"
+                                ],
+                                "citations": [
+                                    "130"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Recovery and Reconciliation",
+                        "Peacebuilding"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Recovery and Reconciliation",
+                            "note": "a component of recovery",
+                            "context": null
+                        },
+                        {
+                            "type": "enables",
+                            "target": "Sustainable Peace",
+                            "note": "builds sustainable peace",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Reconciliation Process",
+                    "explanation": "The deep, long-term process by which a society moves from a divided past to a shared future, involving fundamental changes in attitudes, emotions, and relationships. Essential components include Justice, Truth-Telling, Reparations, and Empathy.",
+                    "sub_type": "Process",
+                    "execution_details": {
+                        "how_to_perform": "Implement justice mechanisms, create truth-telling platforms, provide reparations, foster empathy.",
+                        "who_performs": "Society, victims, perpetrators, institutions",
+                        "when_performed": "Long-term process after violent conflict",
+                        "where_performed": null,
+                        "duration": "Long-term",
+                        "prerequisites": "Commitment to healing and change",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "fundamental changes in attitudes, emotions, and relationships",
+                            "shared understanding of the past",
+                            "redress for victims"
+                        ],
+                        "warning_signs": [
+                            "unaddressed hurts and injustices festering",
+                            "undermining reforms",
+                            "increased likelihood of future violence"
+                        ],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "The Reconciliation Process Reconciliation is the deep, long-term process by which a society moves from a divided past to a shared future.",
+                            "assertion_type": "definition",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.idea.int/sites/default/files/publications/chapters/reconciliation-after-violent-conflict/reconciliation-after-violent-conflict-policy-summary.pdf"
+                                ],
+                                "citations": [
+                                    "134"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "It is not a quick fix but involves fundamental changes in attitudes, emotions, and relationships.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.idea.int/sites/default/files/publications/chapters/reconciliation-after-violent-conflict/reconciliation-after-violent-conflict-policy-summary.pdf"
+                                ],
+                                "citations": [
+                                    "134"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "Leaving these hurts and injustices unaddressed allows them to fester, undermining political and economic reforms and increasing the likelihood of future violence.",
+                            "assertion_type": "warning",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.idea.int/sites/default/files/publications/chapters/reconciliation-after-violent-conflict/reconciliation-after-violent-conflict-policy-summary.pdf"
+                                ],
+                                "citations": [
+                                    "134"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Recovery and Reconciliation"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Recovery and Reconciliation",
+                            "note": "a component of recovery",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    },
+                    "sub_concepts": [
+                        {
+                            "name": "Justice (Reconciliation)",
+                            "explanation": "Holding perpetrators of violence accountable through formal or traditional justice mechanisms as an essential component of reconciliation.",
+                            "sub_type": "Component",
+                            "execution_details": {
+                                "how_to_perform": "Implement formal or traditional justice mechanisms to hold perpetrators accountable.",
+                                "who_performs": "Justice systems, community leaders",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● Justice: Holding perpetrators of violence accountable through formal or traditional justice mechanisms.",
+                                    "assertion_type": "requirement",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "134"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Reconciliation Process"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Reconciliation Process",
+                                    "note": "an essential component",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        },
+                        {
+                            "name": "Truth-Telling",
+                            "explanation": "Creating platforms for victims and perpetrators to share their experiences, fostering a shared understanding of the past, as an essential component of reconciliation.",
+                            "sub_type": "Component",
+                            "execution_details": {
+                                "how_to_perform": "Create platforms (e.g., commissions, forums) for victims and perpetrators to share experiences.",
+                                "who_performs": "Facilitators, community organizations",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● Truth-Telling: Creating platforms for victims and perpetrators to share their experiences, fostering a shared understanding of the past.",
+                                    "assertion_type": "requirement",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "134"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Reconciliation Process"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Reconciliation Process",
+                                    "note": "an essential component",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        },
+                        {
+                            "name": "Reparations",
+                            "explanation": "Providing redress to victims for the harm they have suffered as an essential component of reconciliation.",
+                            "sub_type": "Component",
+                            "execution_details": {
+                                "how_to_perform": "Implement programs to provide redress to victims (e.g., financial compensation, psychological support).",
+                                "who_performs": "Government, NGOs",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● Reparations: Providing redress to victims for the harm they have suffered.",
+                                    "assertion_type": "requirement",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "134"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Reconciliation Process"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Reconciliation Process",
+                                    "note": "an essential component",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        },
+                        {
+                            "name": "Empathy (Reconciliation)",
+                            "explanation": "Fostering a willingness among all parties to listen to and acknowledge the suffering of others as an essential component of reconciliation.",
+                            "sub_type": "Component",
+                            "execution_details": {
+                                "how_to_perform": "Promote dialogue and understanding to foster a willingness to acknowledge others' suffering.",
+                                "who_performs": "Community leaders, educators, individuals",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● Empathy: Fostering a willingness among all parties to listen to and acknowledge the suffering of others.",
+                                    "assertion_type": "requirement",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "134"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Reconciliation Process"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Reconciliation Process",
+                                    "note": "an essential component",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Case Studies of Civil Unrest in India",
+            "concept_type": "Concept",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "Civil Unrest"
+            ],
+            "relations": [
+                {
+                    "type": "related-to",
+                    "target": "Civil Unrest",
+                    "note": "illustrates complex dynamics",
+                    "strength": "strong"
+                }
+            ],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "2020 Delhi Riots",
+                    "explanation": "A wave of violence primarily between Hindu and Muslim communities in 2020, resulting in 53 deaths, hundreds of injuries, and widespread property destruction, disproportionately affecting the Muslim community.",
+                    "sub_type": "Case",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "● The 2020 Delhi Riots were a wave of violence, primarily between Hindu and Muslim",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://en.wikipedia.org/wiki/2020_Delhi_riots"
+                                ],
+                                "citations": [
+                                    "135"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "The riots resulted in 53 deaths, hundreds of injuries, and widespread property destruction, disproportionately affecting the Muslim community.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://en.wikipedia.org/wiki/2020_Delhi_riots"
+                                ],
+                                "citations": [
+                                    "135"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Case Studies of Civil Unrest in India",
+                        "Communal Riots"
+                    ],
+                    "relations": [
+                        {
+                            "type": "example-of",
+                            "target": "Violent Forms",
+                            "note": "example of communal violence",
+                            "context": null
+                        },
+                        {
+                            "type": "example-of",
+                            "target": "Communal Riots",
+                            "note": "example of communal violence",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "1983 Nellie Massacre",
+                    "explanation": "The killing of nearly 2,000 Muslims of Bengali origin by their neighbors in Assam amid tensions over immigration and electoral rolls, highlighting how political and ethnic grievances can erupt into extreme violence.",
+                    "sub_type": "Case",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "● The 1983 Nellie Massacre in Assam saw the killing of nearly 2,000 Muslims of Bengali origin by their neighbors amid tensions over immigration and electoral rolls, highlighting how political and ethnic grievances can erupt into extreme violence.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://en.wikipedia.org/wiki/Violence_against_Muslims_in_India"
+                                ],
+                                "citations": [
+                                    "136"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Case Studies of Civil Unrest in India",
+                        "Communal Riots",
+                        "Political Oppression and Corruption",
+                        "Social Injustice and Identity Politics"
+                    ],
+                    "relations": [
+                        {
+                            "type": "example-of",
+                            "target": "Violent Forms",
+                            "note": "example of extreme violence from grievances",
+                            "context": null
+                        },
+                        {
+                            "type": "example-of",
+                            "target": "Communal Riots",
+                            "note": "example of communal violence",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Ongoing Ethnic Conflict in Manipur (2023)",
+                    "explanation": "An ongoing ethnic conflict that began in 2023 between the Meitei and Kuki-Zo communities, demonstrating the explosive potential of long-standing disputes over land, resources, and political representation, resulting in over 140 deaths and the displacement of more than 54,000 people.",
+                    "sub_type": "Case",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "● The ongoing ethnic conflict in Manipur, which began in 2023 between the Meitei and Kuki-Zo communities, demonstrates the explosive potential of long-standing disputes over land, resources, and political representation, resulting in over 140 deaths and the displacement of more than 54,000 people.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://blogs.lse.ac.uk/humanrights/2024/03/14/ethnic-cleansing-and-brewing-civil-war-in-the-case-of-indias-manipur/"
+                                ],
+                                "citations": [
+                                    "137"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Case Studies of Civil Unrest in India",
+                        "Communal Riots",
+                        "Social Injustice and Identity Politics",
+                        "Environmental Factors"
+                    ],
+                    "relations": [
+                        {
+                            "type": "example-of",
+                            "target": "Violent Forms",
+                            "note": "example of ongoing ethnic conflict",
+                            "context": null
+                        },
+                        {
+                            "type": "example-of",
+                            "target": "Communal Riots",
+                            "note": "example of communal violence",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Targeting of Religious Sites",
+                    "explanation": "A recurring trigger for major unrest in India, exemplified by the demolition of the Babri Masjid in 1992 (leading to over 2,000 deaths) and more recent disputes over the Gyanvapi Mosque and violence during a survey of the Shahi Jama Masjid in Sambhal in 2024.",
+                    "sub_type": "Trigger",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "● The targeting of religious sites has been a recurring trigger for major unrest.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "138"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "The demolition of the Babri Masjid in 1992 led to nationwide riots that killed over 2,000 people.",
+                            "assertion_type": "example",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "138"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "More recent events, such as the dispute over the Gyanvapi Mosque and the violence during a survey of the Shahi Jama Masjid in Sambhal in 2024, show that such tensions remain a potent source of conflict.",
+                            "assertion_type": "example",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://www.hindusforhumanrights.org/en/blog/sambhal-a-case-study-in-the-weaponization-of-history-and-communal-violence"
+                                ],
+                                "citations": [
+                                    "138"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Case Studies of Civil Unrest in India",
+                        "Causes of Civil Unrest",
+                        "Communal Riots"
+                    ],
+                    "relations": [
+                        {
+                            "type": "triggers",
+                            "target": "Civil Unrest",
+                            "note": "a recurring trigger for major unrest",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Disaster Management",
+            "concept_type": "Framework",
+            "operational_details": {},
+            "contextual_examples": {},
+            "stakeholder_ecosystem": {},
+            "related_concepts": [
+                "All-Hazards Approach",
+                "Proactive Disaster Risk Reduction",
+                "Hazard Classification",
+                "Systemic Risk",
+                "Preparedness (General Disaster)"
+            ],
+            "relations": [],
+            "metadata": {
+                "confidence": "high"
+            },
+            "sub_concepts": [
+                {
+                    "name": "All-Hazards Approach",
+                    "explanation": "A globally recognized approach to disaster management that provides a comprehensive examination of the multifaceted nature of disasters.",
+                    "sub_type": "Framework",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "This report has provided a comprehensive examination of the multifaceted nature of disasters, structured according to the globally recognized all-hazards approach.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Disaster Management"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Disaster Management",
+                            "note": "a structuring approach",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Proactive Disaster Risk Reduction",
+                    "explanation": "A decisive shift in disaster management from reactive response to proactively mitigating underlying drivers of risk (poverty, poor governance, environmental degradation, inadequate infrastructure) before a hazard manifests as a catastrophe.",
+                    "sub_type": "Strategy",
+                    "execution_details": {
+                        "how_to_perform": "Mitigate underlying drivers of risk such as poverty, poor governance, environmental degradation, and inadequate infrastructure.",
+                        "who_performs": null,
+                        "when_performed": "Before a hazard can manifest as a catastrophe",
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": null,
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "reduced impact of hazards",
+                            "prevention of catastrophes"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "The analysis underscores a critical evolution in the global perspective on disaster management: a decisive shift from a model of reactive response to one of proactive disaster risk reduction.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "The foundational understanding, as defined by the United Nations, is that disasters are not merely natural or technological events but are the result of the interaction between a hazard and a vulnerable society. This places the focus squarely on mitigating the underlying drivers of risk—poverty, poor governance, environmental degradation, and inadequate infrastructure—before a hazard can manifest as a catastrophe.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Disaster Management",
+                        "Disaster Risk Reduction"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Disaster Management",
+                            "note": "an evolved perspective/strategy",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Hazard Classification",
+                    "explanation": "The adoption of a standardized, scientifically grounded classification of hazards, such as the UNDRR-ISC Hazard Information Profiles, which is a practical necessity for coherent international cooperation, accurate risk assessment, and targeted preparedness strategies.",
+                    "sub_type": "Standard",
+                    "execution_details": {
+                        "how_to_perform": "Utilize standardized classification systems like UNDRR-ISC Hazard Information Profiles.",
+                        "who_performs": "International bodies, national agencies",
+                        "when_performed": null,
+                        "where_performed": null,
+                        "duration": null,
+                        "prerequisites": "Agreement on classification standards",
+                        "deliverables": null
+                    },
+                    "performance_indicators": {
+                        "success_metrics": [
+                            "coherent international cooperation",
+                            "accurate risk assessment",
+                            "targeted preparedness strategies"
+                        ],
+                        "warning_signs": [],
+                        "quality_standards": [],
+                        "compliance_requirements": []
+                    },
+                    "assertions": [
+                        {
+                            "text": "The adoption of a standardized, scientifically grounded classification of hazards, such as the UNDRR-ISC Hazard Information Profiles, is not an academic exercise but a practical necessity.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://understandrisk.org/undrr-isc-sendai-hazard-definition-and-classification-review/"
+                                ],
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "It enables coherent international cooperation, facilitates accurate risk assessment, and allows for the development of targeted preparedness strategies.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "sources": [
+                                    "https://understandrisk.org/undrr-isc-sendai-hazard-definition-and-classification-review/"
+                                ],
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Disaster Management",
+                        "UNDRR-ISC Hazard Information Profiles"
+                    ],
+                    "relations": [
+                        {
+                            "type": "enables",
+                            "target": "International Cooperation",
+                            "note": "enables coherent cooperation",
+                            "context": null
+                        },
+                        {
+                            "type": "enables",
+                            "target": "Risk Assessment",
+                            "note": "facilitates accurate assessment",
+                            "context": null
+                        },
+                        {
+                            "type": "enables",
+                            "target": "Preparedness Strategies",
+                            "note": "allows for targeted strategies",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Systemic Risk",
+                    "explanation": "The interconnectedness of hazards where a single event can trigger a cascade of failures across geological, meteorological, technological, and societal domains, demanding integrated, multi-sectoral response strategies that transcend traditional institutional silos.",
+                    "sub_type": "Risk",
+                    "execution_details": {},
+                    "performance_indicators": {},
+                    "assertions": [
+                        {
+                            "text": "However, while categorization is essential for analysis, the evidence increasingly points to the interconnectedness of hazards and the rise of systemic risk.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        },
+                        {
+                            "text": "A single event can trigger a cascade of failures across geological, meteorological, technological, and societal domains, demanding integrated, multi-sectoral response strategies that transcend traditional institutional silos.",
+                            "assertion_type": "fact",
+                            "confidence": "high",
+                            "evidence": {
+                                "citations": [
+                                    "Conclusion"
+                                ]
+                            },
+                            "cross_references": []
+                        }
+                    ],
+                    "evidence": {},
+                    "cross_references": [],
+                    "related_concepts": [
+                        "Disaster Management",
+                        "Hazard"
+                    ],
+                    "relations": [
+                        {
+                            "type": "requires",
+                            "target": "Integrated Multi-sectoral Response Strategies",
+                            "note": "demands integrated strategies",
+                            "context": null
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "high"
+                    }
+                },
+                {
+                    "name": "Preparedness (General Disaster)",
+                    "explanation": "The paramount importance of preparedness at every level of society (individuals, communities, institutions) to withstand, adapt to, and recover from diverse threats.",
+                    "sub_type": "Strategy",
+                    "operational_details": {
+                        "practical_measures": [
+                            "understanding local risks",
+                            "creating emergency plans and communication strategies",
+                            "assembling supply kits",
+                            "practicing safety procedures (e.g., 'Drop, Cover, and Hold On' for earthquakes, 'Turn Around, Don't Drown!' for floods)",
+                            "adopting and enforcing strong building codes",
+                            "establishing robust early warning systems",
+                            "protecting critical infrastructure",
+                            "fostering social cohesion through public education and community-led peacebuilding initiatives",
+                            "ensuring clear mandates for institutions",
+                            "inter-agency coordination",
+                            "specialized and well-equipped response forces (e.g., NDRF in India)",
+                            "participation in global humanitarian networks (e.g., Red Cross/Red Crescent Movement, UN agencies)"
+                        ],
+                        "implementation_steps": [
+                            "Individuals: Understand risks, create plans, assemble kits, practice safety.",
+                            "Communities: Enforce building codes, establish early warning, protect infrastructure, foster cohesion.",
+                            "Institutions: Ensure clear mandates, coordinate agencies, equip response forces, participate in networks."
+                        ],
+                        "resources_required": [
+                            "knowledge",
+                            "plans",
+                            "supplies",
+                            "infrastructure",
+                            "funding",
+                            "trained personnel",
+                            "inter-agency agreements"
+                        ],
+                        "timeline_indicators": [],
+                        "success_criteria": [
+                            "capacity to withstand, adapt, and recover from threats"
+                        ],
+                        "common_challenges": [],
+                        "best_practices": [
+                            "culture of preparedness",
+                            "investing in mitigation",
+                            "empowering individuals and communities"
+                        ]
+                    },
+                    "contextual_examples": {
+                        "real_world_cases": [
+                            "NDRF in India",
+                            "Red Cross/Red Crescent Movement",
+                            "UN agencies"
+                        ],
+                        "hypothetical_scenarios": [
+                            "Earthquakes: 'Drop, Cover, and Hold On'",
+                            "Floods: 'Turn Around, Don't Drown!'"
+                        ],
+                        "quantitative_data": [],
+                        "qualitative_indicators": []
+                    },
+                    "stakeholder_ecosystem": {
+                        "primary_actors": [
+                            "Individuals",
+                            "Families",
+                            "Communities",
+                            "Institutions",
+                            "NDRF",
+                            "Red Cross/Red Crescent Movement",
+                            "UN agencies"
+                        ],
+                        "supporting_actors": [],
+                        "coordination_mechanisms": [
+                            "inter-agency coordination",
+                            "global humanitarian networks"
+                        ],
+                        "communication_flows": [],
+                        "decision_authorities": []
+                    },
+                    "related_concepts": [
+                        "Disaster Management",
+                        "Disaster Risk Reduction",
+                        "Emergency Plans",
+                        "Early Warning Systems",
+                        "Critical Infrastructure Protection",
+                        "Social Cohesion",
+                        "Community-Led Peacebuilding",
+                        "NDRF",
+                        "Red Cross/Red Crescent Movement",
+                        "UN Agencies"
+                    ],
+                    "relations": [
+                        {
+                            "type": "part-of",
+                            "target": "Disaster Management",
+                            "note": "a paramount importance across all hazard types",
+                            "strength": "strong"
+                        }
+                    ],
+                    "metadata": {
+                        "importance": "critical"
+                    },
+                    "sub_concepts": [
+                        {
+                            "name": "Individual Preparedness (General)",
+                            "explanation": "For individuals and families, preparedness is rooted in awareness, planning, and action, including understanding local risks, creating emergency plans and communication strategies, assembling supply kits, and practicing safety procedures.",
+                            "sub_type": "Strategy",
+                            "execution_details": {
+                                "how_to_perform": "Understand local risks, create emergency plans and communication strategies, assemble supply kits, practice safety procedures like 'Drop, Cover, and Hold On' for earthquakes or 'Turn Around, Don't Drown!' for floods.",
+                                "who_performs": "Individuals, Families",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● For individuals and families, preparedness is rooted in awareness, planning, and action. This includes understanding local risks, creating emergency plans and communication strategies, assembling supply kits, and practicing safety procedures like \"Drop, Cover, and Hold On\" for earthquakes or \"Turn Around, Don't Drown!\" for floods.",
+                                    "assertion_type": "instruction",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "Conclusion"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Preparedness (General Disaster)"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Preparedness (General Disaster)",
+                                    "note": "a level of preparedness",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        },
+                        {
+                            "name": "Community Preparedness (General)",
+                            "explanation": "For communities, resilience is built through the adoption and enforcement of strong building codes, the establishment of robust early warning systems, the protection of critical infrastructure, and the fostering of social cohesion through public education and community-led peacebuilding initiatives.",
+                            "sub_type": "Strategy",
+                            "execution_details": {
+                                "how_to_perform": "Adopt and enforce strong building codes, establish robust early warning systems, protect critical infrastructure, foster social cohesion through public education and community-led peacebuilding initiatives.",
+                                "who_performs": "Communities, Local Governments, Civil Society Groups",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● For communities, resilience is built through the adoption and enforcement of strong building codes, the establishment of robust early warning systems, the protection of critical infrastructure, and the fostering of social cohesion through public education and community-led peacebuilding initiatives.",
+                                    "assertion_type": "instruction",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "Conclusion"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Preparedness (General Disaster)",
+                                "Community-Led Peacebuilding"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Preparedness (General Disaster)",
+                                    "note": "a level of preparedness",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        },
+                        {
+                            "name": "Institutional Preparedness",
+                            "explanation": "For institutions, effective disaster management requires clear mandates, inter-agency coordination, specialized and well-equipped response forces (like the NDRF in India), and participation in global humanitarian networks (such as the Red Cross/Red Crescent Movement and UN agencies).",
+                            "sub_type": "Strategy",
+                            "execution_details": {
+                                "how_to_perform": "Ensure clear mandates, inter-agency coordination, equip specialized response forces, participate in global humanitarian networks.",
+                                "who_performs": "Institutions, NDRF, Red Cross/Red Crescent Movement, UN agencies",
+                                "when_performed": null,
+                                "where_performed": null,
+                                "duration": null,
+                                "prerequisites": null,
+                                "deliverables": null
+                            },
+                            "performance_indicators": {
+                                "success_metrics": [],
+                                "warning_signs": [],
+                                "quality_standards": [],
+                                "compliance_requirements": []
+                            },
+                            "assertions": [
+                                {
+                                    "text": "● For institutions, effective disaster management requires clear mandates, inter-agency coordination, specialized and well-equipped response forces like the NDRF in India, and participation in global humanitarian networks such as the Red Cross/Red Crescent Movement and UN agencies.",
+                                    "assertion_type": "requirement",
+                                    "confidence": "high",
+                                    "evidence": {
+                                        "citations": [
+                                            "Conclusion"
+                                        ]
+                                    },
+                                    "cross_references": []
+                                }
+                            ],
+                            "evidence": {},
+                            "cross_references": [],
+                            "related_concepts": [
+                                "Preparedness (General Disaster)",
+                                "NDRF",
+                                "Red Cross/Red Crescent Movement",
+                                "UN Agencies"
+                            ],
+                            "relations": [
+                                {
+                                    "type": "part-of",
+                                    "target": "Preparedness (General Disaster)",
+                                    "note": "a level of preparedness",
+                                    "context": null
+                                }
+                            ],
+                            "metadata": {
+                                "importance": "high"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "domain_specific_patterns": {
+        "workflows": [
+            "Civil Unrest Lifecycle: Grievances/Triggers -> Unrest (Disruptive/Violent) -> Impacts -> Preparedness/Response -> Recovery/Reconciliation"
+        ],
+        "decision_trees": [
+            "During Unrest (Individual): Caught in crowd? -> Yes: Avoid/Evacuate. No: Maintain low profile. Driving? -> Yes: Vehicle Safety. No: Prepare for Crowd Control Agents."
+        ],
+        "escalation_paths": [
+            "Tense situations -> Violent Forms (if de-escalation fails)",
+            "Unaddressed hurts/injustices -> Festering -> Undermining reforms -> Increased likelihood of future violence"
+        ],
+        "feedback_loops": [
+            "Social Media: Mobilization (positive feedback for protests) vs. Disinformation/Incitement (positive feedback for violence) vs. Surveillance (negative feedback for activists)",
+            "Unaddressed grievances -> Future violence (negative feedback loop)"
+        ],
+        "integration_points": [
+            "Civil Unrest Management integrates with broader Disaster Management frameworks (All-Hazards Approach, Preparedness levels).",
+            "Law Enforcement coordinates with other agencies (inter-agency coordination)."
+        ]
+    },
+    "extraction_completeness": {
+        "theoretical_coverage": "90%",
+        "operational_coverage": "85%",
+        "example_coverage": "80%",
+        "stakeholder_coverage": "70%",
+        "missing_elements": [
+            "More specific quantitative data beyond death/injury counts for impacts.",
+            "Detailed procedures for law enforcement actions beyond planning and coordination.",
+            "Specific metrics for measuring success of peacebuilding/reconciliation beyond general outcomes.",
+            "More explicit communication flows between all identified stakeholders."
+        ]
+    }
+}

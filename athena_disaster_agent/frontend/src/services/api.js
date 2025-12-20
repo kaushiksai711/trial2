@@ -10,6 +10,22 @@ const api = axios.create({
   },
 });
 
+// Helper function to handle API errors
+const handleApiError = (error, defaultMessage = 'An error occurred') => {
+  console.error('API Error:', error);
+  if (error.response) {
+    // The request was made and the server responded with a status code
+    // that falls out of the range of 2xx
+    throw new Error(error.response.data?.error || defaultMessage);
+  } else if (error.request) {
+    // The request was made but no response was received
+    throw new Error('No response from server. Please check your connection.');
+  } else {
+    // Something happened in setting up the request that triggered an Error
+    throw new Error(error.message || defaultMessage);
+  }
+};
+
 export const apiService = {
   // Send chat message to specific domain
   sendMessage: async (message, domain = 'disaster', sessionId = 'web-client') => {
@@ -63,6 +79,45 @@ export const apiService = {
     } catch (error) {
       console.error('MeTTa Status Error:', error);
       return { status: 'error', domains: {} };
+    }
+  },
+
+  // Search knowledge graph
+  searchKnowledgeGraph: async (keywords, domain = 'disaster') => {
+    try {
+      const response = await api.get('/api/knowledge-graph/search', {
+        params: { keywords, domain }
+      });
+      return response.data;
+    } catch (error) {
+      console.error('Knowledge Graph Search Error:', error);
+      return { success: false, error: 'Failed to search knowledge graph', nodes: [], links: [] };
+    }
+  },
+
+  // Get node details by ID
+  getNodeDetails: async (nodeId, domain = 'disaster') => {
+    try {
+      const response = await api.get(`/api/knowledge-graph/nodes/${nodeId}`, {
+        params: { domain }
+      });
+      return response.data;
+    } catch (error) {
+      console.error('Node Details Error:', error);
+      return { success: false, error: 'Failed to get node details' };
+    }
+  },
+
+  // Get related nodes
+  getRelatedNodes: async (nodeId, relationshipType, domain = 'disaster') => {
+    try {
+      const response = await api.get(`/api/knowledge-graph/nodes/${nodeId}/related`, {
+        params: { relationship: relationshipType, domain }
+      });
+      return response.data;
+    } catch (error) {
+      console.error('Related Nodes Error:', error);
+      return { success: false, error: 'Failed to get related nodes', nodes: [], links: [] };
     }
   },
 };

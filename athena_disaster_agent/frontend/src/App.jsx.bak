@@ -9,6 +9,8 @@ import ThemeToggle from './components/ThemeToggle';
 import SoundEffects from './components/SoundEffects';
 import { apiService } from './services/api';
 import './App.css';
+import './components/KnowledgeGraph.css';
+import './components/KnowledgeGraph.css';
 
 function App() {
   // Domain and conversation state
@@ -175,25 +177,90 @@ function App() {
         buttonText: "📞 FIND ATTORNEY"
       }
     };
-    
     return headers[selectedDomain] || headers.disaster;
   };
 
   const emergencyHeader = getDomainEmergencyHeader();
 
   return (
-    <div className={`min-h-screen domain-${selectedDomain}`}>
-      <div className="container">
-        {/* Sound Effects */}
-        <SoundEffects enabled={true} />
-        
-        {/* Theme Toggle Button */}
-        <ThemeToggle />
-        
-        {/* Domain-Specific Emergency Header */}
-        <div className="emergency-header" style={{
-          background: selectedDomain === 'disaster' ? 'linear-gradient(135deg, #ef4444, #dc2626)' :
-                     selectedDomain === 'healthcare' ? 'linear-gradient(135deg, #2563eb, #1d4ed8)' :
+    <div className="app-container">
+      {/* Emergency Header */}
+      <div className="emergency-header" style={{
+        background: selectedDomain === 'disaster' ? 'linear-gradient(135deg, #ef4444, #dc2626)' :
+                   selectedDomain === 'healthcare' ? 'linear-gradient(135deg, #2563eb, #1d4ed8)' :
+                   'linear-gradient(135deg, #1e40af, #1d4ed8)',
+        padding: '1rem',
+        color: 'white',
+        textAlign: 'center'
+      }}>
+        <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
+          {emergencyHeader.title}
+        </h1>
+        <p style={{ marginBottom: '1rem', opacity: '0.9' }}>
+          {emergencyHeader.subtitle}
+        </p>
+        <button 
+          className="btn-emergency" 
+          onClick={() => {
+            if (selectedDomain === 'legal') {
+              window.open('https://www.findlaw.com/find-an-attorney/', '_blank');
+            } else if (window.confirm('This will attempt to call emergency services. Are you sure?')) {
+              window.location.href = 'tel:911';
+            }
+          }}
+          style={{ 
+            fontSize: '1.1rem', 
+            padding: '0.75rem 2rem',
+            background: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer',
+            fontWeight: 'bold',
+            color: selectedDomain === 'disaster' ? '#dc2626' : 
+                  selectedDomain === 'healthcare' ? '#1d4ed8' : '#1e40af'
+          }}
+        >
+          {emergencyHeader.buttonText}
+        </button>
+      </div>
+
+      {/* Main Header */}
+      <div className="header" style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: '1rem',
+        borderBottom: '1px solid #e5e7eb',
+        backgroundColor: '#f9fafb'
+      }}>
+        <DomainExpertHeader domain={selectedDomain} />
+        <div className="header-controls" style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '1rem'
+        }}>
+          <StatusIndicator status={backendStatus} />
+          <button 
+            onClick={() => window.open('/knowledge-graph', '_blank')}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '4px',
+              border: 'none',
+              background: '#4a90e2',
+              color: 'white',
+              cursor: 'pointer',
+              transition: 'background 0.3s',
+              fontSize: '0.9rem',
+              fontWeight: '500'
+            }}
+            onMouseOver={(e) => e.target.style.background = '#357abd'}
+            onMouseOut={(e) => e.target.style.background = '#4a90e2'}
+          >
+            View Knowledge Graph
+          </button>
+          <ThemeToggle />
+        </div>
+      </div>
                      'linear-gradient(135deg, #1e40af, #1d4ed8)'
         }}>
           <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
